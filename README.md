@@ -124,7 +124,9 @@
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
         - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - 2.5. Strategic Level Domain Driven Design
 
+  
 
 
 - [Capítulo III: Requirements Specification](#c3)
