@@ -200,7 +200,7 @@ del ABET – EAC - Student Outcome 7.
 
 ### 1.1.1 Descripción de la Startup
 
-OsitoPolar es una aplicación web orientada a mejorar la gestión y el mantenimiento de equipos de congelación en negocios que dependen críticamente del frío, como supermercados, minimarkets, laboratorios, restaurantes y empresas del sector alimentario o farmacéutico. La solución conecta a estos negocios con técnicos y proveedores especializados en refrigeración, permitiendo una gestión integral, preventiva y automatizada de sus sistemas de congelación.
+OsitoPolar es una aplicación móvil orientada a mejorar la gestión y el mantenimiento de equipos de congelación en negocios que dependen críticamente del frío, como supermercados, minimarkets, laboratorios, restaurantes y empresas del sector alimentario o farmacéutico. La solución conecta a estos negocios con técnicos y proveedores especializados en refrigeración, permitiendo una gestión integral, preventiva y automatizada de sus sistemas de congelación.
 
 La plataforma ofrece funcionalidades clave como monitoreo en tiempo real de temperatura, consumo energético y tiempo de uso, generación de reportes técnicos, alertas automatizadas por fallas, historial de rendimiento, y programación inteligente de mantenimientos. Estas herramientas permiten a los usuarios optimizar sus operaciones, evitar pérdidas económicas por fallas inesperadas y mantener un registro completo del estado y uso de sus equipos.
 
@@ -239,11 +239,11 @@ Visión: Queremos ser la empresa lider en gestión y mantenimiento de equipos de
 
 ---
 
-| **Integrante** | **Italo Sebastian Verona Flores** |
+| **Integrante** | **Maria Elena Muñoz Machuca** |
 |----------------|----------------------------------|
-| **Código del Estudiante** | U20221E617 |
+| **Código del Estudiante** | U202317442 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es Italo Verona, tengo 20 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Una vez terminé la carrera quisiera especializarme en ciberseguridad en el país de España. Luego quisiera vivir en Finlandia. El objetivo de estudiar ciberseguridad es poder reforzar la seguridad informática que hoy en día es muy peligrosa ya sea para las personas o las empresas de todo el mundo. |
+| **Descripción** | Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC) y soy de la carrera de Ingeniería de Software cursando el sexto ciclo de la carrera. Mi objetivo es aprender más sobre desarrollo de software asi como adquirir experiencia en otros lenguajes de programación. |
 | **Foto** | <img src="assets/chapter01/Italo-Verona-Picture.jpg" alt="Italo" width="200" height="200"> |
 
 ---
