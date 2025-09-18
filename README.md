@@ -1091,25 +1091,7 @@ Esta sección refleja la situación actual sin intervención de soluciones tecno
 </figure>
 
 
-#### 2.3.5. As-is Scenario Mapping.
-
-En esta sección, nuestro equipo tomó en cuenta las etapas para su desarrollo. Iniciamos con la recolección de información proveniente de las entrevistas y análisis de estas de cada segmento respectivo, seguida de una lluvia de ideas, una revisión en conjunto e identificación de las fases y las áreas positivas y negativas.
-Una vez definido todo, procedimos a crear los As-is Scenario Mapping vinculados a cada User Persona en la plataforma Miro.
-Desde la perspectiva del usuario, este mapa nos permite visualizar su situación real: acciones actuales, emociones, pensamientos, puntos de dolor, etc.
-
-
-**Segmento objetivo #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN**
-<figure style="page-break-inside: avoid; text-align: center;">
-  <img src="assets/chapter02/As-is-Scenario-segment-2.jpg"
-       alt="Segmento 2 del Escenario As-Is: Fases de interacción actual del usuario con el producto."
-       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Segmento 2 del Escenario As-Is.
-  </figcaption>
-</figure>
-
-### 2.4. Ubiquitous Language.
-
+#### 2.3.5. Ubiquitous Language.
 1. **User (Usuario):** Negocios y técnicos del rubro de refrigeración que utilizan OsitoPolar para gestionar equipos de congelación, coordinar mantenimientos y optimizar sus operaciones.
 
 2. **User Profile (Perfil de Usuario):** Datos e información operativa que OsitoPolar recopila de cada usuario para personalizar su experiencia.
@@ -1149,6 +1131,21 @@ Desde la perspectiva del usuario, este mapa nos permite visualizar su situación
 19. **Corrective Maintenance (Mantenimiento Correctivo):** Servicio realizado para solucionar una falla existente en un equipo.
 
 20. **Notification (Notificación):** Mensajes enviados automáticamente para informar sobre mantenimientos, fallas o cambios importantes.
+
+    
+En esta sección, nuestro equipo tomó en cuenta las etapas para su desarrollo. Iniciamos con la recolección de información proveniente de las entrevistas y análisis de estas de cada segmento respectivo, seguida de una lluvia de ideas, una revisión en conjunto e identificación de las fases y las áreas positivas y negativas.
+Una vez definido todo, procedimos a crear los As-is Scenario Mapping vinculados a cada User Persona en la plataforma Miro.
+Desde la perspectiva del usuario, este mapa nos permite visualizar su situación real: acciones actuales, emociones, pensamientos, puntos de dolor, etc.
+
+**Segmento objetivo #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter02/As-is-Scenario-segment-2.jpg"
+       alt="Segmento 2 del Escenario As-Is: Fases de interacción actual del usuario con el producto."
+       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Segmento 2 del Escenario As-Is.
+  </figcaption>
+</figure>
 
 ### 2.4. Requirements Specification
   - 2.4.1. User Stories
