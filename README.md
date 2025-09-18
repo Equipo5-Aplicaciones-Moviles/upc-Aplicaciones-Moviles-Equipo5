@@ -244,7 +244,7 @@ Visión: Queremos ser la empresa lider en gestión y mantenimiento de equipos de
 | **Código del Estudiante** | U202317442 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Soy estudiante de la Universidad Peruana de Ciencias Aplicadas (UPC) y soy de la carrera de Ingeniería de Software cursando el sexto ciclo de la carrera. Mi objetivo es aprender más sobre desarrollo de software asi como adquirir experiencia en otros lenguajes de programación. |
-| **Foto** | <img src="assets/chapter01/Italo-Verona-Picture.jpg" alt="Italo" width="200" height="200"> |
+| **Foto** | <img src="assets/chapter01/Maria-Muñoz.png" alt="Maria" width="200" height="200"> |
 
 ---
 
