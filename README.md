@@ -1256,8 +1256,41 @@ Capability Analysis:
 - Infrastructure: consultas optimizadas a base de datos.
 **Dependencies Capture:** Depende de Mi Equipo (registro y datos actualizados).
 **Design Critique:** Es un Generic Context, soporte esencial para mejorar usabilidad y experiencia del usuario.
+### 2.5.2. Context Mapping
+Luego de definir los Bounded Contexts y modelar sus colaboraciones, se realizó una sesión de Context Mapping para visualizar las relaciones estructurales dentro del dominio de OsitoPolar.
+Este proceso permitió evaluar:
+- Nivel de criticidad (Core, Supporting, Generic).
+- Funcionalidades clave.
+- Dependencias cruzadas.
+- Oportunidades de aislamiento o colaboración.
 
-  - 2.5.2. Context Mapping
+**Preguntas clave consideradas**
+¿Qué pasaría si Notificaciones se integrara en Mi Equipo en lugar de ser un contexto separado?
+¿Qué pasaría si Ver Mantenimientos se absorbiera en Órdenes de Trabajo?
+¿Qué pasaría si se creara un contexto separado para Service Providers (técnicos, zonas, cartera de clientes)?
+¿Qué pasaría si Ver Equipos se integrara directamente en Mi Equipo para reducir redundancias?
+
+**Alternativas exploradas**
+**Alternativa 1: Fusionar Notificaciones + Mi Equipo**
+Pros: reduce dependencias, notificaciones más inmediatas.
+Contras: rompe separación de responsabilidades.
+Decisión: Rechazada. Se mantiene independiente.
+
+**Alternativa 2: Absorber Ver Mantenimientos en Órdenes de Trabajo**
+Pros: simplifica arquitectura y flujo de datos.
+Contras: dificulta consultas históricas optimizadas.
+Decisión: Rechazada. Ver Mantenimientos se mantiene separado para consultas especializadas.
+
+**Alternativa 3: Crear contexto de Service Providers**
+Pros: aísla la gestión de técnicos, zonas y cartera de clientes.
+Contras: agrega complejidad inicial.
+Decisión: Aprobada para el roadmap futuro.
+
+**Alternativa 4: Integrar Ver Equipos en Mi Equipo**
+Pros: simplifica modelo y reduce redundancia.
+Contras: limita escalabilidad de la visualización.
+Decisión: Rechazada. Se mantiene desacoplado para mejorar rendimiento de búsquedas.
+
   - 2.5.3. Software Architecture
     - 2.5.3.1. Software Architecture Context Level Diagrams
     - 2.5.3.2. Software Architecture Container Level Diagrams
