@@ -1188,7 +1188,8 @@ El trabajo fue realizado de manera colaborativa, priorizando la comprensión del
 | EP-06 | Evaluación de Servicios | Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario. | | |
 | EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. | | |
 
-  #### 2.4.2. Impact Mapping
+
+#### 2.4.2. Impact Mapping
 El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa por el equipo de OsitoPolar para alinear los objetivos de negocio con los requerimientos funcionales de la plataforma.
 
 
@@ -1200,7 +1201,8 @@ El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa
     <strong>Figura 1:</strong> Impact Mapping.
   </figcaption>
 </figure>
-  #### 2.4.3. Product Backlog
+
+#### 2.4.3. Product Backlog
   A continuación, presentaremos el Product Backlog, el cual contiene todas las funcionalidades y características necesarias para el desarrollo de la plataforma. Este listado incluye tanto las historias de usuario como las tareas técnicas que facilitarán el progreso del proyecto. Para priorizar las tareas, se ha utilizado la escala Fibonacci (1, 2, 3, 5, 8, 13, 21), la cual ayuda a estimar el esfuerzo relativo requerido para completar cada tarea. Además, hemos asignado cada item a un sprint, de acuerdo con su relevancia y dependencias.
 
 Escala de Story Points (Fibonacci):
@@ -1406,10 +1408,36 @@ Pros: simplifica modelo y reduce redundancia.
 Contras: limita escalabilidad de la visualización.
 Decisión: Rechazada. Se mantiene desacoplado para mejorar rendimiento de búsquedas.
 
-  - 2.5.3. Software Architecture
-    - 2.5.3.1. Software Architecture Context Level Diagrams
-    - 2.5.3.2. Software Architecture Container Level Diagrams
-    - 2.5.3.3. Software Architecture Deployment Diagrams
+
+### 2.5.3. Software Architecture
+  ##### 2.5.3.1. Software Architecture Context Level Diagrams
+Este diagrama muestra cómo interactúan los usuarios (Clientes y Empresas Proveedoras) con OsitoPolar. Los usuarios usan la plataforma para gestionar y monitorear equipos de refrigeración. Además, OsitoPolar se conecta con los servicios de correo para enviar notificaciones y con el servicio de pago para procesar transacciones.
+
+![OsitoPolar-SystemContext.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-SystemContext.png)
+
+  #### 2.5.3.2. Software Architecture Container Level Diagrams
+Este diagrama ilustra los diferentes contenedores dentro de OsitoPolar y cómo interactúan entre sí. Los contenedores representan las diferentes capas y servicios que componen la plataforma, como la interfaz de usuario (webapp), la API y la base de datos.
+
+![OsitoPolar-Container.png](<assets/chapter04/Domain-Driven Software Architecture/OsitoPolar-Container.jpeg>)
+
+  #### 2.5.3.3. Software Architecture Deployment Diagrams
+**Mi Equipo Bounded Context**
+
+Este diagrama representa los componentes encargados de la gestión de equipos. Los usuarios pueden agregar equipos, monitorearlos en tiempo real y ver el estado de los mismos.
+
+![OsitoPolar-Component-MiEquipo.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-MiEquipo.png)
+
+**Notificaciones Bounded Context**
+
+Este diagrama describe los componentes que gestionan las notificaciones, esenciales para mantener a los usuarios informados sobre el estado de los equipos y otros eventos importantes.
+
+![OsitoPolar-Component-Notificaciones.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-Notificaciones.png)
+
+**Ordenes de trabajo Bounded Context**
+
+Este diagrama se centra en la gestión de las órdenes de trabajo. Aquí se muestran los componentes involucrados en el proceso de crear, gestionar y completar órdenes de trabajo.
+
+![OsitoPolar-Component-OrdenesTrabajo.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-OrdenesTrabajo.png)
 ### 2.6. Tactical-Level Domain-Driven Design
   - 2.6.x. Bounded Context: <Bounded Context Name>
     - 2.6.x.1. Domain Layer
@@ -2571,34 +2599,14 @@ Link del prototipo: https://shorturl.at/oIUJN
 En esta sección se presenta la arquitectura de software basada en el dominio para OsitoPolar. Se detallan los diferentes diagramas que ilustran la estructura y organización del sistema, así como los componentes clave que lo integran, mostrando cómo se interconectan para proporcionar una solución eficiente y escalable.
 
 #### 4.6.1. Software Architecture Context Diagram
-Este diagrama muestra cómo interactúan los usuarios (Clientes y Empresas Proveedoras) con OsitoPolar. Los usuarios usan la plataforma para gestionar y monitorear equipos de refrigeración. Además, OsitoPolar se conecta con los servicios de correo para enviar notificaciones y con el servicio de pago para procesar transacciones.
 
-![OsitoPolar-SystemContext.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-SystemContext.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
-Este diagrama ilustra los diferentes contenedores dentro de OsitoPolar y cómo interactúan entre sí. Los contenedores representan las diferentes capas y servicios que componen la plataforma, como la interfaz de usuario (webapp), la API y la base de datos.
 
-![OsitoPolar-Container.png](<assets/chapter04/Domain-Driven Software Architecture/OsitoPolar-Container.jpeg>)
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-**Mi Equipo Bounded Context**
 
-Este diagrama representa los componentes encargados de la gestión de equipos. Los usuarios pueden agregar equipos, monitorearlos en tiempo real y ver el estado de los mismos.
-
-![OsitoPolar-Component-MiEquipo.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-MiEquipo.png)
-
-**Notificaciones Bounded Context**
-
-Este diagrama describe los componentes que gestionan las notificaciones, esenciales para mantener a los usuarios informados sobre el estado de los equipos y otros eventos importantes.
-
-![OsitoPolar-Component-Notificaciones.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-Notificaciones.png)
-
-**Ordenes de trabajo Bounded Context**
-
-Este diagrama se centra en la gestión de las órdenes de trabajo. Aquí se muestran los componentes involucrados en el proceso de crear, gestionar y completar órdenes de trabajo.
-
-![OsitoPolar-Component-OrdenesTrabajo.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-OrdenesTrabajo.png)
 
 ### 4.7. Software Object-Oriented Design
 En esta sección se presenta el diseño de software orientado a objetos para OsitoPolar. Se incluyen diagramas de clases y un diccionario de clases que detallan la estructura y los atributos de las principales entidades del sistema, ofreciendo una visión clara de cómo se organizan y gestionan los componentes clave dentro de la plataforma.
