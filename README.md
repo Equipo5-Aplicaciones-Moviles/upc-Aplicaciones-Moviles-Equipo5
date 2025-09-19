@@ -1702,7 +1702,7 @@ Esta capa define cómo los usuarios interactúan con el sistema y expone la lóg
   - GET /equipos → lista de equipos.
   - GET /equipos/{id} → detalle de un equipo específico.
   - GET /equipos/{id}/sensores → métricas de sensores asociados.
-  - 
+    
 Seguridad: acceso restringido mediante autenticación JWT.
 
     - 2.6.6.3. Application Layer
