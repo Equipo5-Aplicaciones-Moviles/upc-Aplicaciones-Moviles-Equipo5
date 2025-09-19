@@ -1126,20 +1126,7 @@ Esta sección refleja la situación actual sin intervención de soluciones tecno
 
 20. **Notification (Notificación):** Mensajes enviados automáticamente para informar sobre mantenimientos, fallas o cambios importantes.
 
-    
-En esta sección, nuestro equipo tomó en cuenta las etapas para su desarrollo. Iniciamos con la recolección de información proveniente de las entrevistas y análisis de estas de cada segmento respectivo, seguida de una lluvia de ideas, una revisión en conjunto e identificación de las fases y las áreas positivas y negativas.
-Una vez definido todo, procedimos a crear los As-is Scenario Mapping vinculados a cada User Persona en la plataforma Miro.
-Desde la perspectiva del usuario, este mapa nos permite visualizar su situación real: acciones actuales, emociones, pensamientos, puntos de dolor, etc.
 
-**Segmento objetivo #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN**
-<figure style="page-break-inside: avoid; text-align: center;">
-  <img src="assets/chapter02/As-is-Scenario-segment-2.jpg"
-       alt="Segmento 2 del Escenario As-Is: Fases de interacción actual del usuario con el producto."
-       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Segmento 2 del Escenario As-Is.
-  </figcaption>
-</figure>
 
 ### 2.4. Requirements Specification
   #### 2.4.1. User Stories
@@ -1990,32 +1977,7 @@ La base de datos del contexto “Ver Equipos” está compuesta por las siguient
 
 <img width="1712" height="520" alt="image" src="https://github.com/user-attachments/assets/6b81b3d0-cb3a-48f6-ad5d-0b024c6382c7" />
 
-## Capítulo III: Requirements Specification <a id="c3"></a>
 
-### 3.1. To-Be Scenario Mapping.
-**Segmento objetivo #1: CLIENTES (DUEÑOS DE EQUIPOS DE REFRIGERACIÓN)**
-
-<figure style="page-break-inside: avoid; text-align: center;">
-  <img src="assets/chapter03/To-Be-Scenario-segment-1.png"
-       alt="To Be Scenario Mapping Segmento 1: Interacción ideal de Clientes (Dueños de equipos de refrigeración)."
-       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> To Be Scenario Mapping Clientes (Segmento 1).
-  </figcaption>
-</figure>
-
-
-**Segmento objetivo #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN**
-
-
-<figure style="page-break-inside: avoid; text-align: center;">
-  <img src="assets/chapter03/To-Be-Scenario-segment-2.png"
-       alt="To Be Scenario Mapping Segmento 2: Interacción ideal de Empresas Proveedoras de Servicios y Equipos de Refrigeración."
-       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 2:</strong> To Be Scenario Mapping - Empresas Proveedoras (Segmento 2).
-  </figcaption>
-</figure>
 
 
 ## Conclusiones
