@@ -1738,8 +1738,10 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 <img width="4620" height="1411" alt="orden_trabajo_component" src="https://github.com/user-attachments/assets/c4700d59-dc40-4338-ae11-6ddf359ad468" />
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Órdenes de Trabjo. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
+A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Órdenes de Trabajo. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+<img width="1805" height="442" alt="image" src="https://github.com/user-attachments/assets/cf16b776-74cf-4c03-af58-38d6be9fca31" />
+
 #### 2.6.3.6.2. Bounded Context Database Design Diagram
 <img width="622" height="480" alt="image" src="https://github.com/user-attachments/assets/409402e0-9d5f-40e2-90c3-c8bfd29e5444" />
 
