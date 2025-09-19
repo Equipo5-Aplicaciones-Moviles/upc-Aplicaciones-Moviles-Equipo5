@@ -1537,6 +1537,15 @@ Este diagrama se centra en la gestión de las órdenes de trabajo. Aquí se mues
 ### 2.6. Tactical-Level Domain-Driven Design
   - 2.6.1. Bounded Context: Mi Equipo
     - 2.6.1.1. Domain Layer
+      Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
+
+| Clase  | Tipo | Propósito | Atributos / Métodos |
+| :---- | :---- | :---- | :---- |
+| Equipment | Aggregate | Equipo de refrigeración | Id, Name, Type, Model, Manufacturer, Cost |
+| EnergyConsumption | Entity | Consumo de energía | Current, Unit, Average, UpdateCurrent(), UpdateAverage |
+| RentalInfo | Entity | Información de renta de equipos | StartDate, EndDate, MonthlyFee, ProviderId |
+| Location | Entity | Ubicación | Name, Address, Coordinates |
+
     - 2.6.1.2. Interface Layer
     - 2.6.1.3. Application Layer
     - 2.6.1.4. Infrastructure Layer
