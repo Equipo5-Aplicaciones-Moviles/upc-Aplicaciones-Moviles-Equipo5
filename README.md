@@ -254,12 +254,12 @@ Visión: Queremos ser la empresa lider en gestión y mantenimiento de equipos de
 
 ---
 
-| **Integrante** | **Kenyi Efrain Ramirez Cabrera** |
+| **Integrante** | **Luis Angel Montañez Moreno** |
 |----------------|----------------------------------|
-| **Código del Estudiante** | U202220138 |
+| **Código del Estudiante** | U202223811 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, Python, Java y HTML, los cuales aplico para garantizar resultados efectivos en mis tareas. |
-| **Foto** | <img src="assets/chapter01/Kenyi-Ramirez-Picture.png" alt="Kenyi" width="200" height="200"> |
+| **Descripción** | Soy un estudiante de 5to ciclo de la carrera de Ingeniería de Software que le gusta aprender sobre la tecnología y cómo su uso puede mejorar nuestra vida cotidiana. Mi objetivo es seguir adquiriendo conocimientos en lenguajes de programación para ser más competente en el mundo profesional. |
+| **Foto** | <img src="assets/chapter01/Luis Montanez.jpg" alt="Luis" width="200" height="200"> |
 ## 1.2 Solution Profile
 
 ### 1.2.1 Antecedentes y Problematica
