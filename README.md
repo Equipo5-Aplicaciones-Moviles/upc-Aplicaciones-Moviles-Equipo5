@@ -1880,8 +1880,8 @@ A continuación, se detallan los diagramas de arquitectura de código que brinda
    ![alt text](assets/chapter02/database-diagram-p&s.png)
 
 
-  - 2.6.6. Bounded Context: Ver Equipos
-    - 2.6.6.1. Domain Layer
+#### 2.6.6. Bounded Context: Ver Equipos
+##### 2.6.6.1. Domain Layer
 El contexto Ver Equipos representa la funcionalidad que permite a los usuarios del sistema OsitoPolar visualizar y  consultar la información de los equipos de refrigeración registrados.
 
 Las principales entidades de dominio son:
