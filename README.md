@@ -1700,15 +1700,67 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 ###### 2.6.4.6.2. Bounded Context Database Design Diagram
      
 
-  - 2.6.5. Bounded Context: Notificaciones
-    - 2.6.5.1. Domain Layer
-    - 2.6.5.2. Interface Layer
-    - 2.6.5.3. Application Layer
-    - 2.6.5.4. Infrastructure Layer
-    - 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-    - 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
-      - 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
-      - 2.6.5.6.2. Bounded Context Database Design Diagram
+#### 2.6.5. Bounded Context: Notificaciones
+#### 2.6.5.1. Domain Layer
+
+   | Clase                     | Tipo                  | Propósito                                                                 | Atributos / Métodos                                                                 |
+|----------------------------|-----------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| **Payment**               | Entity               | Representa un pago realizado por un usuario para adquirir o renovar una suscripción. | Id, UserId, SubscriptionId, Amount: Price, StripeSession, CustomerEmail, Description, `UpdatePaymentStatus()` |
+| **Subscription**          | Entity               | Representa un plan de suscripción contratado por un usuario o proveedor.  | Id, PlanName, Price, BillingCycle, MaxEquipment, MaxClients, Features (List<Feature>), `UpdatePlan()` |
+| **Price**                 | Value Object         | Define un valor monetario y su moneda asociada.                           | Amount, Currency                                                                    |
+| **Feature**               | Value Object         | Representa una característica incluida en un plan de suscripción.         | Name                                                                                |
+| **PaymentStatus**         | Value Object / Enum  | Representa el estado de un pago.                                          | Processing, Succeeded, Failed, Cancelled                                            |
+| **StripeSession**         | Value Object         | Encapsula la sesión de pago en Stripe y su estado.                        | SessionId, `MarkAsProcessing()`, `MarkAsSucceeded()`, `MarkAsFailed()`, `MarkAsCancelled()` |
+| **BillingCycle**          | Value Object / Enum  | Define la periodicidad de facturación.                                    | Monthly, Yearly                                                                     |
+| **IPaymentRepository**    | Repository Interface | Abstracción para acceder a datos de pagos.                                | `AddAsync()`, `FindById()`, `FindByUserId()`, `FindByStripeSessionId()`             |
+| **ISubscriptionRepository** | Repository Interface | Abstracción para acceder a datos de suscripciones.                        | `FindByIdAsync()`, `FindByUserTypeAsync()`                                          |
+| **ISubscriptionCommandService** | Domain Service  | Gestiona operaciones sobre suscripciones.                                 | `Handle(CreateSubscriptionCommand)`, `Handle(UpgradePlanCommand)`, `Handle(DeleteSubscriptionCommand)` |
+
+    
+  #### 2.6.5.2. Interface Layer
+  
+Expone las funcionalidades a usuarios y sistemas externos.
+
+| Clase                    | Tipo            | Propósito                                                                | Métodos                                                                 |
+|---------------------------|-----------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **SubscriptionsController** | REST Controller | Gestiona las peticiones HTTP relacionadas con suscripciones.              | `CreateSubscription()`, `GetAllSubscriptions()`, `GetSubscriptionById()`, `UpgradeSubscription()`, `DeleteSubscription()` |
+| **Resources**            | DTOs (Request/Response) | Representan los contratos expuestos en la API.                            | CreateSubscriptionResource, UpgradeSubscriptionResource, SubscriptionResource |
+| **Assemblers**           | Mapper          | Convierte entre recursos ↔ comandos ↔ entidades.                          | CreateSubscriptionCommandFromResourceAssembler, UpgradeSubscriptionCommandFromResourceAssembler, SubscriptionResourceFromEntityAssembler |
+
+---
+
+  
+  #### 2.6.5.3. Application Layer
+  Orquesta los flujos de negocio mediante commands, queries y servicios de aplicación.
+
+| Clase                    | Tipo                | Propósito                                                                 | Métodos                                                                 |
+|---------------------------|---------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **PaymentCommandService** | Application Service | Gestiona creación de sesiones de pago y actualización de estado desde Stripe. | `Handle(CreatePaymentSessionCommand)`, `Handle(ProcessPaymentWebhookCommand)` |
+| **SubscriptionCommandService** | Application Service | Gestiona la lógica de crear, actualizar y eliminar suscripciones.          | `Handle(CreateSubscriptionCommand)`, `Handle(UpgradePlanCommand)`, `Handle(DeleteSubscriptionCommand)` |
+| **SubscriptionQueryService** | Query Service     | Ejecuta consultas de lectura de suscripciones.                            | `Handle(GetPlansQuery)`, `Handle(GetSubscriptionByIdQuery)`              |
+| **Commands**              | DTOs               | Expresan intenciones de modificar el dominio.                             | CreateSubscriptionCommand, UpgradePlanCommand, DeleteSubscriptionCommand, CreatePaymentSessionCommand, ProcessPaymentWebhookCommand |
+| **Queries**               | DTOs               | Expresan intenciones de consultar información.                            | GetPlansQuery, GetSubscriptionByIdQuery                                 |
+
+---
+
+   #### 2.6.5.4. Infrastructure Layer
+   Implementa persistencia, integración con Stripe y configuración externa.
+
+| Clase                    | Tipo             | Propósito                                                                 | Tecnologías                     |
+|---------------------------|------------------|---------------------------------------------------------------------------|---------------------------------|
+| **PaymentRepository**    | Repository       | Implementación de `IPaymentRepository` con EF Core.                       | EF Core, LINQ                   |
+| **SubscriptionRepository** | Repository     | Implementación de `ISubscriptionRepository` con EF Core.                  | EF Core                         |
+| **StripeService (IStripeService)** | External Service | Gestiona la comunicación con la API de Stripe.                           | Stripe API                      |
+| **StripeSettings**       | Configuración    | Contiene claves y secretos de Stripe.                                     | PublishableKey, SecretKey, WebhookSecret |
+| **UnitOfWork**           | Infraestructura  | Coordina transacciones.                                                   | EF Core                         |
+| **AppDbContext**         | Persistence      | DbContext para persistir Payment y Subscription.                          | EF Core                         |
+
+
+   
+   #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+   #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+   #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+   #### 2.6.5.6.2. Bounded Context Database Design Diagram
      
 
   - 2.6.6. Bounded Context: Ver Equipos
