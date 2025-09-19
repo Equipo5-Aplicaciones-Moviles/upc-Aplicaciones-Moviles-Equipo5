@@ -1955,7 +1955,7 @@ La base de datos del contexto “Ver Equipos” está compuesta por las siguient
 - RegistrosMantenimiento: idRegistro (PK), idEquipo (FK), fecha, técnico, detalle.
 - Alertas: idAlerta (PK), idEquipo (FK), tipo, severidad, fechaGenerada.
 
-(Aquí se debe insertar el diagrama ER con las relaciones entre tablas.)
+<img width="1712" height="520" alt="image" src="https://github.com/user-attachments/assets/6b81b3d0-cb3a-48f6-ad5d-0b024c6382c7" />
 
 ## Capítulo III: Requirements Specification <a id="c3"></a>
 
