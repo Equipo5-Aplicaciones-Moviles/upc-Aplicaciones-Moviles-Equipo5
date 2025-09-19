@@ -16,6 +16,7 @@
 <ul style="list-style: none;">
   <li><h3>U202310425 Aguirre Castillo Sergio Cesar</h3></li>
   <li><h3>U202220138 Ramírez Cabrera Kenyi Efraín</h3></li>
+  <li><h3>U202223811 Montañez Moreno, Luis Angel</h3></li>
   <li><h3>U202317442 Muñoz Machuca, Maria Elena</h3></li>
   <li><h3>U202223286 Rodriguez Parco Joseph Pablo</h3></li>
   <li><h3>U202123655 Rojas Reategui Victor Manuel</h3></li>
