@@ -1803,19 +1803,24 @@ o	Interacción: Usado por PaymentCommandService.
 ISubscriptionRepository
 o	Tipo: Repository.
 o	Función: Maneja la persistencia de la entidad Subscription.
-o	Interacción: Usado por ISubscriptionCommandService
+o	Interacción: Usado por ISubscriptionCommandService<br>
+![alt text](assets/chapter02/component-diagram-p&s.png)
+
 
    #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Pagos y Suscripciones. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 
    #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 **Capa de Dominio:** Contiene las entidades (Payment, Subscription) y objetos de valor (Price, Feature, PaymentStatus, StripeSession, BillingCycle).
-**Capa de Repositorio:** Maneja la persistencia de datos (IPaymentRepository, ISubscriptionRepository).
-**Capa de Servicio:** Coordina las operaciones de negocio (ISubscriptionCommandService, PaymentCommandService).
-**Capa de Comandos:** Encapsula acciones específicas (CreateSubscriptionCommand, UpgradePlanCommand, DeleteSubscriptionCommand, CreatePaymentSessionCommand, ProcessPaymentWebhookCommand).
+**Capa de Repositorio:** Maneja la persistencia de datos (IPaymentRepository, ISubscriptionRepository).<br>
+**Capa de Servicio:** Coordina las operaciones de negocio (ISubscriptionCommandService, PaymentCommandService).<br>
+**Capa de Comandos:** Encapsula acciones específicas (CreateSubscriptionCommand, UpgradePlanCommand, DeleteSubscriptionCommand, CreatePaymentSessionCommand, ProcessPaymentWebhookCommand).<br>
+![alt text](assets/chapter02/class-diagram-p&s.png)
+
    
    #### 2.6.5.6.2. Bounded Context Database Design Diagram
-     
+   ![alt text](assets/chapter02/database-diagram-p&s.png)
+
 
   - 2.6.6. Bounded Context: Ver Equipos
     - 2.6.6.1. Domain Layer
