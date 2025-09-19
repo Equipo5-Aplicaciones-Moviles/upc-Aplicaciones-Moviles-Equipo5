@@ -1691,6 +1691,8 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
+<img width="542" height="640" alt="image" src="https://github.com/user-attachments/assets/e394d39c-dc41-46ed-9066-a52dbd2e81e8" />
+
            
 
 #### 2.6.3. Bounded Context: Órdenes de Trabajo
