@@ -38,30 +38,15 @@
 ## Project Report Collaboration Insights
 **TB1** Desarrollo del reporte hasta el capítulo 2 para el sprint 1
 <br>
-![alt text](assets/TF/tb1.png)
+<img width="1286" height="645" alt="image" src="https://github.com/user-attachments/assets/85884f83-6e93-496c-a74c-d26fde8b200f" />
 <br>
 
 - **URL de la organización del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web](https://github.com/Inteligencia-Artesanal-Aplicaciones-Web)
-
+  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)
 
 - **URL del repositorio del informe del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/upc-AppWeb-Inteligencia-Artesanal-Report_v2](https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/upc-AppWeb-Inteligencia-Artesanal-Report_v2)
+  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/upc-AppWeb-Inteligencia-Artesanal-Report_v2](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)]
 
-
-- **URL del repositorio del landing page del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/Landing-Page](https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/Landing-Page)
-
-  ![Insights landing](assets/TF/Insights%20landing.png)
-
-
-- **URL del repositorio del frontend del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/OsitoPolar-Frontend](https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/OsitoPolar-Frontend)
-![frontinsights.png](assets/TF/frontinsights.png)
-
-- **URL del repositorio del backend del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/OsitoPolar-Platform](https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/OsitoPolar-Platform)
-![backinsights.png](assets/TF/backinsights.png)
 
 # Objetivos SMART
 # Chapter I: Presentation
