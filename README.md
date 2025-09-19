@@ -1691,6 +1691,8 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | ServiceRequestRepository | Repository | Implementación de ServiceRequestRepository con acceso a base de datos | PostgreSQL |
 
 ##### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+<img width="4620" height="1411" alt="gestion_solicitudes_component" src="https://github.com/user-attachments/assets/589e930b-82c7-48fd-9c49-7fe81b7c3a19" />
+
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
