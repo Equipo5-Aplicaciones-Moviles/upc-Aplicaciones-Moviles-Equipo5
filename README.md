@@ -232,8 +232,8 @@ Visión: Queremos ser la empresa lider en gestión y mantenimiento de equipos de
 |----------------|----------------------------------|
 | **Código del Estudiante** | U202222001 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Soy Gonzalo Aliaga, tengo 19 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me caracterizo por mi sentido de responsabilidad y mi habilidad para trabajar en equipo. Disfruto colaborar con mis compañeros y aportar al cumplimiento de objetivos en el ámbito académico y en proyectos grupales. Poseo experiencia en diversos lenguajes de programación, como C++, Python y Java, además de conocimientos en bases de datos SQL y NoSQL. |
-| **Foto** | <img src="assets/chapter01/Gonzalo-Aliaga-picture.png" alt="Gonzalo" width="200" height="200"> |
+| **Descripción** | Soy Aguirre Castillo, Sergio Cesar, tengo 20 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me caracterizo por mi sentido de responsabilidad y mi habilidad para trabajar en equipo. Disfruto colaborar con mis compañeros y aportar al cumplimiento de objetivos en el ámbito académico y en proyectos grupales. Poseo experiencia en diversos lenguajes de programación, como C++, Python y Java, además de conocimientos en bases de datos SQL y NoSQL. |
+| **Foto** | <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/147f7060-da83-498e-afa2-d446d2244da5" />|
 
 ---
 
