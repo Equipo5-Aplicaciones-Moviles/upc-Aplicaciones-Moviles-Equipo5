@@ -2048,3 +2048,4 @@ Este trabajo ha demostrado que OsitoPolar no solo resuelve un problema real, sin
 ## Anexos
 
 - Organización GitHub: [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5)
+- Miro : https://miro.com/app/board/uXjVJGeldZw=/
