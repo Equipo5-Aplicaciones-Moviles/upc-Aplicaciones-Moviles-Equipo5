@@ -1357,7 +1357,7 @@ Bounded Contexts involucrados:
 - Gestión de Mantenimientos
 - Notificaciones
 
-<img width="503" height="1536" alt="Image 18 sept 2025, 10_53_31 p m" src="https://github.com/user-attachments/assets/54b42e86-190d-4225-87f5-f22728a0cbf6" />
+<img width="503" height="536" alt="Image 18 sept 2025, 10_53_31 p m" src="https://github.com/user-attachments/assets/54b42e86-190d-4225-87f5-f22728a0cbf6" />
 
 Caso 2: Programación de un Mantenimiento
 - El sistema detecta que un equipo requiere mantenimiento preventivo.
@@ -1371,7 +1371,7 @@ Bounded Contexts involucrados:
 - Gestión de Usuarios
 - Gestión de Equipos
 
-<img width="530" height="1536" alt="Image 18 sept 2025, 10_53_49 p m png2" src="https://github.com/user-attachments/assets/247f78b4-a54d-4679-be9c-b130928a1a04" />
+<img width="530" height="536" alt="Image 18 sept 2025, 10_53_49 p m png2" src="https://github.com/user-attachments/assets/247f78b4-a54d-4679-be9c-b130928a1a04" />
 
    ##### 2.5.1.3. Bounded Context Canvases
 En esta sección se presentan los diseños de los Candidate Bounded Contexts identificados para OsitoPolar, modelados con el formato del Bounded Context Canvas.
