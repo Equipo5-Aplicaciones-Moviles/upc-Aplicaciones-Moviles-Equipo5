@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
-  <img src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png" alt="UPC Logo" height="200">
+  <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
   <h2>Carrera: Ingeniería de Software</h2>
   <h2>Ciclo: 2025-20</h2>
   <h2>Curso: 1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
