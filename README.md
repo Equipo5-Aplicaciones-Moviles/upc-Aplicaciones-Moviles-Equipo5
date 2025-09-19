@@ -177,12 +177,44 @@ del ABET – EAC - Student Outcome 7.
 | Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | <ul><li><b>Sergio Aguirre</b><br> <b>TB1</b>: En esta entrega he colaborado junto con mi equipo en múltiples puntos a través de diferentes plataformas como Trello (para asignación de tareas), Miro (As-is y To-Be Scenarios), Figma (Algunos mockups).</li><li><b>Maria Elena Muñoz Machuca</b><br> <b>TB1</b>:Fui responsable de realizar el context mapping,  bounded context canvases, y software architecture del bounded context de pagos  y suscripciones.<br></li><li><b>Victor Manuel Rojas Reategui</b><br> <b>TB1</b>: Me encargé de la elaboración de los wireframes para la Landing Page, además de organizar las ramas y la estructura del repositorio Github.<br></li><li><b>Luis Montañez</b><br> <b>TB1</b>: Se organizó mediante planificación conjunta, estableciendo plazos claros y distribuyendo tareas.<li><b>Joseph Rodriguez</b><br> <b>TB1</b>: Me aseguré de cumplir puntualmente mis tareas asignadas, trabajé con mis compañeros en definir objetivos claros y realistas, y mantuve una comunicación constante a través de las plataformas acordadas.| <ul><li><b>TB1</b>: El equipo demostró la importancia del aprendizaje continuo al utilizar nuevas herramientas de gestión, diseño y colaboración, adaptándose a metodologías ágiles y aplicando buenas prácticas de documentación. Este enfoque permitió mejorar competencias individuales y colectivas, asegurando un mejor desempeño en el desarrollo del proyecto.|
 
 # Objetivos Smart
-#### Maria Elena Muñoz Machuca
+#### Muñoz Machuca, Maria Elena
 **Objetivo 1**<br>
 Al culminar mi carrera, uno de mis principales objetivos es convertirme en desarrolladora de software full-stack, con dominio tanto de tecnologías de frontend como de backend. Para alcanzarlo, me propongo participar en proyectos completos que integren ambos enfoques. Mi meta es dedicar entre 8 y 10 horas semanales al estudio y práctica.<br>
 
 **Objetivo 2**<br>
 Otro de mis objetivos es desarrollar y diseñar soluciones tecnológicas que generen un impacto positivo en la vida de las personas. Para ello, me propongo crear al menos un proyecto propio que responda a un problema o necesidad social. Este propósito implica aprender y aplicar metodologías ágiles, de esta manera podré logar mi objetivos y mantener mi compromiso de mejorar la calidad de vida de las personas usando la tecnología.
+
+#### Aguirre Castillo Sergio Cesar
+
+**Objetivo 1**
+Al culminar mi carrera, mi objetivo es convertirme en arquitecto de software especializado en diseño de sistemas distribuidos. Para ello, me propongo participar en proyectos académicos y profesionales donde pueda aplicar patrones de diseño y principios de arquitectura. Dedicaré un mínimo de 6 horas semanales al estudio de arquitectura de software y al uso de herramientas de modelado como UML y Structurizr.
+
+**Objetivo 2**
+Otro de mis objetivos es fortalecer mis habilidades de liderazgo en equipos de desarrollo. Para lograrlo, me propongo asumir roles de coordinación en al menos dos proyectos grupales y capacitarme en metodologías ágiles como Scrum y Kanban. Mediré mi progreso en función de la retroalimentación del equipo y la capacidad de cumplir con las metas establecidas en los proyectos.
+
+#### Montañez Moreno, Luis Angel
+
+**Objetivo 1**
+Al finalizar mi carrera, mi objetivo es especializarme en desarrollo frontend, con dominio en frameworks modernos como React y Angular. Para alcanzarlo, dedicaré entre 5 y 7 horas semanales a cursos y prácticas de diseño de interfaces y usabilidad, aplicándolos en proyectos personales y académicos.
+
+**Objetivo 2**
+También me propongo contribuir al desarrollo de proyectos con impacto social mediante soluciones accesibles y responsivas. Para ello, me comprometo a diseñar al menos una aplicación web inclusiva antes de culminar mi carrera, siguiendo lineamientos de accesibilidad (WCAG) y buenas prácticas de UX/UI.
+
+#### Rodriguez Parco Joseph Pablo
+
+**Objetivo 1**
+Mi objetivo principal al terminar la carrera es especializarme en desarrollo backend, enfocándome en tecnologías como .NET y Java. Para lograrlo, dedicaré al menos 6 horas semanales a proyectos y prácticas que refuercen mis conocimientos en bases de datos, APIs y servicios en la nube.
+
+**Objetivo 2**
+También quiero potenciar mis habilidades de trabajo en equipo y comunicación profesional. Para alcanzarlo, me propongo participar activamente en al menos tres proyectos colaborativos, asumiendo responsabilidades de integración de componentes y documentación. Mi progreso se medirá con la calidad de la comunicación y el cumplimiento de los objetivos en los plazos establecidos.
+
+#### Rojas Reategui Victor Manuel
+
+**Objetivo 1**
+Mi objetivo al culminar la carrera es convertirme en ingeniero de software especializado en DevOps y despliegue de aplicaciones. Para lograrlo, me comprometo a dominar herramientas como Docker, Kubernetes y CI/CD pipelines, dedicando entre 5 y 8 horas semanales a la práctica en entornos reales o simulados.
+
+**Objetivo 2**
+Otro de mis objetivos es contribuir al despliegue eficiente y seguro de aplicaciones en la nube. Para ello, desarrollaré al menos un proyecto implementado en AWS o Azure antes de terminar la carrera, midiendo el éxito mediante pruebas de rendimiento, escalabilidad y seguridad.
 
 # Capitulo 1: Introducción
 
