@@ -1629,6 +1629,8 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | EquipmentRepository | Repository | Implementación de EquipmentRepository con acceso a base de datos | PostgreSQL |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+<img width="3870" height="3211" alt="mi_equipo_component1" src="https://github.com/user-attachments/assets/709cd005-84e4-4a14-8e6d-4dd3a8c2772b" />
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 #### 2.6.1.6.2. Bounded Context Database Design Diagram
