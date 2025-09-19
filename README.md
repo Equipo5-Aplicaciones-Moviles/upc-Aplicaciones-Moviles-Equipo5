@@ -1,31 +1,24 @@
-<div align = "center">
- <h1>Universidad Peruana de Ciencias Aplicadas</h1>
- <img style="height: 200px" src=https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png>
+<div align="center">
+  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
+  <img src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png" alt="UPC Logo" height="200">
   <h2>Carrera: Ingeniería de Software</h2>
   <h2>Ciclo: 2025-20</h2>
-<br>
   <h2>Curso: 1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
   <h2>Sección: 12614</h2>
   <h2>Profesor: David Gerardo Quevedo Velasco</h2>
-<br>
- <h1>Informe TB1</h1>
+  <h1>Informe TB1</h1>
   <h2>Startup: IA: Inteligencia Artesanal</h2>
   <h2>Producto: OsitoPolar</h2>
-<br>
   <h2>Integrantes</h2>
-<ul style="list-style: none;">
-  <li><h3>U202310425 Aguirre Castillo Sergio Cesar</h3></li>
-  <li><h3>U202223811 Montañez Moreno, Luis Angel</h3></li>
-  <li><h3>U202317442 Muñoz Machuca, Maria Elena</h3></li>
-  <li><h3>U202223286 Rodriguez Parco Joseph Pablo</h3></li>
-  <li><h3>U202123655 Rojas Reategui Victor Manuel</h3></li>
-  
-</ul>
-<br>
-   <h3>Septiembre 2025</h3>
-
+  <ul style="list-style: none;">
+    <li>U202310425 Aguirre Castillo Sergio Cesar</li>
+    <li>U202223811 Montañez Moreno, Luis Angel</li>
+    <li>U202317442 Muñoz Machuca, Maria Elena</li>
+    <li>U202223286 Rodriguez Parco Joseph Pablo</li>
+    <li>U202123655 Rojas Reategui Victor Manuel</li>
+  </ul>
+  <h3>Septiembre 2025</h3>
 </div>
-
 
 ## Registro de Versiones del Informe
 
