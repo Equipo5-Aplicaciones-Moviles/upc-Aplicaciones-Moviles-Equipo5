@@ -1333,6 +1333,60 @@ Documenta y Comparte Hallazgos
 - Cuando se compile el informe,
 - Entonces se presentan pros/contras y la recomendación inicial.
 
+**Spike Story ID: SS-04**
+**Como** equipo de desarrollo (web, móvil y backend),
+**Quiero** investigar y prototipar el uso de Jetpack Compose para desarrollar la pantalla de catálogo de equipos en la versión móvil de OsitoPolar,
+**Para** que podamos evaluar su facilidad de uso, rendimiento y compatibilidad con las funcionalidades actuales, seleccionando un enfoque viable para el desarrollo móvil.
+
+Criterios de Aceptación (Given-When-Then)
+Escenario 1
+- Dado que tenemos acceso a la documentación oficial de Jetpack Compose y Android SDK,
+- Cuando investiguemos las características principales de Jetpack Compose (como composición declarativa, animaciones y LiveData integration),
+- Entonces deberíamos documentar al menos 3 ventajas y 3 desafíos específicos para su implementación en el catálogo de equipos.
+
+<br>Escenario 2
+- Dado que configuramos un entorno de desarrollo con Android Studio y Jetpack Compose,
+- Cuando creemos un prototipo básico que muestre una lista de equipos con tarjetas (cards) y un botón "Request",
+- Entonces el prototipo debe compilar y ejecutarse en un emulador Android sin errores críticos, mostrando al menos 3 equipos del catálogo actual.
+
+<br>Escenario 3
+- Dado que probamos el prototipo en el emulador,
+- Cuando evaluemos el rendimiento (tiempo de carga de la lista y respuesta al botón "Request"),
+- Entonces deberíamos registrar métricas de rendimiento (e.g., tiempo de carga < 2 segundos) y compararlos con los requisitos de usabilidad de OsitoPolar.
+
+<br>Escenario 4
+- Dado que evaluamos la experiencia de desarrollo con Jetpack Compose,
+- Cuando finalicemos la investigación,
+- Entonces deberíamos presentar un informe con una recomendación sobre su viabilidad para el catálogo, justificando con pros, contras y estimaciones de esfuerzo para la implementación completa.
+
+**Spike Story ID: SS-05**
+**Como** equipo de desarrollo (web, móvil y backend),
+**Quiero** investigar y prototipar el uso de Jetpack Compose para implementar la pantalla de autenticación (login y registro) en la versión móvil de OsitoPolar,
+**Para** que podamos evaluar su seguridad, usabilidad y compatibilidad con el backend existente, seleccionando un enfoque viable para el desarrollo móvil.
+
+Criterios de Aceptación (Given-When-Then)
+<br>Escenario 1
+- Dado que tenemos acceso a la documentación de Jetpack Compose y las bibliotecas de autenticación de Android,
+- Cuando investiguemos las capacidades de Jetpack Compose para formularios de login/registro (como encriptación básica y manejo de estado),
+- Entonces deberíamos documentar al menos 3 ventajas y 3 desafíos específicos para su uso en la autenticación.
+
+<br>Escenario 2
+- Dado que configuramos un entorno de desarrollo con Android Studio y Jetpack Compose,
+- Cuando creemos un prototipo que incluya pantallas de login (email y contraseña) y registro (email, contraseña, nombre),
+- Entonces el prototipo debe compilar y ejecutarse en un emulador Android sin errores críticos, mostrando ambas pantallas con campos funcionales.
+
+<br>Escenario 3
+- Dado que probamos el prototipo en el emulador,
+- Cuando ingresemos credenciales válidas (e.g., email "user@example.com", contraseña "password123") y válidas,
+- Entonces deberíamos confirmar que el login/registro simulado se completa y muestra un mensaje de éxito en menos de 1 segundo.
+
+<br> Escenario 4
+- Dado que evaluamos la experiencia de usuario y desarrollo con Jetpack Compose para autenticación,
+- Cuando finalicemos la investigación,
+- Entonces deberíamos presentar un informe con una recomendación sobre su viabilidad para la autenticación, justificando con pros, contras y estimaciones de esfuerzo para la implementación completa.
+
+
+
 #### 2.4.2. Impact Mapping
 El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa por el equipo de OsitoPolar para alinear los objetivos de negocio con los requerimientos funcionales de la plataforma.
 
