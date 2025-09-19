@@ -1738,7 +1738,9 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Órdenes de Trabjo. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
-#### 2.6.3.6.2. Bounded Context Database Design Diagram     
+#### 2.6.3.6.2. Bounded Context Database Design Diagram
+<img width="622" height="480" alt="image" src="https://github.com/user-attachments/assets/409402e0-9d5f-40e2-90c3-c8bfd29e5444" />
+
  
 
 #### 2.6.4. Bounded Context: Ver Mantenimientos
