@@ -1758,8 +1758,62 @@ Expone las funcionalidades a usuarios y sistemas externos.
 
    
    #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+   En esta sección explicaremos el bounded context SubscriptionsAndPayments.
+**App Web OsitoPolar**
+•	Tipo: Container (React/Angular u otro framework web).
+•	Función: Aplicación web usada por usuarios y proveedores para gestionar planes de suscripción y pagos.
+•	Interacción: Realiza llamadas HTTP a la API de SubscriptionsAndPayments.
+**SubscriptionsController**
+•	Tipo: REST Controller.
+•	Función: Expone endpoints REST para gestionar suscripciones.
+•	Interacción: Invoca servicios de aplicación (ISubscriptionCommandService, ISubscriptionQueryService).
+PaymentsController 
+•	Tipo: REST Controller.
+•	Función: Expone endpoints REST para iniciar sesiones de pago y procesar webhooks de Stripe.
+•	Interacción: Invoca PaymentCommandService.
+CreateSubscriptionCommandHandler 
+•	Tipo: Application Service.
+•	Función: Orquesta la creación de un nuevo plan de suscripción.
+•	Interacción: Construye una instancia válida de Subscription. Persiste mediante ISubscriptionRepository.
+UpgradeSubscriptionCommandHandler
+•	Tipo: Application Service.
+•	Función: Gestiona la actualización de un plan de suscripción existente.
+•	Interacción: Recupera y actualiza el Subscription en ISubscriptionRepository.
+DeleteSubscriptionCommandHandler
+•	Tipo: Application Service.
+•	Función: Gestiona la eliminación de un plan de suscripción.
+•	Interacción: Elimina un Subscription de ISubscriptionRepository.
+PaymentCommandService
+•	Tipo: Application Service.
+•	Función: Orquesta la creación de pagos y el procesamiento de webhooks de Stripe.
+•	Interacción:
+o	Crea sesión de pago con IStripeService.
+o	Construye entidad Payment.
+o	Persiste con IPaymentRepository.
+o	Si el pago es exitoso, dispara comando UpgradePlanCommand en ISubscriptionCommandService.
+StripeService
+•	Tipo: Infrastructure Service.
+•	Función: Encapsula la integración con Stripe para crear sesiones de checkout y validar eventos de webhook.
+•	Interacción: Recibe solicitudes desde PaymentCommandService.
+Repositories
+•	IPaymentRepository
+o	Tipo: Repository.
+o	Función: Maneja la persistencia de la entidad Payment.
+o	Interacción: Usado por PaymentCommandService.
+ISubscriptionRepository
+o	Tipo: Repository.
+o	Función: Maneja la persistencia de la entidad Subscription.
+o	Interacción: Usado por ISubscriptionCommandService
+
    #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Pagos y Suscripciones. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
+
    #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+**Capa de Dominio:** Contiene las entidades (Payment, Subscription) y objetos de valor (Price, Feature, PaymentStatus, StripeSession, BillingCycle).
+**Capa de Repositorio:** Maneja la persistencia de datos (IPaymentRepository, ISubscriptionRepository).
+**Capa de Servicio:** Coordina las operaciones de negocio (ISubscriptionCommandService, PaymentCommandService).
+**Capa de Comandos:** Encapsula acciones específicas (CreateSubscriptionCommand, UpgradePlanCommand, DeleteSubscriptionCommand, CreatePaymentSessionCommand, ProcessPaymentWebhookCommand).
+   
    #### 2.6.5.6.2. Bounded Context Database Design Diagram
      
 
