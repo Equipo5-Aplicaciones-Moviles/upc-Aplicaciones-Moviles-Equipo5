@@ -15,7 +15,6 @@
   <h2>Integrantes</h2>
 <ul style="list-style: none;">
   <li><h3>U202310425 Aguirre Castillo Sergio Cesar</h3></li>
-  <li><h3>U202220138 Ramírez Cabrera Kenyi Efraín</h3></li>
   <li><h3>U202223811 Montañez Moreno, Luis Angel</h3></li>
   <li><h3>U202317442 Muñoz Machuca, Maria Elena</h3></li>
   <li><h3>U202223286 Rodriguez Parco Joseph Pablo</h3></li>
@@ -1327,6 +1326,8 @@ Identificación de Aggregates:
 
 Mantenimiento (con asignación, estado y resultados).
 
+<img width="1734" height="525" alt="image" src="https://github.com/user-attachments/assets/f3937874-d931-48db-b5a1-192ddef51340" />
+
    ##### 2.5.1.1. Candidate Context Discovery
 Durante esta etapa se aplicó la técnica Start With Value, con el objetivo de identificar primero el valor principal que la aplicación debe ofrecer: evitar pérdidas económicas y mejorar la eficiencia de los mantenimientos de equipos de refrigeración.
 
@@ -1356,6 +1357,8 @@ Bounded Contexts involucrados:
 - Gestión de Mantenimientos
 - Notificaciones
 
+<img width="503" height="1536" alt="Image 18 sept 2025, 10_53_31 p m" src="https://github.com/user-attachments/assets/54b42e86-190d-4225-87f5-f22728a0cbf6" />
+
 Caso 2: Programación de un Mantenimiento
 - El sistema detecta que un equipo requiere mantenimiento preventivo.
 - El contexto de Gestión de Mantenimientos genera una orden.
@@ -1367,6 +1370,8 @@ Bounded Contexts involucrados:
 - Gestión de Mantenimientos
 - Gestión de Usuarios
 - Gestión de Equipos
+
+<img width="530" height="1536" alt="Image 18 sept 2025, 10_53_49 p m png2" src="https://github.com/user-attachments/assets/247f78b4-a54d-4679-be9c-b130928a1a04" />
 
    ##### 2.5.1.3. Bounded Context Canvases
 En esta sección se presentan los diseños de los Candidate Bounded Contexts identificados para OsitoPolar, modelados con el formato del Bounded Context Canvas.
