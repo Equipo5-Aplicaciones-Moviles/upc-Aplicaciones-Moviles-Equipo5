@@ -1777,10 +1777,14 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | TechnicianRepository | Repository | Implementación de TechnicianRepository con acceso a base de datos | PostgreSQL |
 
 ##### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+<img width="4620" height="1616" alt="ver_mantenimientos_component" src="https://github.com/user-attachments/assets/cc9a9843-3bbf-4fa8-b894-3c0f667caeda" />
+
 ##### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Ver Mantenimientos. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 ###### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 ###### 2.6.4.6.2. Bounded Context Database Design Diagram
+<img width="871" height="463" alt="image" src="https://github.com/user-attachments/assets/7c0cba94-db9f-4329-9de0-87a4dfa55863" />
+
      
 
 #### 2.6.5. Bounded Context: Notificaciones
