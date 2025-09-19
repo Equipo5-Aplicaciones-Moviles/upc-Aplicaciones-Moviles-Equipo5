@@ -1628,6 +1628,73 @@ Este diagrama se centra en la gestión de las órdenes de trabajo. Aquí se mues
 
 
 ### 3.2. User Stories.
+### 3.2.2 Spike Story
+**Spike Story ID:** SS-02
+
+**Como** equipo de desarrollo (web, móvil y backend),  
+**Quiero** investigar y prototipar las tecnologías móviles más adecuadas para la plataforma OsitoPolar (Kotlin para Android, Flutter con Dart y/o Kotlin Multiplatform),  
+**Para que** podamos complementar los conocimientos adquiridos en el curso con investigación práctica y seleccionar el enfoque más viable para el desarrollo móvil.
+
+---
+
+### Criterios de Aceptación (en formato Given-When-Then)
+
+1. **Revisa la documentación oficial de las tecnologías móviles**
+  - Dado que el equipo no domina completamente las tecnologías móviles,
+  - Cuando el desarrollador revisa la documentación de Kotlin Android, Flutter y Kotlin Multiplatform (KMP),
+  - Entonces el desarrollador identifica y documenta sus características principales, fortalezas y limitaciones en un informe compartido.
+
+2. **Evalúa la Compatibilidad con la Plataforma Web/Backend**
+  - Dado que OsitoPolar ya cuenta con frontend en Vue y backend en .NET ASP,
+  - Cuando el desarrollador evalúa la integración móvil con APIs RESTful y WebSockets,
+  - Entonces el informe detalla los requisitos de interoperabilidad y cómo cada tecnología móvil facilita la comunicación con el backend existente.
+
+3. **Analiza la Curva de Aprendizaje y Conocimientos del Equipo**
+  - Dado que el equipo tiene conocimientos base del curso y experiencia previa limitada en móviles,
+  - Cuando se contrastan los contenidos del curso con los requerimientos de cada framework,
+  - Entonces el informe documenta qué tecnologías son más rápidas de adoptar y qué brechas de conocimiento deberán cubrirse.
+
+4. **Evalúa la Experiencia de Usuario y Capacidades de UI**
+  - Dado que la aplicación debe ofrecer una experiencia fluida a empresas y técnicos,
+  - Cuando el desarrollador analiza las capacidades de Flutter (UI multiplataforma), Kotlin Android (UI nativa) y KMP (UI específica por plataforma),
+  - Entonces el informe documenta ventajas y limitaciones en diseño de interfaces, usabilidad y consistencia visual.
+
+5. **Identifica Implicaciones de Seguridad**
+  - Dado que OsitoPolar manejará datos sensibles (monitoreo IoT, fallas de equipos, datos de clientes),
+  - Cuando se investigan las prácticas de seguridad soportadas por cada tecnología (almacenamiento seguro, comunicación cifrada, autenticación con backend),
+  - Entonces el informe incluye un resumen de riesgos y medidas recomendadas.
+
+6. **Evalúa el Impacto en el Rendimiento**
+  - Dado que la app debe procesar datos de IoT en tiempo real,
+  - Cuando el desarrollador investiga benchmarks de rendimiento (uso de memoria, consumo de batería, latencia de red),
+  - Entonces el informe documenta hallazgos y potenciales cuellos de botella en cada tecnología.
+
+7. **Verifica Costos y Recursos**
+  - Dado que se busca optimizar costos de desarrollo y mantenimiento,
+  - Cuando el desarrollador analiza dependencias externas, soporte en la comunidad, compatibilidad con librerías y esfuerzo de mantenimiento,
+  - Entonces el informe detalla costos asociados (tiempo de desarrollo, curva de aprendizaje, soporte a largo plazo).
+
+8. **Prototipa un Flujo Mínimo**
+  - Dado que se necesita validar la viabilidad práctica,
+  - Cuando el desarrollador construye un proof-of-concept mínimo (ej. pantalla de login y consumo de un endpoint IoT desde el backend),
+  - Entonces el PoC queda registrado en una rama del repositorio y documentado en el informe.
+
+9. **Estima el Esfuerzo de Implementación**
+  - Dado que el equipo necesita planificar futuros sprints,
+  - Cuando el desarrollador desglosa la implementación móvil en tareas (pantallas principales, consumo de APIs, integración IoT, seguridad),
+  - Entonces se presenta una estimación aproximada de puntos de historia para cada alternativa tecnológica.
+
+10. **Documenta y Comparte los Hallazgos**
+- Dado que el Spike está completo,
+- Cuando el desarrollador compila todos los hallazgos en un informe,
+- Entonces el documento incluye pros/contras, recomendación inicial y próximos pasos, y se revisa en una sesión de equipo.
+
+---
+
+### Definition of Done (DoD)
+- El PoC mínimo estará registrado en una rama del repositorio.
+- Los hallazgos se utilizan para crear o refinar historias de implementación en el backlog.
+- El Spike está limitado a 8–16 horas y se completa dentro del sprint.
 
 
 ### 3.3. Impact Mapping.
