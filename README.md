@@ -1694,6 +1694,8 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Gestión de Solicitudes. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 ###### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+<img width="1817" height="467" alt="image" src="https://github.com/user-attachments/assets/b686ba99-f84c-4900-be14-d455b16d9b9f" />
+
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
 <img width="542" height="640" alt="image" src="https://github.com/user-attachments/assets/e394d39c-dc41-46ed-9066-a52dbd2e81e8" />
 
