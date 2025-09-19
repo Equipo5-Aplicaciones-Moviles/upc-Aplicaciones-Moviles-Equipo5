@@ -1188,6 +1188,74 @@ El trabajo fue realizado de manera colaborativa, priorizando la comprensión del
 | EP-06 | Evaluación de Servicios | Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario. | | |
 | EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. | | |
 
+### 2.4.1.1. Spike Story
+**Spike Story ID:** SS-02
+
+**Como** equipo de desarrollo (web, móvil y backend),  
+**Quiero** investigar y prototipar las tecnologías móviles más adecuadas para la plataforma OsitoPolar (Kotlin para Android, Flutter con Dart y/o Kotlin Multiplatform),  
+**Para que** podamos complementar los conocimientos adquiridos en el curso con investigación práctica y seleccionar el enfoque más viable para el desarrollo móvil.
+
+---
+
+### Criterios de Aceptación (en formato Given-When-Then)
+
+1. **Revisa la documentación oficial de las tecnologías móviles**
+  - Dado que el equipo no domina completamente las tecnologías móviles,
+  - Cuando el desarrollador revisa la documentación de Kotlin Android, Flutter y Kotlin Multiplatform (KMP),
+  - Entonces el desarrollador identifica y documenta sus características principales, fortalezas y limitaciones en un informe compartido.
+
+2. **Evalúa la Compatibilidad con la Plataforma Web/Backend**
+  - Dado que OsitoPolar ya cuenta con frontend en Vue y backend en .NET ASP,
+  - Cuando el desarrollador evalúa la integración móvil con APIs RESTful y WebSockets,
+  - Entonces el informe detalla los requisitos de interoperabilidad y cómo cada tecnología móvil facilita la comunicación con el backend existente.
+
+3. **Analiza la Curva de Aprendizaje y Conocimientos del Equipo**
+  - Dado que el equipo tiene conocimientos base del curso y experiencia previa limitada en móviles,
+  - Cuando se contrastan los contenidos del curso con los requerimientos de cada framework,
+  - Entonces el informe documenta qué tecnologías son más rápidas de adoptar y qué brechas de conocimiento deberán cubrirse.
+
+4. **Evalúa la Experiencia de Usuario y Capacidades de UI**
+  - Dado que la aplicación debe ofrecer una experiencia fluida a empresas y técnicos,
+  - Cuando el desarrollador analiza las capacidades de Flutter (UI multiplataforma), Kotlin Android (UI nativa) y KMP (UI específica por plataforma),
+  - Entonces el informe documenta ventajas y limitaciones en diseño de interfaces, usabilidad y consistencia visual.
+
+5. **Identifica Implicaciones de Seguridad**
+  - Dado que OsitoPolar manejará datos sensibles (monitoreo IoT, fallas de equipos, datos de clientes),
+  - Cuando se investigan las prácticas de seguridad soportadas por cada tecnología (almacenamiento seguro, comunicación cifrada, autenticación con backend),
+  - Entonces el informe incluye un resumen de riesgos y medidas recomendadas.
+
+6. **Evalúa el Impacto en el Rendimiento**
+  - Dado que la app debe procesar datos de IoT en tiempo real,
+  - Cuando el desarrollador investiga benchmarks de rendimiento (uso de memoria, consumo de batería, latencia de red),
+  - Entonces el informe documenta hallazgos y potenciales cuellos de botella en cada tecnología.
+
+7. **Verifica Costos y Recursos**
+  - Dado que se busca optimizar costos de desarrollo y mantenimiento,
+  - Cuando el desarrollador analiza dependencias externas, soporte en la comunidad, compatibilidad con librerías y esfuerzo de mantenimiento,
+  - Entonces el informe detalla costos asociados (tiempo de desarrollo, curva de aprendizaje, soporte a largo plazo).
+
+8. **Prototipa un Flujo Mínimo**
+  - Dado que se necesita validar la viabilidad práctica,
+  - Cuando el desarrollador construye un proof-of-concept mínimo (ej. pantalla de login y consumo de un endpoint IoT desde el backend),
+  - Entonces el PoC queda registrado en una rama del repositorio y documentado en el informe.
+
+9. **Estima el Esfuerzo de Implementación**
+  - Dado que el equipo necesita planificar futuros sprints,
+  - Cuando el desarrollador desglosa la implementación móvil en tareas (pantallas principales, consumo de APIs, integración IoT, seguridad),
+  - Entonces se presenta una estimación aproximada de puntos de historia para cada alternativa tecnológica.
+
+10. **Documenta y Comparte los Hallazgos**
+- Dado que el Spike está completo,
+- Cuando el desarrollador compila todos los hallazgos en un informe,
+- Entonces el documento incluye pros/contras, recomendación inicial y próximos pasos, y se revisa en una sesión de equipo.
+
+---
+
+### Definition of Done (DoD)
+- El PoC mínimo estará registrado en una rama del repositorio.
+- Los hallazgos se utilizan para crear o refinar historias de implementación en el backlog.
+- El Spike está limitado a 8–16 horas y se completa dentro del sprint.
+
 
 #### 2.4.2. Impact Mapping
 El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa por el equipo de OsitoPolar para alinear los objetivos de negocio con los requerimientos funcionales de la plataforma.
@@ -1922,227 +1990,6 @@ La base de datos del contexto “Ver Equipos” está compuesta por las siguient
     <strong>Figura 2:</strong> To Be Scenario Mapping - Empresas Proveedoras (Segmento 2).
   </figcaption>
 </figure>
-
-
-### 3.2. User Stories.
-### 3.2.2 Spike Story
-**Spike Story ID:** SS-02
-
-**Como** equipo de desarrollo (web, móvil y backend),  
-**Quiero** investigar y prototipar las tecnologías móviles más adecuadas para la plataforma OsitoPolar (Kotlin para Android, Flutter con Dart y/o Kotlin Multiplatform),  
-**Para que** podamos complementar los conocimientos adquiridos en el curso con investigación práctica y seleccionar el enfoque más viable para el desarrollo móvil.
-
----
-
-### Criterios de Aceptación (en formato Given-When-Then)
-
-1. **Revisa la documentación oficial de las tecnologías móviles**
-  - Dado que el equipo no domina completamente las tecnologías móviles,
-  - Cuando el desarrollador revisa la documentación de Kotlin Android, Flutter y Kotlin Multiplatform (KMP),
-  - Entonces el desarrollador identifica y documenta sus características principales, fortalezas y limitaciones en un informe compartido.
-
-2. **Evalúa la Compatibilidad con la Plataforma Web/Backend**
-  - Dado que OsitoPolar ya cuenta con frontend en Vue y backend en .NET ASP,
-  - Cuando el desarrollador evalúa la integración móvil con APIs RESTful y WebSockets,
-  - Entonces el informe detalla los requisitos de interoperabilidad y cómo cada tecnología móvil facilita la comunicación con el backend existente.
-
-3. **Analiza la Curva de Aprendizaje y Conocimientos del Equipo**
-  - Dado que el equipo tiene conocimientos base del curso y experiencia previa limitada en móviles,
-  - Cuando se contrastan los contenidos del curso con los requerimientos de cada framework,
-  - Entonces el informe documenta qué tecnologías son más rápidas de adoptar y qué brechas de conocimiento deberán cubrirse.
-
-4. **Evalúa la Experiencia de Usuario y Capacidades de UI**
-  - Dado que la aplicación debe ofrecer una experiencia fluida a empresas y técnicos,
-  - Cuando el desarrollador analiza las capacidades de Flutter (UI multiplataforma), Kotlin Android (UI nativa) y KMP (UI específica por plataforma),
-  - Entonces el informe documenta ventajas y limitaciones en diseño de interfaces, usabilidad y consistencia visual.
-
-5. **Identifica Implicaciones de Seguridad**
-  - Dado que OsitoPolar manejará datos sensibles (monitoreo IoT, fallas de equipos, datos de clientes),
-  - Cuando se investigan las prácticas de seguridad soportadas por cada tecnología (almacenamiento seguro, comunicación cifrada, autenticación con backend),
-  - Entonces el informe incluye un resumen de riesgos y medidas recomendadas.
-
-6. **Evalúa el Impacto en el Rendimiento**
-  - Dado que la app debe procesar datos de IoT en tiempo real,
-  - Cuando el desarrollador investiga benchmarks de rendimiento (uso de memoria, consumo de batería, latencia de red),
-  - Entonces el informe documenta hallazgos y potenciales cuellos de botella en cada tecnología.
-
-7. **Verifica Costos y Recursos**
-  - Dado que se busca optimizar costos de desarrollo y mantenimiento,
-  - Cuando el desarrollador analiza dependencias externas, soporte en la comunidad, compatibilidad con librerías y esfuerzo de mantenimiento,
-  - Entonces el informe detalla costos asociados (tiempo de desarrollo, curva de aprendizaje, soporte a largo plazo).
-
-8. **Prototipa un Flujo Mínimo**
-  - Dado que se necesita validar la viabilidad práctica,
-  - Cuando el desarrollador construye un proof-of-concept mínimo (ej. pantalla de login y consumo de un endpoint IoT desde el backend),
-  - Entonces el PoC queda registrado en una rama del repositorio y documentado en el informe.
-
-9. **Estima el Esfuerzo de Implementación**
-  - Dado que el equipo necesita planificar futuros sprints,
-  - Cuando el desarrollador desglosa la implementación móvil en tareas (pantallas principales, consumo de APIs, integración IoT, seguridad),
-  - Entonces se presenta una estimación aproximada de puntos de historia para cada alternativa tecnológica.
-
-10. **Documenta y Comparte los Hallazgos**
-- Dado que el Spike está completo,
-- Cuando el desarrollador compila todos los hallazgos en un informe,
-- Entonces el documento incluye pros/contras, recomendación inicial y próximos pasos, y se revisa en una sesión de equipo.
-
----
-
-### Definition of Done (DoD)
-- El PoC mínimo estará registrado en una rama del repositorio.
-- Los hallazgos se utilizan para crear o refinar historias de implementación en el backlog.
-- El Spike está limitado a 8–16 horas y se completa dentro del sprint.
-
-
-### 3.3. Impact Mapping.
-
-
-
-
-### 3.4. Product Backlog.
-
-
-
-
-
-## Capítulo IV: Solution Software Design <a id="c4"></a>
-### 4.1. Strategic-Level Domain-Driven Design
-
-
-#### 4.1.1.3.  Bounded Context Canvases
-#### 4.1.2. Context Mapping
-#### 4.1.3. Software Architecture
-#### 4.1.3.1.  Software architecture Context Level Diagrams
-#### 4.1.3.2.  Software architecture Container Level Diagrams
-#### 4.1.3.3.  Software Architecture Deployment Diagrams
-### 4.2. Tactial-Level Domain-Driven Design
-#### 4.2.X. Bounded Context: <Bounded Context Name>
-#### 4.2.X.1.  Domain Layer
-#### 4.2.X.2.  Interface Layer
-#### 4.2.X.3.  Application Layer
-#### 4.2.X.4.  Infrastructure Layer
-#### 4.2.X.5.  Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.X.6.  Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
-
-
-
-
-
-
-
-
-
-
-### 4.5. Web Applications Prototyping
-A continuación se presenta el prototipo de la aplicación web de OsitoPolar, el cual permite a los usuarios interactuar con la interfaz y explorar las diversas secciones de la plataforma. Este prototipo incluye las funcionalidades clave y características de la aplicación, proporcionando una vista preliminar de la experiencia del usuario. Además, facilita la evaluación y prueba de la interfaz antes de su implementación final, asegurando que el diseño sea intuitivo y eficiente.
-Link del prototipo: https://shorturl.at/oIUJN
-
-### 4.6 Domain Driven Software Architecture
-En esta sección se presenta la arquitectura de software basada en el dominio para OsitoPolar. Se detallan los diferentes diagramas que ilustran la estructura y organización del sistema, así como los componentes clave que lo integran, mostrando cómo se interconectan para proporcionar una solución eficiente y escalable.
-
-#### 4.6.1. Software Architecture Context Diagram
-
-
-#### 4.6.2. Software Architecture Container Diagrams
-
-
-#### 4.6.3. Software Architecture Components Diagrams
-
-
-
-### 4.7. Software Object-Oriented Design
-En esta sección se presenta el diseño de software orientado a objetos para OsitoPolar. Se incluyen diagramas de clases y un diccionario de clases que detallan la estructura y los atributos de las principales entidades del sistema, ofreciendo una visión clara de cómo se organizan y gestionan los componentes clave dentro de la plataforma.
-
-#### 4.7.1. Class Diagrams
-
-El diagrama de clases proporciona una representación visual de las clases del sistema, sus atributos y las relaciones entre ellas.
-
-![Class-UML.png]( assets/chapter04/Class-UML.png)
-
-#### 4.7.2. Class Dictionary
-
-## Clase: Solicitud
-| Nº | Nombre de atributo | Descripción                                              | Tipo de dato      |
-|----|--------------------|----------------------------------------------------------|-------------------|
-| 1  | name_equipo        | Almacena el nombre del equipo solicitado.                | Equipo            |
-| 2  | name_usuario       | Almacena el nombre del usuario que realiza la solicitud. | Usuario           |
-| 3  | orden              | Almacena el número de orden de la solicitud.             | unsigned long int |
-| 4  | description        | Almacena la descripción de la solicitud.                 | varchar           |
-| 5  | time               | Almacena el tiempo estimado o requerido.                 | float             |
-| 6  | status             | Almacena el estado de la solicitud.                      | char              |
-
-## Clase: Equipo
-| Nº | Nombre de atributo | Descripción                             | Tipo de dato      |
-|----|--------------------|-----------------------------------------|-------------------|
-| 1  | name               | Almacena el nombre del equipo.          | string            |
-| 2  | cost               | Almacena el costo del equipo.           | float             |
-| 3  | details_tecnicos   | Almacena detalles técnicos del equipo.  | varchar           |
-| 4  | serie              | Almacena el número de serie del equipo. | unsigned long int |
-| 5  | code               | Almacena el código del equipo.          | unsigned long int |
-| 6  | status             | Almacena el estado del equipo.          | char              |
-| 7  | notes              | Almacena notas adicionales del equipo.  | varchar           |
-
-## Clase: Cliente
-| Nº | Nombre de atributo | Descripción                                | Tipo de dato |
-|----|--------------------|--------------------------------------------|--------------|
-| 1  | name               | Almacena el nombre del cliente.            | string       |
-| 2  | email              | Almacena el correo del cliente.            | string       |
-| 3  | password           | Almacena la contraseña del cliente.        | string       |
-| 4  | username           | Almacena el nombre de usuario del cliente. | string       |
-| 5  | phone              | Almacena el teléfono del cliente.          | string       |
-| 6  | user_type          | Almacena el tipo de usuario.               | char         |
-
-## Clase: Company
-| Nº | Nombre de atributo | Descripción                                     | Tipo de dato |
-|----|--------------------|-------------------------------------------------|--------------|
-| 1  | name               | Almacena el nombre de la empresa.               | string       |
-| 2  | email              | Almacena el correo electrónico de la empresa.   | string       |
-| 3  | password           | Almacena la contraseña de la empresa.           | string       |
-| 4  | username           | Almacena el nombre de usuario de la empresa.    | string       |
-| 5  | plan               | Almacena el tipo de plan que posee la empresa.  | char         |
-| 6  | phone              | Almacena el teléfono de contacto de la empresa. | string       |
-| 7  | business_type      | Almacena el tipo de negocio de la empresa.      | char         |
-| 8  | location           | Almacena la ubicación física de la empresa.     | string       |
-
-##  Clase: Cuenta
-| Nº | Nombre de atributo | Descripción                                         | Tipo de dato |
-|----|--------------------|-----------------------------------------------------|--------------|
-| 1  | name (company)     | Almacena el nombre de la empresa asociada.          | Company      |
-| 2  | name (usuario)     | Almacena el nombre del usuario asociado.            | Usuario      |
-| 3  | cost               | Almacena el costo del equipo vinculado a la cuenta. | Equipo       |
-| 4  | status             | Almacena el estado de la cuenta.                    | char         |
-
-##  Clase: Mantenimiento
-| Nº | Nombre de atributo | Descripción                                     | Tipo de dato |
-|----|--------------------|-------------------------------------------------|--------------|
-| 1  | name               | Almacena el nombre del equipo en mantenimiento. | Equipo       |
-| 2  | status             | Almacena el estado del mantenimiento.           | char         |
-
-##  Clase: Notificación
-| Nº | Nombre de atributo | Descripción                                                  | Tipo de dato |
-|----|--------------------|--------------------------------------------------------------|--------------|
-| 1  | name               | Almacena el nombre de la notificación.                       | varchar      |
-| 2  | description        | Almacena la descripción de la notificación.                  | varchar      |
-| 3  | name_company       | Almacena el nombre de la empresa asociada a la notificación. | Company      |
-| 4  | name_cliente       | Almacena el nombre del cliente destinatario.                 | Cliente      |
-| 5  | status             | Indica si la notificación ha sido leída o procesada.         | bool         |
-
-### 4.8. Database Design
-
-Esta sección presenta la estructura lógica del sistema desde el punto de vista de almacenamiento y organización de los datos. Se describen las entidades principales del sistema, sus atributos, tipos de datos y relaciones entre ellas. El modelo de base de datos ha sido diseñado para garantizar integridad, consistencia y eficiencia en el acceso a la información.
-
-
-
-#### 4.8.1. Database Diagram
-
-El diagrama de base de datos ilustra gráficamente cómo se relacionan las tablas dentro del sistema, incluyendo sus claves primarias, claves foráneas y los tipos de relaciones existentes (uno a uno, uno a muchos o muchos a muchos).
-
-![diagram-class.png]( assets/chapter04/diagram-class.png)
-
-
-
 
 
 ## Conclusiones
