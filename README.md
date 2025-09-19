@@ -1653,10 +1653,10 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | :---- | :---- | :---- | :---- |
 | WorkOrderRepository | Repository | Implementación de WorkOrderRepository con acceso a base de datos | PostgreSQL |
 
-##### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
-##### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-###### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
-###### 2.6.3.6.2. Bounded Context Database Design Diagram     
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.3.6.2. Bounded Context Database Design Diagram     
  
 
   - 2.6.4. Bounded Context: Ver Mantenimientos
@@ -1695,7 +1695,9 @@ Servicios de dominio:
 - EquipoService: encapsula lógica de negocio para listar, filtrar y detallar equipos.
 - AlertaService: gestiona la emisión de eventos cuando se generan anomalías.
   
-    - 2.6.6.2. Interface Layer
+
+
+   #### 2.6.6.2. Interface Layer
 Esta capa define cómo los usuarios interactúan con el sistema y expone la lógica de negocio a través de interfaces:
 - Pantalla móvil “Ver Equipos”: módulo de la app donde los usuarios visualizan los equipos, estado y métricas.
 - EquiposController (REST API): expone endpoints como:
@@ -1705,7 +1707,7 @@ Esta capa define cómo los usuarios interactúan con el sistema y expone la lóg
     
 Seguridad: acceso restringido mediante autenticación JWT.
 
-    - 2.6.6.3. Application Layer
+   #### 2.6.6.3. Application Layer
 Orquesta los casos de uso del contexto “Ver Equipos”:
 
 - ListarEquiposHandler: obtiene todos los equipos registrados.
@@ -1715,7 +1717,7 @@ Orquesta los casos de uso del contexto “Ver Equipos”:
 
 Se utiliza un enfoque CQRS para separar operaciones de lectura (queries) de escritura (commands).
 
-    - 2.6.6.4. Infrastructure Layer
+   #### 2.6.6.4. Infrastructure Layer
 La capa de infraestructura implementa la persistencia y las integraciones externas:
 
 - EquipoRepositoryImpl: implementación concreta para almacenar y consultar equipos (PostgreSQL).
@@ -1723,7 +1725,7 @@ La capa de infraestructura implementa la persistencia y las integraciones extern
 - NotificaciónService: envío de alertas vía email o notificaciones push.
 - ORM (Hibernate/JPA o Sequelize): para el mapeo objeto-relacional.
   
-    - 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+  #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de componentes del contexto “Ver Equipos” se organiza en cuatro capas:
 
 - Interface Layer → Pantalla móvil y API REST.
@@ -1733,8 +1735,8 @@ El diagrama de componentes del contexto “Ver Equipos” se organiza en cuatro 
 
 (Aquí se debe insertar el diagrama de componentes a nivel de capas.)
 
-    - 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
-      - 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+   #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+   #### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama de clases muestra las principales entidades y relaciones:
 
 - Equipo (Entity) → relación 1..* con Sensor.
