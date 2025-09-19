@@ -1939,8 +1939,10 @@ El siguiente diagrama de clases muestra las principales entidades y relaciones:
 - Alerta (Domain Event) → asociada a Equipo y generada por AlertaService.
 - EquipoService → utiliza EquipoRepository.
 
-(Aquí se debe insertar el diagrama de clases del dominio.)
-      - 2.6.6.6.2. Bounded Context Database Design Diagram        
+<img width="469" height="529" alt="image" src="https://github.com/user-attachments/assets/8031265c-17b8-41f9-8e6b-90273ca3f08d" />
+
+
+   - 2.6.6.6.2. Bounded Context Database Design Diagram        
 La base de datos del contexto “Ver Equipos” está compuesta por las siguientes tablas:
 
 - Equipos: idEquipo (PK), nombre, tipo, ubicación, estado, fechaRegistro.
