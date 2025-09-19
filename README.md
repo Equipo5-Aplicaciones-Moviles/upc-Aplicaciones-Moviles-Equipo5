@@ -1733,6 +1733,8 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | WorkOrderRepository | Repository | Implementación de WorkOrderRepository con acceso a base de datos | PostgreSQL |
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+<img width="4620" height="1411" alt="orden_trabajo_component" src="https://github.com/user-attachments/assets/c4700d59-dc40-4338-ae11-6ddf359ad468" />
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se detallan los diagramas de arquitectura de código que brindan mayor profundidad sobre la implementación interna del bounded context de Órdenes de Trabjo. Esta vista se enfoca en clases, métodos, atributos y relaciones a nivel de código fuente.
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
