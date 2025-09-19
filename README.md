@@ -1581,15 +1581,45 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
       - 2.6.2.6.2. Bounded Context Database Design Diagram
            
 
-  - 2.6.3. Bounded Context: Órdenes de Trabajo
-    - 2.6.3.1. Domain Layer
-    - 2.6.3.2. Interface Layer
-    - 2.6.3.3. Application Layer
-    - 2.6.3.4. Infrastructure Layer
-    - 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
-    - 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-      - 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
-      - 2.6.3.6.2. Bounded Context Database Design Diagram     
+#### 2.6.3. Bounded Context: Órdenes de Trabajo
+
+##### 2.6.3.1. Domain Layer
+
+Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
+
+| Clase  | Tipo | Propósito | Atributos / Métodos |
+| :---- | :---- | :---- | :---- |
+| WorkOrder | Aggregate | Representa a la orden de trabajo | Id, WorkOrderNumber,ServiceRequestId,Title,Description,CreationTime,Status,Cost,EquipmentId |
+| EWorkOrderStatus | Value Object | Representa al estado de una orden de trabajo | Created,Assigned,InProgress,OnHold,Completed,Resolved,Cancelled |
+
+##### 2.6.3.2. Interface Layer
+
+Encargada de exponer funcionalidades al usuario o consumidores externos.
+
+| Clase  | Tipo | Propósito | Métodos |
+| :---- | :---- | :---- | :---- |
+| WorkOrdersController | Controller | Gestiona las peticiones relacionadas con los WorkOrders | CreateWorkOrder(),GetAllWorkOrders(),GetWorkOrderById(),UpdateWorkOrderStatus(),AddWorkOrderResolutionDetails() |
+
+##### 2.6.3.3. Application Layer
+
+Define los flujos de negocio mediante comandos y eventos.
+
+| Clase | Tipo | Propósito | Métodos |
+| :---- | :---- | :---- | :---- |
+| WorkOrderCommandService | Command Handler | Ejecuta la lógica para gestionar un WorkOrder | Handle(command::CreateWorkOrderCommand, command: UpdateWorkOrderStatusCommand, AssignTechnicianToWorkOrderCommand, AddWorkOrderResolutionDetailsCommand) |
+
+##### 2.6.3.4. Infrastructure Layer
+
+Provee la implementación concreta de servicios como base de datos, brokers, etc.
+
+| Clase | Tipo | Propósito | Tecnologías |
+| :---- | :---- | :---- | :---- |
+| WorkOrderRepository | Repository | Implementación de WorkOrderRepository con acceso a base de datos | PostgreSQL |
+
+##### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+##### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+###### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+###### 2.6.3.6.2. Bounded Context Database Design Diagram     
  
 
   - 2.6.4. Bounded Context: Ver Mantenimientos
