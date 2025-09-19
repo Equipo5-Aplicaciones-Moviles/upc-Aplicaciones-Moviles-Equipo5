@@ -1855,52 +1855,52 @@ Expone las funcionalidades a usuarios y sistemas externos.
 
    
    #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-   En esta sección explicaremos el bounded context SubscriptionsAndPayments.
-**App Web OsitoPolar**
-•	Tipo: Container (React/Angular u otro framework web).
-•	Función: Aplicación web usada por usuarios y proveedores para gestionar planes de suscripción y pagos.
-•	Interacción: Realiza llamadas HTTP a la API de SubscriptionsAndPayments.
-**SubscriptionsController**
-•	Tipo: REST Controller.
-•	Función: Expone endpoints REST para gestionar suscripciones.
-•	Interacción: Invoca servicios de aplicación (ISubscriptionCommandService, ISubscriptionQueryService).
-PaymentsController 
-•	Tipo: REST Controller.
-•	Función: Expone endpoints REST para iniciar sesiones de pago y procesar webhooks de Stripe.
-•	Interacción: Invoca PaymentCommandService.
-CreateSubscriptionCommandHandler 
-•	Tipo: Application Service.
-•	Función: Orquesta la creación de un nuevo plan de suscripción.
-•	Interacción: Construye una instancia válida de Subscription. Persiste mediante ISubscriptionRepository.
-UpgradeSubscriptionCommandHandler
-•	Tipo: Application Service.
-•	Función: Gestiona la actualización de un plan de suscripción existente.
-•	Interacción: Recupera y actualiza el Subscription en ISubscriptionRepository.
-DeleteSubscriptionCommandHandler
-•	Tipo: Application Service.
-•	Función: Gestiona la eliminación de un plan de suscripción.
-•	Interacción: Elimina un Subscription de ISubscriptionRepository.
-PaymentCommandService
-•	Tipo: Application Service.
-•	Función: Orquesta la creación de pagos y el procesamiento de webhooks de Stripe.
-•	Interacción:
-o	Crea sesión de pago con IStripeService.
-o	Construye entidad Payment.
-o	Persiste con IPaymentRepository.
-o	Si el pago es exitoso, dispara comando UpgradePlanCommand en ISubscriptionCommandService.
-StripeService
-•	Tipo: Infrastructure Service.
-•	Función: Encapsula la integración con Stripe para crear sesiones de checkout y validar eventos de webhook.
-•	Interacción: Recibe solicitudes desde PaymentCommandService.
-Repositories
-•	IPaymentRepository
-o	Tipo: Repository.
-o	Función: Maneja la persistencia de la entidad Payment.
-o	Interacción: Usado por PaymentCommandService.
-ISubscriptionRepository
-o	Tipo: Repository.
-o	Función: Maneja la persistencia de la entidad Subscription.
-o	Interacción: Usado por ISubscriptionCommandService<br>
+En esta sección explicaremos el bounded context SubscriptionsAndPayments.<br>
+**App Web OsitoPolar**<br>
+•	Tipo: Container<br>
+•	Función: Aplicación web usada por usuarios y proveedores para gestionar planes de suscripción y pagos.<br>
+•	Interacción: Realiza llamadas HTTP a la API de SubscriptionsAndPayments.<br>
+**SubscriptionsController**<br>
+•	Tipo: REST Controller.<br>
+•	Función: Expone endpoints REST para gestionar suscripciones.<br>
+•	Interacción: Invoca servicios de aplicación (ISubscriptionCommandService, ISubscriptionQueryService).<br>
+PaymentsController <br>
+•	Tipo: REST Controller.<br>
+•	Función: Expone endpoints REST para iniciar sesiones de pago y procesar webhooks de Stripe.<br>
+•	Interacción: Invoca PaymentCommandService.<br>
+CreateSubscriptionCommandHandler <br>
+•	Tipo: Application Service.<br>
+•	Función: Orquesta la creación de un nuevo plan de suscripción.<br>
+•	Interacción: Construye una instancia válida de Subscription. Persiste mediante ISubscriptionRepository.<br>
+UpgradeSubscriptionCommandHandler<br>
+•	Tipo: Application Service.<br>
+•	Función: Gestiona la actualización de un plan de suscripción existente.<br>
+•	Interacción: Recupera y actualiza el Subscription en ISubscriptionRepository.<br>
+DeleteSubscriptionCommandHandler<br>
+•	Tipo: Application Service.<br>
+•	Función: Gestiona la eliminación de un plan de suscripción.<br>
+•	Interacción: Elimina un Subscription de ISubscriptionRepository.<br>
+PaymentCommandService<br>
+•	Tipo: Application Service.<br>
+•	Función: Orquesta la creación de pagos y el procesamiento de webhooks de Stripe.<br>
+•	Interacción:<br>
+o	Crea sesión de pago con IStripeService.<br>
+o	Construye entidad Payment.<br>
+o	Persiste con IPaymentRepository.<br>
+o	Si el pago es exitoso, dispara comando UpgradePlanCommand en ISubscriptionCommandService.<br>
+StripeService<br>
+•	Tipo: Infrastructure Service.<br>
+•	Función: Encapsula la integración con Stripe para crear sesiones de checkout y validar eventos de webhook<br>
+•	Interacción: Recibe solicitudes desde PaymentCommandService.<br>
+Repositories<br>
+•	IPaymentRepository<br>
+o	Tipo: Repository.<br>
+o	Función: Maneja la persistencia de la entidad Payment.<br>
+o	Interacción: Usado por PaymentCommandService.<br>
+ISubscriptionRepository<br>
+o	Tipo: Repository.<br>
+o	Función: Maneja la persistencia de la entidad Subscription.<br>
+o	Interacción: Usado por ISubscriptionCommandService<br><br>
 ![alt text](assets/chapter02/component-diagram-p&s.png)
 
 
