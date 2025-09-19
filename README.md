@@ -1546,13 +1546,29 @@ Este diagrama se centra en la gestión de las órdenes de trabajo. Aquí se mues
 | RentalInfo | Entity | Información de renta de equipos | StartDate, EndDate, MonthlyFee, ProviderId |
 | Location | Entity | Ubicación | Name, Address, Coordinates |
 
-    - 2.6.1.2. Interface Layer
-    - 2.6.1.3. Application Layer
-    - 2.6.1.4. Infrastructure Layer
-    - 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-    - 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-      - 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-      - 2.6.1.6.2. Bounded Context Database Design Diagram
+   -2.6.1.2. Interface Layer
+
+Encargada de exponer funcionalidades al usuario o consumidores externos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+| :---- | :---- | :---- | :---- |
+| EquipmentController | Controller | Gestiona las peticiones relacionadas con los equipment | GetAllEquipments(), GetEquipmentById(), CreateEquipment(), UpdateEquipmentOperations(), UpdateEquipment(), DeleteEquipment() |
+
+* 2.6.1.3. Application Layer
+
+Define los flujos de negocio mediante comandos y eventos.
+
+| Clase | Tipo | Propósito | Métodos |
+| :---- | :---- | :---- | :---- |
+| EquipmentCommandService | Command Handler | Ejecuta la lógica para gestionar un Equipment | Handle(command::CreateEquipmentCommand, command: UpdateEquipmentTemperatureCommand, UpdateEquipmentLocationCommand) |
+
+* 2.6.1.4. Infrastructure Layer
+
+Provee la implementación concreta de servicios como base de datos, brokers, etc.
+
+| Clase | Tipo | Propósito | Tecnologías |
+| :---- | :---- | :---- | :---- |
+| EquipmentRepository | Repository | Implementación de EquipmentRepository con acceso a base de datos | PostgreSQL |
  
   - 2.6.2. Bounded Context: Gestión de Solicitudes
     - 2.6.2.1. Domain Layer
