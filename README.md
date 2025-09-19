@@ -1927,7 +1927,8 @@ El diagrama de componentes del contexto “Ver Equipos” se organiza en cuatro 
 - Domain Layer → Entidades (Equipo, Sensor, RegistroMantenimiento, Alerta) y servicios de dominio.
 - Infrastructure Layer → Repositorios, adaptadores IoT y notificaciones.
 
-(Aquí se debe insertar el diagrama de componentes a nivel de capas.)
+<img width="1335" height="590" alt="image" src="https://github.com/user-attachments/assets/ac7ab40a-df1f-48a6-af81-d95656258a78" />
+
 
    #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
    #### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
