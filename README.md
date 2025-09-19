@@ -1185,7 +1185,7 @@ El trabajo fue realizado de manera colaborativa, priorizando la comprensión del
 | EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. | | |
 
 ### 2.4.1.1. Spike Story
-**Spike Story ID:** SS-02
+**Spike Story ID:** SS-01
 
 **Como** equipo de desarrollo (web, móvil y backend),  
 **Quiero** investigar y prototipar las tecnologías móviles más adecuadas para la plataforma OsitoPolar (Kotlin para Android, Flutter con Dart y/o Kotlin Multiplatform),  
@@ -1252,6 +1252,86 @@ El trabajo fue realizado de manera colaborativa, priorizando la comprensión del
 - Los hallazgos se utilizan para crear o refinar historias de implementación en el backlog.
 - El Spike está limitado a 8–16 horas y se completa dentro del sprint.
 
+**Spike Story ID: SS-02**
+
+**Como** equipo de desarrollo (backend, frontend y móvil),
+**Quiero** investigar y prototipar la integración de Stripe para la gestión de planes de suscripción y pagos,
+**Para** que podamos garantizar un flujo de pago seguro, escalable y conforme con PCI-DSS dentro de OsitoPolar.
+
+**Criterios de Aceptación (Given-When-Then)**
+
+Revisa la Documentación de Stripe
+- Dado que el equipo no domina completamente Stripe,
+- Cuando el desarrollador revisa Stripe Checkout, PaymentIntents y Webhooks,
+- Entonces documenta las opciones disponibles y selecciona el flujo más adecuado para suscripciones recurrentes.
+
+Evalúa la Integración con Backend .NET 8
+- Dado que OsitoPolar usa ASP.NET Core con EF Core,
+- Cuando se analice la librería Stripe.net,
+- Entonces el informe detalla los pasos de configuración y compatibilidad con el modelo de pagos.
+
+Analiza la Seguridad y Cumplimiento
+- Dado que los pagos manejan datos sensibles,
+- Cuando se evalúe el uso de tokens,
+- Entonces se documentan riesgos y medidas de mitigación.
+
+Evalúa el Impacto en la Experiencia del Usuario
+- Dado que la app debe ofrecer una experiencia fluida,
+- Cuando se investigue la experiencia de usuario en web y móvil con Stripe Checkout vs. UI personalizada,
+- Entonces se documentan ventajas y desventajas de cada enfoque.
+
+Prototipa un Flujo Mínimo de Pago
+- Dado que se necesita validar la viabilidad,
+- Cuando se construye un PoC con creación de sesión de pago y confirmación vía webhook,
+- Entonces queda registrado en el repositorio y documentado en el informe.
+
+Estima Esfuerzo y Costos
+- Dado que la implementación requiere planificación,
+- Cuando se desglosen tareas (backend, frontend, móvil),
+- Entonces se presenta una estimación en puntos de historia y costos de uso de Stripe.
+
+Documenta y Comparte Hallazgos
+- Dado que el Spike está completo,
+- Cuando se compila el informe,
+- Entonces se incluyen pros/contras, la recomendación inicial y los siguientes pasos.
+
+
+
+**Spike Story ID: SS-03**
+**Como** equipo de desarrollo,
+**Quiero** investigar y prototipar un sistema de notificaciones en tiempo real para OsitoPolar,
+**Para** que los usuarios reciban alertas inmediatas de fallas, mantenimientos y pagos confirmados.
+
+Criterios de Aceptación (Given-When-Then)
+- Revisa Tecnologías Disponibles
+- Dado que el backend es .NET 8,
+- Cuando se investigue SignalR, WebSockets y colas de mensajería,
+- Entonces se documentan ventajas y limitaciones de cada enfoque.
+
+Evalúa Integración con Frontend y Móvil
+- Dado que existen clientes web y móviles,
+- Cuando se analicen librerías de integración (ej. SignalR Client para Flutter),
+- Entonces se documentan requisitos de interoperabilidad.
+
+Analiza Persistencia de Notificaciones
+- Dado que los usuarios necesitan historial,
+- Cuando se diseñe el flujo de datos,
+- Entonces se incluye persistencia en la base de datos.
+
+Evalúa Impacto en Rendimiento
+- Dado que se esperan múltiples notificaciones simultáneas,
+- Cuando se realicen pruebas de carga,
+- Entonces se documentan cuellos de botella potenciales.
+
+Prototipa un Flujo Mínimo
+- Dado que se debe validar,
+- Cuando se implemente un PoC con envío de una notificación en tiempo real,
+- Entonces queda registrado y documentado.
+
+Documenta y Comparte Hallazgos
+- Dado que el Spike está completo,
+- Cuando se compile el informe,
+- Entonces se presentan pros/contras y la recomendación inicial.
 
 #### 2.4.2. Impact Mapping
 El siguiente Impact Mapping fue desarrollado en UXPressia de manera colaborativa por el equipo de OsitoPolar para alinear los objetivos de negocio con los requerimientos funcionales de la plataforma.
