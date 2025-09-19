@@ -1628,10 +1628,15 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 | Clase | Tipo | Propósito | Tecnologías |
 | :---- | :---- | :---- | :---- |
 | EquipmentRepository | Repository | Implementación de EquipmentRepository con acceso a base de datos | PostgreSQL |
- 
-#### 2.6.3. Bounded Context: Gestión de Solicitudes
 
-##### 2.6.3.1. Domain Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6.2. Bounded Context Database Design Diagram
+ 
+#### 2.6.2. Bounded Context: Gestión de Solicitudes
+
+##### 2.6.2.1. Domain Layer
 
 Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
 
@@ -1641,7 +1646,7 @@ Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
 | EPriority | Value Object | Representa a la prioridad de una solicitud | Low, Medium, High, Critical |
 | EServiceType | Value Object | Representa el tipo de servicio de una solicitud | PreventiveMaintenance, CorrectiveMaintenance, Installation, Diagnostic |
 
-##### 2.6.3.2. Interface Layer
+##### 2.6.2.2. Interface Layer
 
 Encargada de exponer funcionalidades al usuario o consumidores externos.
 
@@ -1649,7 +1654,7 @@ Encargada de exponer funcionalidades al usuario o consumidores externos.
 | :---- | :---- | :---- | :---- |
 | ServiceRequestController | Controller | Gestiona las peticiones relacionadas ServiceRequest | CreateServiceRequest(), GetAllServiceRequests(), GetServiceRequestById(), UpdateServiceRequest(), AssignTechnician(), AddCustomerFeedback(), UpdateServiceRequestStatus() |
 
-##### 2.6.3.3. Application Layer
+##### 2.6.2.3. Application Layer
 
 Define los flujos de negocio mediante comandos y eventos.
 
@@ -1657,7 +1662,7 @@ Define los flujos de negocio mediante comandos y eventos.
 | :---- | :---- | :---- | :---- |
 | ServiceRequestCommandService | Command Handler | Ejecuta la lógica para gestionar un ServiceRequest | Handle(command::CreateServiceRequestCommand, command: UpdateServiceRequestCommand, AssignTechnicianToServiceRequestCommand, AddCustomerFeedbackToServiceRequestCommand() |
 
-##### 2.6.3.4. Infrastructure Layer
+##### 2.6.2.4. Infrastructure Layer
 
 Provee la implementación concreta de servicios como base de datos, brokers, etc.
 
@@ -1712,9 +1717,9 @@ Provee la implementación concreta de servicios como base de datos, brokers, etc
 #### 2.6.3.6.2. Bounded Context Database Design Diagram     
  
 
-#### 2.6.3. Bounded Context: Ver Mantenimientos
+#### 2.6.4. Bounded Context: Ver Mantenimientos
 
-##### 2.6.3.1. Domain Layer
+##### 2.6.4.1. Domain Layer
 
 Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
 
@@ -1723,7 +1728,7 @@ Esta capa representa el núcleo del sistema y las reglas de negocio del dominio.
 | Technician | Entity | Representa a un técnico que ve los mantenimientos | Id, Name, Specialization, Phone, Email, Rating, Availability, CompanyId |
 
 
-##### 2.6.3.2. Interface Layer
+##### 2.6.4.2. Interface Layer
 
 Encargada de exponer funcionalidades al usuario o consumidores externos.
 
@@ -1731,7 +1736,7 @@ Encargada de exponer funcionalidades al usuario o consumidores externos.
 | :---- | :---- | :---- | :---- |
 | TechniciansController | Controller | Gestiona las peticiones relacionadas a los Technicians | CreateTechnician(), GetAllTechnicians(), GetTechnicianById(), GetTechnicianAverageRating() |
 
-##### 2.6.3.3. Application Layer
+##### 2.6.4.3. Application Layer
 
 Define los flujos de negocio mediante comandos y eventos.
 
@@ -1739,7 +1744,7 @@ Define los flujos de negocio mediante comandos y eventos.
 | :---- | :---- | :---- | :---- |
 | TechnicianCommandService | Command Handler | Ejecuta la lógica para gestionar un Technician | Handle(command: CreateTechnicianCommand, command: UpdateTechnicianCommand |
 
-##### 2.6.3.4. Infrastructure Layer
+##### 2.6.4.4. Infrastructure Layer
 
 Provee la implementación concreta de servicios como base de datos, brokers, etc.
 
