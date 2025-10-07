@@ -2141,7 +2141,58 @@ La arquitectura del producto contempla una **aplicación móvil desarrollada en 
 
 ---
   - 3.1.1. Style Guidelines
+
+El objetivo de esta sección es establecer una guía visual clara y compartida por todo el equipo de desarrollo y diseño, asegurando una experiencia consistente en todas las pantallas y plataformas.  
+Se definen los criterios para colores, tipografía, iconografía, botones, espaciados y usabilidad.
     - 3.1.1.1. General Style Guidelines
+
+#### Paleta de colores principal
+
+La estética de **Osito Polar** se basa en un estilo **minimalista y moderno**, utilizando tonos suaves con acentos contrastantes para transmitir profesionalismo y confianza.
+
+| Color | Hex | Uso principal |
+|--------|------|----------------|
+| Azul Polar | `#2B6CB0` | Color primario para botones, íconos y acentos. |
+| Blanco Nieve | `#FFFFFF` | Fondo principal de vistas y componentes. |
+| Negro Profundo | `#000000` | Tipografía principal y elementos de contraste. |
+| Gris Claro | `#F5F5F5` | Fondos secundarios o tarjetas neutras. |
+| Gris Oscuro | `#333333` | Textos secundarios o subtítulos. |
+
+> *Los valores pueden ajustarse según la paleta exacta usada en el diseño de Figma.*
+
+#### Tipografía
+
+El proyecto emplea una tipografía sans-serif moderna que asegura claridad y legibilidad:
+
+- **Fuente principal:** Poppins (o Montserrat, según la versión final del Figma)
+- **Títulos:** Bold o Semi-Bold  
+- **Texto general:** Regular  
+- **Botones:** Medium  
+
+#### Iconografía y botones
+
+- Iconos minimalistas en **negro o azul polar**, alineados con el estilo limpio del producto.  
+- Bordes con **radio de 8px** para transmitir suavidad visual.  
+- Botones primarios con fondo azul polar y texto blanco.  
+- En estado *hover*: fondo blanco con borde azul y texto azul.  
+- Uso consistente del espaciado interno y márgenes para crear ritmo visual.  
+
+#### Estilo visual general
+
+- Diseño **limpio y espacioso**, aprovechando el uso de “espacio en blanco”.  
+- **Tarjetas** para agrupar contenido (componentes, builds, o información de usuario).  
+- **Sombras ligeras** (`box-shadow: 0 2px 4px rgba(0,0,0,0.1)`) para destacar elementos interactivos.  
+- Animaciones suaves al pasar el cursor o al presionar botones.  
+
+#### Usabilidad y accesibilidad
+
+- Contraste de texto y fondo que cumpla estándares **WCAG AA**.  
+- Soporte para navegación por teclado (tabulador y foco visible).  
+- Uso de atributos **aria-*** para lectores de pantalla.  
+- Botones con altura mínima de **44px** para accesibilidad táctil.  
+- Estructura visual compatible con distintos tamaños de pantalla.
+
+---
   - 3.1.2. Information Architecture
     - 3.1.2.1. Organization Systems
     - 3.1.2.2. Labelling Systems
