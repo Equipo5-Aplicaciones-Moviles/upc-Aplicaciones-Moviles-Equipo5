@@ -2132,6 +2132,13 @@ La base de datos del contexto “Ver Equipos” está compuesta por las siguient
 
 # Chapter III: Solution UI/UX Design
 - 3.1. Product Design
+En esta sección se presenta el diseño del producto **Osito Polar** como una parte esencial de la arquitectura del sistema. El diseño busca alinear las funcionalidades principales con las necesidades detectadas durante el análisis y modelado del dominio, garantizando una experiencia fluida, intuitiva y estéticamente consistente.
+
+**Osito Polar** está centrado en brindar una plataforma moderna e interactiva que combina diseño minimalista con funcionalidad avanzada. El sistema permite a los usuarios interactuar con un entorno visual claro, limpio y coherente con los principios de usabilidad, accesibilidad y consistencia visual.
+
+La arquitectura del producto contempla una **aplicación móvil desarrollada en Kotlin**, respaldada por un **backend en Spring Boot** y una **base de datos relacional en PostgreSQL**. Estas decisiones tecnológicas garantizan escalabilidad, rendimiento y mantenibilidad a largo plazo.
+
+---
   - 3.1.1. Style Guidelines
     - 3.1.1.1. General Style Guidelines
   - 3.1.2. Information Architecture
