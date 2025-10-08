@@ -809,6 +809,14 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 **Hypothesis Statement para Segmento #1:**
 "Los negocios pequeños y medianos que dependen de equipos de refrigeración para mantener la calidad de sus productos sufren pérdidas económicas significativas debido a la falta de monitoreo automatizado. Una solución digital que ofrezca alertas en tiempo real sobre fallas y variaciones de temperatura, con un modelo de precios flexible, reduciría estas pérdidas y mejoraría la eficiencia operativa."
 
+#### Insights del Segmento #1
+
+1. **Necesidad de confianza y prueba previa:** los negocios muestran cautela frente a nuevas soluciones tecnológicas; ofrecer una versión demo gratuita puede acelerar la adopción.  
+2. **Fuerte motivación por prevenir pérdidas:** las pérdidas económicas y de producto son el principal detonante de interés hacia soluciones digitales.  
+3. **Oportunidad de diferenciación:** existe un vacío de herramientas accesibles y simples para pymes; una interfaz intuitiva y precios escalables puede ser decisiva para captar este mercado.  
+4. **Valor percibido proporcional al tamaño del negocio:** los negocios más grandes asocian mayor retorno con el monitoreo digital, lo que sugiere segmentar la oferta por nivel de operación.
+
+
 ### Hallazgos para el Segmento #2: EMPRESAS PROVEEDORAS DE SERVICIOS Y EQUIPOS DE REFRIGERACIÓN
 
 - Algunos tienen más de 10 años de experiencia en el rubro.
@@ -820,6 +828,15 @@ Basándonos en las entrevistas, hemos llevado a cabo un análisis en el que dest
 - La mayoría de los entrevistados utilizan métodos tradicionales como Excel para gestionar el historial técnico de los equipos.
 - Todos creen que una solución digital tendría un impacto positivo en su empresa.
 - Ninguno ha probado antes una solución digital que mejore la venta, gestión y mantenimiento de equipos de refrigeración más allá de herramientas tradicionales.
+
+#### Insights del Segmento #2
+
+1. **Necesidad de digitalización inmediata:** los técnicos y proveedores están listos para adoptar una herramienta que centralice información, rutas y registros técnicos.  
+2. **Ineficiencia en la coordinación:** el uso de canales dispersos (WhatsApp, Excel, llamadas) genera pérdida de tiempo y datos; la automatización de la logística técnica es un punto de dolor claro.  
+3. **Alta disposición a adoptar tecnología:** aunque no utilizan soluciones integrales, los proveedores reconocen su valor; esto representa una ventana ideal para introducir una plataforma especializada.  
+4. **Oportunidad de posicionamiento B2B:** la falta total de soluciones específicas en el mercado local permite a OsitoPolar posicionarse como la primera opción digital para la gestión técnica de refrigeración.  
+
+---
 
 **Análisis estadístico**
 
