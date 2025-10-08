@@ -1444,45 +1444,44 @@ Escala de Story Points (Fibonacci):
 </figure>
 
 
-| Orden | User Story ID | Titulo                                         | Descripcion                                                                                                                                                                | Story Points |
-|-------|---------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US-01         | Registro de usuario                            | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración.                                                    | 5            |
-| 2     | US-02         | Inicio de sesión                               | Como usuario, quiero iniciar sesión con mi cuenta para acceder a la plataforma.                                                                                            | 3            |
-| 3     | US-03         | Solicitar servicio de reparación               | Como cliente, quiero poder solicitar un servicio de reparación para mis equipos de refrigeración cuando detecto fallas.                                                    | 5            |
-| 4     | US-04         | Ver estado del servicio solicitado             | Como cliente, quiero ver el estado actual de mi solicitud de servicio para estar informado sobre el avance del proceso.                                                    | 3            |
-| 5     | US-05         | Ver reporte de servicio realizado              | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                            | 3            |
-| 6     | US-06         | Agregar equipos                                | Como cliente, quiero poder agregar mis equipos de refrigeración en la plataforma para llevar un control.                                                                   | 5            |
-| 7     | US-07         | Recibir alerta de falla en equipo              | Como cliente, quiero recibir una alerta automática cuando mi equipo de refrigeración presente una falla para tomar acción rápidamente.                                     | 8            |
-| 8     | US-08         | Solicitar mantenimiento preventivo             | Como cliente, quiero poder solicitar mantenimiento preventivo para evitar fallas futuras en mis equipos de refrigeración.                                                  | 5            |
-| 9     | US-09         | Ver consumo energético de equipos              | Como cliente, quiero ver un informe del consumo energético de mis equipos para poder analizar su eficiencia.                                                               | 5            |
-| 10    | US-09         | Recepción de alertas automáticas para servicio | Como empresario, quiero recibir alertas automáticas cuando un cliente solicite un servicio de reparación o mantenimiento.                                                  | 8            |
-| 11    | US-10         | Asignar técnico a solicitud de servicio        | Como empresario, quiero poder asignar un técnico a una solicitud de servicio para garantizar que se realice el trabajo adecuado.                                           | 5            |
-| 12    | US-11         | Ver historial de servicios realizados          | Como empresario, quiero ver el historial de servicios realizados para cada cliente y equipo, para llevar un control adecuado.                                              | 5            |
-| 13    | US-12         | Realizar seguimiento a solicitudes de servicio | Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van.                                              | 8            |
-| 14    | US-13         | Generar reporte de desempeño de técnicos       | Como empresario, quiero generar reportes sobre el desempeño de mis técnicos para evaluar su eficiencia y productividad.                                                    | 5            |
-| 15    | US-14         | Configurar alertas de mantenimiento            | Como empresario, quiero poder configurar alertas automáticas para el mantenimiento preventivo de los equipos.                                                              | 8            |
-| 16    | US-15         | Visualizar clientes y servicios asociados      | Como empresario, quiero ver todos los clientes que han solicitado servicio para organizar el trabajo de los técnicos.                                                      | 5            |
-| 17    | US-16         | Visualizar equipos entregados a clientes       | Como empresario, quiero ver todos los equipos que fueron entregados a clientes para realizar su seguimiento.                                                               | 5            |
-| 18    | US-17         | Recibir notificaciones de eventos importantes  | Como cliente, quiero recibir notificaciones sobre eventos importantes como el progreso del servicio, etc.                                                                  | 8            |
-| 19    | US-18         | Realizar evaluación de servicio                | Como cliente, quiero poder evaluar el servicio para mostrar mi conformidad.                                                                                                | 3            |
-| 20    | US-19         | Registrar técnicos                             | Como empresario, quiero poder registrar técnicos en la plataforma para integrarlos a mi red de soporte técnico.                                                            | 5            |
-| 21    | US-21         | Visualizar perfil del técnico                  | Como empresario, quiero visualizar el perfil de cada técnico, incluyendo sus datos personales y métricas de desempeño, para evaluar su rendimiento.                        | 5            |
-| 22    | US-22         | Visualizar propuesta de valor principal        | Como empresario, quiero recibir alertas cuando alguno de los equipos de mis clientes presenta fallas, para notificar al cliente y organizar la atención técnica.           | 8            |
-| 23    | US-23         | Explorar soluciones específicas para mi rubro  | Como visitante, quiero ver claramente la propuesta de valor en la landing page, para saber si OsitoPolar puede ayudarme.                                                   | 3            |
-| 24    | US-24         | Comprender funcionalidades destacadas          | Como visitante, quiero encontrar una sección con soluciones específicas para negocios como el mío, para saber si OsitoPolar se ajusta a mis necesidades.                   | 5            |
-| 25    | US-25         | Solicitar una demo fácilmente                  | Como visitante, quiero ver funcionalidades clave presentadas de forma clara, para evaluar si la plataforma se adapta a mi operación.                                       | 5            |
-| 26    | US-26         | Conocer misión y visión de la startup          | Como visitante, quiero poder solicitar una demo desde el landing page, para iniciar contacto con OsitoPolar.                                                               | 3            |
-| 27    | US-27         | Conocer misión y visión de la startup          | Como visitante, quiero ver la misión y visión de OsitoPolar, para entender su enfoque y confianza en su propuesta.                                                         | 2            |
-| 28    | US-28         | Contactar fácilmente con ventas                | Como visitante empresario, quiero un botón claro para contactar con ventas, para iniciar una posible relación comercial.                                                   | 3            |
-| 29    | US-29         | Acceder fácilmente al inicio de sesión         | Como visitante, quiero encontrar un botón de “Iniciar sesión” visible en el Landing Page, para acceder rápidamente a mi cuenta sin perder tiempo.                          | 3            |
-| 30    | US-30         | Descargar la app móvil desde la web            | Como visitante interesado en usar OsitoPolar desde el celular, quiero ver un enlace claro para descargar la app móvil desde el Landing Page, para instalarla fácilmente.   | 5            |
-| 31    | US-31         | Registrar nuevo equipo                         | Como desarrollador, quiero permitir que los usuarios registren nuevos equipos de refrigeración mediante una API para facilitar el control y monitoreo desde la plataforma. | 5            |
-| 32    | US-32         | Eliminar técnico asignado                      | Como desarrollador, quiero poder eliminar un técnico del sistema desde el API para gestionar la asignación de servicios y roles técnicos.                                  | 5            |
-| 33    | US-33         | Notificación automática por alerta crítica     | Como desarrollador, quiero implementar un sistema de notificaciones automáticas que se activen cuando se detecten fallas críticas en los equipos.                          | 8            |
-| 34    | US-34         | Crear solicitud de mantenimiento               | Como desarrollador, quiero implementar una API que permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.               | 5            | 
-| 35    | US-35         | Crear registro de intervención técnica         | Como desarrollador, quiero permitir registrar intervenciones técnicas realizadas a través de la API, para llevar seguimiento del mantenimiento.                            | 5            |
-| 36    | US-36         | Registrar evento de alerta manual              | Como desarrollador, quiero permitir registrar una alerta manual vía API para que los técnicos puedan ingresar incidentes detectados en campo.                              | 3            |
-| 37    | US-37         | Evaluar servicio                               | Como desarrollador, quiero implementar un endpoint RESTful que permita a los clientes registrar y actualizar una evaluación de servicio, para reflejar su experiencia.     | 8            |
+###  Product Backlog – OsitoPolar
+
+| # Orden | User Story ID | Título                                         | Story Points (1 / 2 / 3 / 5 / 8) |
+|----------|---------------|------------------------------------------------|----------------------------------|
+| 1  | US-01 | Visualizar propuesta de valor principal en la Landing Page | 3 |
+| 2  | US-02 | Explorar soluciones específicas del rubro                  | 5 |
+| 3  | US-03 | Solicitar una demostración fácilmente                      | 5 |
+| 4  | US-04 | Conocer misión y visión de OsitoPolar                      | 2 |
+| 5  | US-05 | Contactar con el equipo de ventas                          | 3 |
+| 6  | US-06 | Descargar la aplicación móvil desde la web                 | 5 |
+| 7  | US-07 | Acceder fácilmente al inicio de sesión desde la web        | 3 |
+| 8  | US-08 | Registrarse en la plataforma                               | 5 |
+| 9  | US-09 | Iniciar sesión en la plataforma                            | 3 |
+| 10 | US-10 | Agregar equipos de refrigeración                           | 5 |
+| 11 | US-11 | Solicitar servicio de reparación                           | 5 |
+| 12 | US-12 | Solicitar mantenimiento preventivo                         | 5 |
+| 13 | US-13 | Visualizar estado de servicio                              | 3 |
+| 14 | US-14 | Visualizar reporte de servicio realizado                   | 3 |
+| 15 | US-15 | Recibir alertas automáticas por fallas                     | 8 |
+| 16 | US-16 | Visualizar consumo energético de los equipos               | 5 |
+| 17 | US-17 | Recibir notificaciones sobre eventos importantes           | 8 |
+| 18 | US-18 | Evaluar servicio recibido                                  | 3 |
+| 19 | US-19 | Registrar técnicos                                         | 5 |
+| 20 | US-20 | Asignar técnico a solicitud de servicio                    | 5 |
+| 21 | US-21 | Configurar alertas de mantenimiento preventivo             | 8 |
+| 22 | US-22 | Visualizar clientes y servicios asociados                  | 5 |
+| 23 | US-23 | Realizar seguimiento a servicios y técnicos                | 8 |
+| 24 | US-24 | Generar reportes de desempeño de técnicos                  | 5 |
+| 25 | US-25 | Visualizar equipos entregados a clientes                   | 5 |
+| 26 | US-26 | Visualizar perfil de los técnicos                          | 5 |
+| 27 | US-27 | Recibir alertas de solicitudes de servicio de clientes     | 8 |
+| 28 | US-28 | Registrar nuevo equipo mediante API                        | 5 |
+| 29 | US-29 | Crear solicitud de mantenimiento mediante API              | 5 |
+| 30 | US-30 | Registrar intervención técnica mediante API                | 5 |
+| 31 | US-31 | Eliminar técnico asignado mediante API                     | 5 |
+| 32 | US-32 | Registrar alerta manual mediante API                       | 3 |
+| 33 | US-33 | Implementar notificaciones automáticas mediante API        | 8 |
+| 34 | US-34 | Registrar evaluación de servicio vía endpoint REST         | 8 |
 
 
 ### 2.5. Strategic-Level Domain-Driven Design
