@@ -2290,51 +2290,149 @@ El enlace oficial al diseño es el siguiente:
 ---
 
   - 3.1.3.1. Landing Page Wireframe
-#### 1. Encabezado (Header)
-- Logo y nombre “Osito Polar” alineados a la izquierda, con enlace al Home.  
-- Menú hamburguesa a la derecha, desplegando las secciones: *Inicio*, *Sobre Nosotros*, *FAQ* y *Contacto*.  
-- Debajo del header, un bloque “hero” con título, descripción y un botón CTA (“Descargar App”).  
+El wireframe de la página de inicio de OsitoPolar organiza los elementos clave para ofrecer una navegación intuitiva. Incluye un encabezado con el logo y un menú de navegación, seguido de una propuesta de valor clara con botones de acción destacados como "Solicitar Demo" y "¿Cómo Funciona?". La página cuenta con secciones para describir a los usuarios objetivo, las funcionalidades clave del sistema, y los beneficios que ofrece OsitoPolar. Al final, se encuentra un formulario de contacto para que los usuarios soliciten una demo, junto con enlaces legales en el pie de página.
 
-#### 2. Sección de características
-- Tarjetas con íconos e ilustraciones minimalistas.  
-- Descripción breve de cada función (Crear, Comparar, Compartir).  
-- Colores consistentes con la paleta principal.  
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/LandingPageWireframe.png"
+       alt="Wireframe de la Landing Page: Diseño de baja fidelidad de la página principal."
+       style="max-width: 95%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Wireframe de la Landing Page.
+  </figcaption>
+</figure>
 
-#### 3. Sección de proceso (Cómo funciona)
-- Línea o grilla con pasos secuenciales y numerados.  
-- Íconos representativos para cada paso.  
-- CTA para iniciar el proceso de creación de build.  
-
-#### 4. Sección “Sobre Nosotros”
-- Misión, visión y valores de la marca.  
-- Imagen ilustrativa del equipo o de la marca.  
-- Conexión emocional con el usuario mediante un texto empático y directo.  
-
-#### 5. Sección “Preguntas Frecuentes (FAQ)”
-- Bloques expandibles con preguntas y respuestas.  
-- Botón “Leer más” que redirige a una página adicional con soporte extendido.  
-
-#### 6. Sección “Contáctanos”
-- Formulario de contacto simple con campos *Nombre*, *Correo* y *Mensaje*.  
-- Información de redes sociales o correo de soporte.  
-- CTA de envío visible y accesible.  
-
-#### 7. Footer
-- Enlaces secundarios: Términos, Política de privacidad, Redes sociales.  
-- Logo reducido y derechos de autor.  
-- Fondo oscuro con texto claro para contraste.  
-
----
-
-## Conclusión del diseño
-
-El diseño de **Osito Polar** prioriza la claridad visual, la navegación fluida y la coherencia estética.  
-Los botones de llamada a la acción están estratégicamente ubicados para guiar al usuario hacia interacciones clave.  
-Cada elemento visual contribuye a reforzar la identidad del producto y facilita la accesibilidad en cualquier dispositivo.  
-
-La experiencia de usuario resultante es **intuitiva, consistente y atractiva**, asegurando que tanto la versión móvil como la landing web reflejen fielmente la identidad del producto y los valores de la marca.
 
   - 3.1.3.2. Landing Page Mock-up
+El Landing Page Mock-up de OsitoPolar muestra un diseño limpio y organizado, con una estructura intuitiva que guía a los usuarios a través de la plataforma. Incluye una propuesta de valor destacada en la parte superior, seguida de secciones clave como las funcionalidades del sistema, los beneficios para empresas y proveedores, y una explicación clara de cómo funciona el servicio. También cuenta con testimonios de clientes, detalles sobre la empresa y un formulario para solicitar una demo, todo con un enfoque en facilitar la conversión de visitantes a usuarios activos.
+
+- Esta es la primera sección, llamada "Inicio". En esta se puede ver la propuesta de valor que ofrece nuestra plataforma junto con un "Call to Action" que se agregará a futuro.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup1.png"
+       alt="Mockup 1 de la Landing Page: Diseño visual de la sección superior."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Mockup 1 - Inicio - Landing Page.
+  </figcaption>
+</figure>
+
+
+- Esta segunda sección hace una breve descripción de a quiénes está dirigido la plataforma.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup2.png"
+       alt="Mockup 2 de la Landing Page: Diseño visual de la sección de características."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 2:</strong> Mockup 2  - ¿Para quién es? - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Funcionalidades Clave" se presentan las principales funcionalidades que ofrece la plataforma.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup3.png"
+       alt="Mockup 3 de la Landing Page: Diseño visual de la sección de testimonios."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 3:</strong> Mockup 3 - Funcionalidades - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Beneficios" se presentan los beneficios que ofrece la plataforma para empresas y proveedores.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup4.png"
+       alt="Mockup 4 de la Landing Page: Diseño visual de la sección de precios."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 4:</strong> Mockup 4 - Beneficios para negocios - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Beneficios" se presentan los beneficios que ofrece la plataforma para proveedores.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup5.png"
+       alt="Mockup 5 de la Landing Page: Diseño visual de la sección de preguntas frecuentes."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 5:</strong> Mockup 5 - Beneficios para proveedores - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Como funciona" se describe el flujo del funcionamiento de la plataforma.
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup6.png"
+       alt="Mockup 6 de la Landing Page: Diseño visual del pie de página."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 6:</strong> Mockup 6 - ¿Como funciona? - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Sobre Nosotros" se presenta nuestra Misión y Visión como startup. 
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup7.png"
+       alt="Mockup 7 de la Landing Page: Vista detallada de un elemento interactivo."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 7:</strong> Mockup 7 - Sobre Nosotros - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Lo que dicen nuestros clientes" se visualizan las reseñas de los usuarios que usaron nuestra plataforma.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup8.png"
+       alt="Mockup 8 de la Landing Page: Vista detallada de un formulario de contacto."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 8:</strong> Mockup 8 - Lo que dicen nuestros clientes - Landing Page.
+  </figcaption>
+</figure>
+
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup9.png"
+       alt="Mockup 9 de la Landing Page: Sección de llamada a la acción."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 9:</strong> Mockup 9 - Lo que dicen nuestros clientes - Landing Page.
+  </figcaption>
+</figure>
+
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup10.png"
+       alt="Mockup 10 de la Landing Page: Vista de la navegación superior."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 10:</strong> Mockup 10 - Lo que dicen nuestros clientes - Landing Page.
+  </figcaption>
+</figure>
+
+
+- En "Contacto" se presenta un formulario de contacto para que los usuarios puedan solicitar una demo.
+
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter04/Landing%20Page%20Mockups/mockup11.png"
+       alt="Mockup 11 de la Landing Page: Vista de la sección de beneficios clave."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 11:</strong> Mockup 11 - Contacto - Landing Page.
+  </figcaption>
+</figure>
+
+
+    
   - 3.1.4. Mobile Applications UX/UI Design
     - 3.1.4.1. Mobile Applications Wireframes
     - 3.1.4.2. Mobile Applications Wireflow Diagrams
