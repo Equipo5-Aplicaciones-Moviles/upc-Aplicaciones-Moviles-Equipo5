@@ -2649,6 +2649,109 @@ La vista evidencia **claridad y estructura secuencial**, guiando al usuario en c
 ---
 
   - 3.1.4.2. Mobile Applications Wireflow Diagrams
+En esta sección se presentan los Wireflows para cada objetivo del usuario, teniendo en cuenta los User Personas relevantes. Cada diagrama ilustra el flujo de interacción del usuario y cómo las acciones realizadas afectan las pantallas dentro de la aplicación.
+
+
+### **User Goal 1**: 
+Como dueño de un negocio que utiliza equipos de refrigeración quiero estar pendiente del estado de cada equipo registrado.
+
+**Task Flow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/taskflow1.png"
+       alt="Diagrama de Taskflow 1: Flujo de tareas para una acción específica del usuario."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Taskflow 1.
+  </figcaption>
+</figure>
+
+
+**Wireflow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/Wireflow1.png"
+       alt="Diagrama de Wireflow 1: Combinación de wireframes y flujo de interacción del usuario."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 2:</strong> Wireflow 1.
+  </figcaption>
+</figure>
+
+
+### **User Goal 2**:
+Como dueño de un negocio que utiliza equipos de refrigeración quiero lograr administrar los nuevos equipos que registre.
+
+**Task Flow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/taskflow2.png"
+       alt="Diagrama de Taskflow 2: Flujo de tareas para un proceso de usuario."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 3:</strong> Taskflow 2.
+  </figcaption>
+</figure>
+
+
+**Wireflow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/Wireflow2.png"
+       alt="Diagrama de Wireflow 2: Representación visual del flujo de usuario entre pantallas."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 4:</strong> Wireflow 2.
+  </figcaption>
+</figure>
+
+
+### **User Goal 3**:
+Como dueño de un negocio que utiliza equipos de refrigeración quiero revisar las estadísticas completas de mis equipos.
+
+**Task Flow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/taskflow3.png"
+       alt="Diagrama de Taskflow 3: Secuencia de tareas para una interacción compleja."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 5:</strong> Taskflow 3.
+  </figcaption>
+</figure>
+
+
+**Wireflow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/Wireflow3.png"
+       alt="Diagrama de Wireflow 3: Detalle del flujo de usuario con elementos de la interfaz."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 6:</strong> Wireflow 3.
+  </figcaption>
+</figure>
+
+
+### **User Goal 4**:
+Como proveedor de equipos de refrigeración quiero estar pendiente de los ordenes de pedios de mis clientes.
+
+**Task Flow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/taskflow4.png"
+       alt="Diagrama de Taskflow 4: Flujo de tareas para la interacción del usuario con el sistema."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 9:</strong> Taskflow 4.
+  </figcaption>
+</figure>
+
+
+**Wireflow**
+<figure style="page-break-inside: avoid; text-align: center;">
+  <img src="assets/chapter03/flujos/Wireflow4.png"
+       alt="Diagrama de Wireflow 4: Resumen visual del flujo de interacción y las pantallas clave."
+       style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 10:</strong> Wireflow 4.
+  </figcaption>
+</figure>
+
+    
   ### 3.1.4.3. Mobile Applications Mock-ups
 ---
 
