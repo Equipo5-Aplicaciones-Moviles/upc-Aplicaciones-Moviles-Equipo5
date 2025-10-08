@@ -2144,6 +2144,8 @@ La arquitectura del producto contempla una **aplicación móvil desarrollada en 
 
 El objetivo de esta sección es establecer una guía visual clara y compartida por todo el equipo de desarrollo y diseño, asegurando una experiencia consistente en todas las pantallas y plataformas.  
 Se definen los criterios para colores, tipografía, iconografía, botones, espaciados y usabilidad.
+
+---
     - 3.1.1.1. General Style Guidelines
 
 #### Paleta de colores principal
@@ -2157,8 +2159,6 @@ La estética de **Osito Polar** se basa en un estilo **minimalista y moderno**, 
 | Negro Profundo | `#000000` | Tipografía principal y elementos de contraste. |
 | Gris Claro | `#F5F5F5` | Fondos secundarios o tarjetas neutras. |
 | Gris Oscuro | `#333333` | Textos secundarios o subtítulos. |
-
-> *Los valores pueden ajustarse según la paleta exacta usada en el diseño de Figma.*
 
 #### Tipografía
 
