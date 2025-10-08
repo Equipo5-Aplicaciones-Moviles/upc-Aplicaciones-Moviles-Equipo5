@@ -2145,7 +2145,7 @@ La arquitectura del producto contempla una **aplicación móvil desarrollada en 
 El objetivo de esta sección es establecer una guía visual clara y compartida por todo el equipo de desarrollo y diseño, asegurando una experiencia consistente en todas las pantallas y plataformas.  
 Se definen los criterios para colores, tipografía, iconografía, botones, espaciados y usabilidad.
 
----
+--
     - 3.1.1.1. General Style Guidelines
 
 #### Paleta de colores principal
@@ -2194,9 +2194,29 @@ El proyecto emplea una tipografía sans-serif moderna que asegura claridad y leg
 
 ---
   - 3.1.2. Information Architecture
-    - 3.1.2.1. Organization Systems
-    - 3.1.2.2. Labelling Systems
-    - 3.1.2.3. SEO Tags and Meta Tags
+    
+La arquitectura de la información de **Osito Polar** fue diseñada para facilitar la navegación, el descubrimiento de funcionalidades y la organización jerárquica de los datos.  
+Tanto la landing page como la aplicación móvil siguen principios de jerarquía, consistencia y categorización.
+  - 3.1.2.1. Organization Systems
+Se aplican distintos sistemas de organización según la sección o funcionalidad:
+
+- **Jerárquico:**  
+  En la navegación principal (Catálogo → Categorías → Detalle de componente), y en la gestión de builds guardadas del usuario.  
+
+- **Secuencial:**  
+  En el flujo de creación de una build: seleccionar categoría → seleccionar componente → validar compatibilidad → guardar.  
+
+- **Matricial:**  
+  En la comparación de builds o especificaciones, donde se visualizan datos tabulados.  
+
+- **Categorización temática:**  
+  Guías y tutoriales agrupados por temas como Overclocking, Ensamblaje o Mantenimiento.  
+
+- **Por audiencia:**  
+  Contenido separado para usuarios principiantes, intermedios o expertos.
+
+  - 3.1.2.2. Labelling Systems
+  - 3.1.2.3. SEO Tags and Meta Tags
     - 3.1.2.4. Searching Systems
     - 3.1.2.5. Navigation Systems
   - 3.1.3. Landing Page UI Design
