@@ -2198,6 +2198,7 @@ El proyecto emplea una tipografía sans-serif moderna que asegura claridad y leg
 La arquitectura de la información de **Osito Polar** fue diseñada para facilitar la navegación, el descubrimiento de funcionalidades y la organización jerárquica de los datos.  
 Tanto la landing page como la aplicación móvil siguen principios de jerarquía, consistencia y categorización.
 
+---
   - 3.1.2.1. Organization Systems
 
 Se aplican distintos sistemas de organización según la sección o funcionalidad:
@@ -2217,6 +2218,7 @@ Se aplican distintos sistemas de organización según la sección o funcionalida
 - **Por audiencia:**  
   Contenido separado para usuarios principiantes, intermedios o expertos.
 
+---
   - 3.1.2.2. Labelling Systems
 
 Las etiquetas de texto fueron cuidadosamente seleccionadas para ser **claras, cortas y coherentes** con la experiencia del usuario.
@@ -2233,6 +2235,7 @@ Las etiquetas de texto fueron cuidadosamente seleccionadas para ser **claras, co
 
 La iconografía refuerza las etiquetas mediante símbolos intuitivos y colores distintivos.
 
+---
   - 3.1.2.3. SEO Tags and Meta Tags
 
 Se definen metadatos para optimizar la visibilidad tanto en motores de búsqueda (SEO) como en tiendas de aplicaciones (ASO).
@@ -2250,8 +2253,9 @@ Se definen metadatos para optimizar la visibilidad tanto en motores de búsqueda
 - **Subtitle:** Tu asistente inteligente para armar PCs.  
 - **Description:** Con Osito Polar puedes crear builds personalizadas, analizar compatibilidad de componentes, guardar configuraciones y compartirlas con la comunidad.  
 - **App Keywords:** hardware, build pc, compatibilidad, tecnología, comunidad gamer  
+---
 
-    - 3.1.2.4. Searching Systems
+  - 3.1.2.4. Searching Systems
 
 El sistema de búsqueda está diseñado para ser **rápido, predictivo y flexible**.
 
@@ -2260,7 +2264,9 @@ El sistema de búsqueda está diseñado para ser **rápido, predictivo y flexibl
 - Etiquetas destacadas (chips) para filtros activos.  
 - Historial de búsqueda y recomendaciones personalizadas.
 
-    - 3.1.2.5. Navigation Systems
+---
+
+  - 3.1.2.5. Navigation Systems
 
 #### Landing Page
 - Menú superior o hamburguesa con secciones: **Inicio**, **Sobre Nosotros**, **FAQ**, **Contacto**.  
@@ -2274,7 +2280,12 @@ El sistema de búsqueda está diseñado para ser **rápido, predictivo y flexibl
 - Estado activo resaltado en cada pestaña para orientar al usuario.
 
 ---
+
   - 3.1.3. Landing Page UI Design
+
+El diseño de la landing page de **Osito Polar** fue desarrollado en **Figma**, priorizando la claridad visual, la jerarquía informativa y la usabilidad.  
+El enlace oficial al diseño es el siguiente:  
+[🔗 Ver en Figma](https://www.figma.com/design/THgrVQALngRCsSDgrhme2M/Osito-Polar-Figma?node-id=2-87&p=f)
     - 3.1.3.1. Landing Page Wireframe
     - 3.1.3.2. Landing Page Mock-up
   - 3.1.4. Mobile Applications UX/UI Design
