@@ -2146,7 +2146,7 @@ El objetivo de esta sección es establecer una guía visual clara y compartida p
 Se definen los criterios para colores, tipografía, iconografía, botones, espaciados y usabilidad.
 
 --
-    - 3.1.1.1. General Style Guidelines
+ - 3.1.1.1. General Style Guidelines
 
 #### Paleta de colores principal
 
@@ -2197,6 +2197,7 @@ El proyecto emplea una tipografía sans-serif moderna que asegura claridad y leg
     
 La arquitectura de la información de **Osito Polar** fue diseñada para facilitar la navegación, el descubrimiento de funcionalidades y la organización jerárquica de los datos.  
 Tanto la landing page como la aplicación móvil siguen principios de jerarquía, consistencia y categorización.
+
   - 3.1.2.1. Organization Systems
 Se aplican distintos sistemas de organización según la sección o funcionalidad:
 
@@ -2216,7 +2217,39 @@ Se aplican distintos sistemas de organización según la sección o funcionalida
   Contenido separado para usuarios principiantes, intermedios o expertos.
 
   - 3.1.2.2. Labelling Systems
+
+Las etiquetas de texto fueron cuidadosamente seleccionadas para ser **claras, cortas y coherentes** con la experiencia del usuario.
+
+**Ejemplos de etiquetas:**
+
+- **Botones:** Agregar, Guardar Build, Comparar, Eliminar, Filtrar, Ver Detalles.  
+- **Secciones:**  
+  - Catálogo → Componentes  
+  - Builds → Mis Builds, Builds Populares  
+  - Comunidad → Comentarios, Valoraciones  
+  - Guías → Tips, Tutoriales, Guías Técnicas  
+- **Filtros de búsqueda:** Nombre, Tipo, Fabricante, Compatibilidad, Categoría.
+
+La iconografía refuerza las etiquetas mediante símbolos intuitivos y colores distintivos.
+
   - 3.1.2.3. SEO Tags and Meta Tags
+
+Se definen metadatos para optimizar la visibilidad tanto en motores de búsqueda (SEO) como en tiendas de aplicaciones (ASO).
+
+#### Landing Page – SEO
+
+- **Title:** Osito Polar – Crea y Personaliza tus Builds  
+- **Meta Description:** Plataforma intuitiva para armar y compartir builds de PC personalizados con validación de compatibilidad.  
+- **Keywords:** build pc, componentes, hardware, compatibilidad, builds personalizadas  
+- **Author:** Equipo Osito Polar  
+
+#### Mobile App – ASO
+
+- **App Title:** Osito Polar  
+- **Subtitle:** Tu asistente inteligente para armar PCs.  
+- **Description:** Con Osito Polar puedes crear builds personalizadas, analizar compatibilidad de componentes, guardar configuraciones y compartirlas con la comunidad.  
+- **App Keywords:** hardware, build pc, compatibilidad, tecnología, comunidad gamer  
+
     - 3.1.2.4. Searching Systems
     - 3.1.2.5. Navigation Systems
   - 3.1.3. Landing Page UI Design
