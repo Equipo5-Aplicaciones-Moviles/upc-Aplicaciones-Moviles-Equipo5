@@ -1588,107 +1588,164 @@ Bounded Contexts involucrados:
 
 <img width="330" height="1536" alt="Image 18 sept 2025, 10_53_49 p m png2" src="https://github.com/user-attachments/assets/247f78b4-a54d-4679-be9c-b130928a1a04" />
 
-   ##### 2.5.1.3. Bounded Context Canvases
-En esta sección se presentan los diseños de los Candidate Bounded Contexts identificados para OsitoPolar, modelados con el formato del Bounded Context Canvas.
-**Bounded Context 1: Mi Equipo**
-Context Overview: Gestiona la administración central de los equipos de refrigeración registrados por los usuarios, permitiendo su monitoreo en tiempo real y la vinculación      con servicios relacionados.
-**Business Rules :**
-- Cada Cold Equipment debe estar vinculado a un User.
+##### 2.5.1.3. Bounded Context Canvases
+
+En esta sección se presentan los diseños de los *Candidate Bounded Contexts* identificados para **OsitoPolar**, modelados con el formato del *Bounded Context Canvas*.
+
+---
+
+### **Bounded Context 1: My Equipment**
+
+**Context Overview:** Gestiona la administración central de los equipos de refrigeración registrados por los usuarios, permitiendo su monitoreo en tiempo real y la vinculación con servicios relacionados.
+
+**Business Rules:**
+- Cada *Cold Equipment* debe estar vinculado a un *User*.
 - No se puede eliminar un equipo con solicitudes o mantenimientos abiertos.
+
 **Ubiquitous Language:** User, Cold Equipment, Smart Dashboard, Equipment Inventory, Real-Time Monitoring.
+
 **Capability Analysis:**
 - Registrar, editar y eliminar equipos.
 - Mostrar equipos asociados al usuario.
 - Generar datos de estado para otros contextos.
-Capability Layering:
-- Application: APIs para gestión y consulta de equipos.
-- Domain: validaciones de inventario y reglas de asociación.
-- Infrastructure: persistencia y conexión con IoT.
-- Dependencies Capture: Depende de Ver Equipos (para visualización avanzada), Órdenes de Trabajo (para mantenimientos) y Notificaciones (para alertas).
-Design Critique: Es un contexto Core, base del dominio. Requiere robustez en manejo de datos en tiempo real.
 
-**Bounded Context 2: Gestión de Solicitudes**
-Context Overview: Coordina las solicitudes de servicio generadas por los usuarios, que pueden derivar en órdenes de trabajo o mantenimientos programados.
+**Capability Layering:**
+- **Application:** APIs para gestión y consulta de equipos.  
+- **Domain:** validaciones de inventario y reglas de asociación.  
+- **Infrastructure:** persistencia y conexión con IoT.
+
+**Dependencies Capture:** Depende de *View Equipment* (para visualización avanzada), *Work Orders* (para mantenimientos) y *Notifications* (para alertas).
+
+**Design Critique:** Es un contexto *Core*, base del dominio. Requiere robustez en manejo de datos en tiempo real.
+
+---
+
+### **Bounded Context 2: Service Requests**
+
+**Context Overview:** Coordina las solicitudes de servicio generadas por los usuarios, que pueden derivar en órdenes de trabajo o mantenimientos programados.
+
 **Business Rules:**
-- Una Service Request debe estar ligada a un User y un Equipo.
+- Una *Service Request* debe estar ligada a un *User* y un *Equipment*.
 - Solo usuarios autenticados pueden crear solicitudes.
+
 **Ubiquitous Language:** Service Coordination, Request, User Profile, Client Portfolio.
-Capability Analysis:
-- Crear solicitudes de servicio.
-- Consultar estado de las solicitudes.
+
+**Capability Analysis:**
+- Crear solicitudes de servicio.  
+- Consultar estado de las solicitudes.  
 - Cancelar o modificar solicitudes abiertas.
-**Capability Layering:**
-- Application: APIs de registro y consulta de solicitudes.
-- Domain: reglas de validación y flujo de aprobación.
-- Infrastructure: persistencia y coordinación con órdenes.
-**Dependencies Capture:** Depende de Mi Equipo (datos de equipos) y de Órdenes de Trabajo (para convertir solicitudes en órdenes).
-**Design Critique:** Es un contexto Supporting, facilita la coordinación y canaliza las necesidades de los usuarios.
 
-**Bounded Context 3: Órdenes de Trabajo**
+**Capability Layering:**
+- **Application:** APIs de registro y consulta de solicitudes.  
+- **Domain:** reglas de validación y flujo de aprobación.  
+- **Infrastructure:** persistencia y coordinación con órdenes.
+
+**Dependencies Capture:** Depende de *My Equipment* (datos de equipos) y de *Work Orders* (para convertir solicitudes en órdenes).
+
+**Design Critique:** Es un contexto *Supporting*, facilita la coordinación y canaliza las necesidades de los usuarios.
+
+---
+
+### **Bounded Context 3: Work Orders**
+
 **Context Overview:** Administra el ciclo de vida de los mantenimientos preventivos y correctivos, desde su creación hasta el cierre.
-**Business Rules: **
-- Una Work Order debe asignarse a un Service Provider.
-- No se puede cerrar una orden sin registrar un resultado técnico.
-**Ubiquitous Language:** Work Order, Preventive Maintenance, Corrective Maintenance, Service Provider, Technical History, Maintenance Schedule.
-**Capability Analysis:**
-- Crear, asignar y gestionar órdenes de trabajo.
-- Actualizar y cerrar órdenes.
-- Consultar historial de órdenes completadas.
-**Capability Layering:**
-- Application: APIs de gestión de órdenes.
-- Domain: reglas de ciclo de vida.
-- Infrastructure: persistencia y coordinación con técnicos.
-**Dependencies Capture:** Depende de Gestión de Solicitudes (para solicitudes aprobadas), Mi Equipo (para equipos vinculados) y Notificaciones (avisos de cambios).
-**Design Critique:** Es un Core Context, indispensable para la continuidad del servicio.
 
-**Bounded Context 4: Ver Mantenimientos**
-**Context Overview:** Proporciona a los usuarios una interfaz para consultar mantenimientos realizados y programados.
 **Business Rules:**
-- Solo usuarios autorizados pueden acceder al historial de un equipo.
-- El historial debe incluir Technical History y resultados de órdenes.
+- Una *Work Order* debe asignarse a un *Service Provider*.  
+- No se puede cerrar una orden sin registrar un resultado técnico.
+
+**Ubiquitous Language:** Work Order, Preventive Maintenance, Corrective Maintenance, Service Provider, Technical History, Maintenance Schedule.
+
+**Capability Analysis:**
+- Crear, asignar y gestionar órdenes de trabajo.  
+- Actualizar y cerrar órdenes.  
+- Consultar historial de órdenes completadas.
+
+**Capability Layering:**
+- **Application:** APIs de gestión de órdenes.  
+- **Domain:** reglas de ciclo de vida.  
+- **Infrastructure:** persistencia y coordinación con técnicos.
+
+**Dependencies Capture:** Depende de *Service Requests* (para solicitudes aprobadas), *My Equipment* (para equipos vinculados) y *Notifications* (avisos de cambios).
+
+**Design Critique:** Es un *Core Context*, indispensable para la continuidad del servicio.
+
+---
+
+### **Bounded Context 4: View Maintenance**
+
+**Context Overview:** Proporciona a los usuarios una interfaz para consultar mantenimientos realizados y programados.
+
+**Business Rules:**
+- Solo usuarios autorizados pueden acceder al historial de un equipo.  
+- El historial debe incluir *Technical History* y resultados de órdenes.
+
 **Ubiquitous Language:** Maintenance Schedule, Technical History, Report.
+
 **Capability Analysis:**
-- Consultar mantenimientos preventivos y correctivos.
+- Consultar mantenimientos preventivos y correctivos.  
 - Generar reportes automáticos de historial.
-**Capability Layering:**
-- Application: APIs y vistas para consulta.
-- Domain: reglas de acceso y filtrado.
-- Infrastructure: integración con repositorio histórico.
-**Dependencies Capture:** Depende de Órdenes de Trabajo (resultados y estado) y Mi Equipo (asociación de equipos).
-**Design Critique:** Es un contexto Supporting, orientado a consulta e informes.
 
-**Bounded Context 5: Notificaciones**
+**Capability Layering:**
+- **Application:** APIs y vistas para consulta.  
+- **Domain:** reglas de acceso y filtrado.  
+- **Infrastructure:** integración con repositorio histórico.
+
+**Dependencies Capture:** Depende de *Work Orders* (resultados y estado) y *My Equipment* (asociación de equipos).
+
+**Design Critique:** Es un contexto *Supporting*, orientado a consulta e informes.
+
+---
+
+### **Bounded Context 5: Notifications**
+
 **Context Overview:** Gestiona la emisión de alertas y recordatorios, garantizando que los usuarios estén informados de fallas, mantenimientos y cambios en el sistema.
-**Business Rules: **
-- Una Failure Alert debe enviarse en tiempo real.
-- Cada Notification debe registrarse en un historial.
-**Ubiquitous Language:** Notification, Failure Alert, Automatic Report Generation, Service Zone.
-**Capability Analysis:**
-- Generar y enviar notificaciones.
-- Configurar preferencias de usuario.
-- Consultar historial de notificaciones.
-**Capability Layering:**
-- Application: APIs de envío y gestión de notificaciones.
-- Domain: reglas de disparo y personalización.
-- Infrastructure: integración con mensajería externa.
-**Dependencies Capture:** Depende de Mi Equipo (eventos de equipos) y Órdenes de Trabajo (avisos de mantenimientos).
-**Design Critique:** Es un contexto Supporting, vital para la experiencia de usuario y escalabilidad.
 
-**Bounded Context 6: Ver Equipos**
-**Context Overview:** Facilita la visualización del inventario de equipos y sus características técnicas para usuarios y proveedores.
-**Business Rules:** 
-- Solo se muestran equipos activos en el inventario.
-- Los datos técnicos deben estar completos para ser visibles.
-**Ubiquitous Language:** Equipment Inventory, Cold Equipment, Energy Consumption, Performance Report.
+**Business Rules:**
+- Una *Failure Alert* debe enviarse en tiempo real.  
+- Cada *Notification* debe registrarse en un historial.
+
+**Ubiquitous Language:** Notification, Failure Alert, Automatic Report Generation, Service Zone.
+
 **Capability Analysis:**
-- Listar y filtrar equipos.
-- Acceder a especificaciones técnicas.
+- Generar y enviar notificaciones.  
+- Configurar preferencias de usuario.  
+- Consultar historial de notificaciones.
+
 **Capability Layering:**
-- Application: vistas y filtros de equipos.
-- Domain: validaciones de visualización.
-- Infrastructure: consultas optimizadas a base de datos.
-**Dependencies Capture:** Depende de Mi Equipo (registro y datos actualizados).
-**Design Critique:** Es un Generic Context, soporte esencial para mejorar usabilidad y experiencia del usuario.
+- **Application:** APIs de envío y gestión de notificaciones.  
+- **Domain:** reglas de disparo y personalización.  
+- **Infrastructure:** integración con mensajería externa.
+
+**Dependencies Capture:** Depende de *My Equipment* (eventos de equipos) y *Work Orders* (avisos de mantenimientos).
+
+**Design Critique:** Es un contexto *Supporting*, vital para la experiencia de usuario y escalabilidad.
+
+---
+
+### **Bounded Context 6: View Equipment**
+
+**Context Overview:** Facilita la visualización del inventario de equipos y sus características técnicas para usuarios y proveedores.
+
+**Business Rules:**
+- Solo se muestran equipos activos en el inventario.  
+- Los datos técnicos deben estar completos para ser visibles.
+
+**Ubiquitous Language:** Equipment Inventory, Cold Equipment, Energy Consumption, Performance Report.
+
+**Capability Analysis:**
+- Listar y filtrar equipos.  
+- Acceder a especificaciones técnicas.
+
+**Capability Layering:**
+- **Application:** vistas y filtros de equipos.  
+- **Domain:** validaciones de visualización.  
+- **Infrastructure:** consultas optimizadas a base de datos.
+
+**Dependencies Capture:** Depende de *My Equipment* (registro y datos actualizados).
+
+**Design Critique:** Es un *Generic Context*, soporte esencial para mejorar usabilidad y experiencia del usuario.
+
 ### 2.5.2. Context Mapping
 Luego de definir los Bounded Contexts y modelar sus colaboraciones, se realizó una sesión de Context Mapping para visualizar las relaciones estructurales dentro del dominio de OsitoPolar.
 Este proceso permitió evaluar:
