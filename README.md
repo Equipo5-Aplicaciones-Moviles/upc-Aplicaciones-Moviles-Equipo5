@@ -3000,7 +3000,31 @@ El diseño agrupa órdenes por estado con un código de color fácilmente identi
 </figcaption>
 El contraste cromático resalta las acciones principales de aprobación o rechazo. El uso de íconos intuitivos promueve accesibilidad cognitiva
 
-    - 3.1.4.4. Mobile Applications User Flow Diagrams
+---
+
+  ### 3.1.4.3. Mobile Applications Mock-ups
+
+---
+
+### User Goal 1: 
+- Como dueño de un negocio que utiliza equipos de refrigeración quiero estar pendiente del estado de cada equipo registrado.
+<img src="assets/chapter03/flujos/UserGoal1.png"
+     alt="User Goal 1"
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+
+### User Goal 2:
+- Como dueño de un negocio que utiliza equipos de refrigeración quiero revisar las estadisticas completas de mis equipos.
+<img src="assets/chapter03/flujos/UserGoal2.png"
+     alt="User Goal 2"
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+
+### User Goal 3:
+- Como dueño de un negocio que utiliza equipos de refrigeración quiero lograr administrar los nuevos equipos que registre.
+ <img src="assets/chapter03/flujos/UserGoal3.png"
+     alt="User Goal 3"
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+
+   
     - 3.1.4.5. Mobile Applications Prototyping
 
 
