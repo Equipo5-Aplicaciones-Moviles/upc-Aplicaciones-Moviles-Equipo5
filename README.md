@@ -1791,14 +1791,14 @@ Este diagrama muestra cómo interactúan los usuarios (Clientes y Empresas Prove
   #### 2.5.3.2. Software Architecture Container Level Diagrams
 Este diagrama ilustra los diferentes contenedores dentro de OsitoPolar y cómo interactúan entre sí. Los contenedores representan las diferentes capas y servicios que componen la plataforma, como la interfaz de usuario (webapp), la API y la base de datos.
 
-![OsitoPolar-Container.png](<assets/chapter04/Domain-Driven Software Architecture/OsitoPolar-Container.jpeg>)
+![OsitoPolar-Container.png](<assets/chapter03/ContainerDiagrama.png>)
 
   #### 2.5.3.3. Software Architecture Deployment Diagrams
 **Mi Equipo Bounded Context**
 
 Este diagrama representa los componentes encargados de la gestión de equipos. Los usuarios pueden agregar equipos, monitorearlos en tiempo real y ver el estado de los mismos.
 
-![OsitoPolar-Component-MiEquipo.png]( assets/chapter04/Domain-Driven%20Software%20Architecture/OsitoPolar-Component-MiEquipo.png)
+![OsitoPolar-Component-MiEquipo.png]( assets/chapter03/DeploymentDiagram.png)
 
 **Notificaciones Bounded Context**
 
