@@ -2199,6 +2199,7 @@ La arquitectura de la información de **Osito Polar** fue diseñada para facilit
 Tanto la landing page como la aplicación móvil siguen principios de jerarquía, consistencia y categorización.
 
   - 3.1.2.1. Organization Systems
+
 Se aplican distintos sistemas de organización según la sección o funcionalidad:
 
 - **Jerárquico:**  
@@ -2251,7 +2252,28 @@ Se definen metadatos para optimizar la visibilidad tanto en motores de búsqueda
 - **App Keywords:** hardware, build pc, compatibilidad, tecnología, comunidad gamer  
 
     - 3.1.2.4. Searching Systems
+
+El sistema de búsqueda está diseñado para ser **rápido, predictivo y flexible**.
+
+- Campo de búsqueda global con **autocompletado** y **sugerencias dinámicas**.  
+- Filtros y ordenamientos avanzados (por precio, nombre, marca, compatibilidad, eficiencia).  
+- Etiquetas destacadas (chips) para filtros activos.  
+- Historial de búsqueda y recomendaciones personalizadas.
+
     - 3.1.2.5. Navigation Systems
+
+#### Landing Page
+- Menú superior o hamburguesa con secciones: **Inicio**, **Sobre Nosotros**, **FAQ**, **Contacto**.  
+- Botones **CTA (Call To Action)** visibles: *Explorar Builds*, *Comenzar Build*, *Descargar App*.  
+- Transiciones suaves entre secciones mediante anclas y scroll dinámico.
+
+#### Aplicación móvil
+- Barra inferior con íconos principales: **Catálogo**, **Mis Builds**, **Crear**, **Comunidad**, **Perfil**.  
+- Botón flotante (+) para crear rápidamente una nueva build.  
+- Breadcrumbs y pasos visibles en el flujo de creación.  
+- Estado activo resaltado en cada pestaña para orientar al usuario.
+
+---
   - 3.1.3. Landing Page UI Design
     - 3.1.3.1. Landing Page Wireframe
     - 3.1.3.2. Landing Page Mock-up
