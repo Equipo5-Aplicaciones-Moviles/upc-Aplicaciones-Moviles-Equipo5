@@ -2435,6 +2435,219 @@ El Landing Page Mock-up de OsitoPolar muestra un diseño limpio y organizado, co
     
   - 3.1.4. Mobile Applications UX/UI Design
     - 3.1.4.1. Mobile Applications Wireframes
+### 3.1.4. Mobile Applications UX/UI Design
+#### 3.1.4.1. Mobile Applications Wireframes
+
+---
+
+## Cliente
+
+### **1. Inicio – Clientes**
+<img src="assets/chapter03/Inicio-Clientes.png"
+     alt="Wireframe de la pantalla de inicio para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 1:</strong> Pantalla de inicio del cliente. Muestra accesos rápidos a funciones principales como equipos, estado de cuenta y soporte.
+</figcaption>
+
+Esta vista aplica principios de **jerarquía visual** mediante íconos grandes y textos claros, facilitando la navegación. Se aplica **diseño inclusivo** con colores contrastantes y legibles, y una **arquitectura de información** simple que prioriza tareas frecuentes del usuario.
+
+---
+
+### **2. Mis Equipos – Clientes**
+<img src="assets/chapter03/MisEquipos-Clientes.png"
+     alt="Wireframe de la vista Mis Equipos para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 2:</strong> Vista de los equipos registrados por el cliente.
+</figcaption>
+
+La pantalla presenta una **organización por tarjetas** que mejora la lectura visual y promueve la claridad informativa. Los botones y etiquetas mantienen consistencia cromática y textual, favoreciendo la **accesibilidad**. La disposición sigue una **arquitectura jerárquica vertical**, guiando la vista del usuario.
+
+---
+
+### **3. Control de Equipo – Cliente**
+<img src="assets/chapter03/ControlEquipo-Cliente.png"
+     alt="Wireframe de la vista Control de Equipo para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 3:</strong> Control de los equipos del cliente.
+</figcaption>
+
+Se aplican **principios de proximidad y alineación**, agrupando los valores del sensor en áreas visualmente coherentes. El uso de íconos facilita la **comprensión inclusiva** para usuarios no técnicos. La **arquitectura de información** permite monitorear el estado de cada dispositivo en tiempo real.
+
+---
+
+### **4. Estado de Cuenta – Clientes**
+<img src="assets/chapter03/EstadoCuenta-Clientes.png"
+     alt="Wireframe del estado de cuenta del cliente."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 4:</strong> Estado de cuenta del cliente con detalle de pagos y saldo.
+</figcaption>
+
+El diseño enfatiza la **claridad visual** mediante una tabla estructurada con contraste y jerarquía tipográfica. Se prioriza la **legibilidad** y el acceso rápido a la información financiera, alineado con principios de **usabilidad y diseño inclusivo**.
+
+---
+
+### **5. Notificaciones – Clientes**
+<img src="assets/chapter03/Notificaciones-Clientes.png"
+     alt="Wireframe de la vista de notificaciones para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 5:</strong> Notificaciones relevantes para el cliente.
+</figcaption>
+
+La pantalla emplea **contraste y consistencia** para resaltar los mensajes prioritarios. Se asegura la **legibilidad** con tipografía simple y jerarquía clara, mientras que la **arquitectura informativa** categoriza las alertas según su importancia.
+
+---
+
+### **6. Mi Cuenta – Clientes**
+<img src="assets/chapter03/Micuenta-Clientes.png"
+     alt="Wireframe de la vista Mi Cuenta para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 6:</strong> Configuración del perfil y preferencias del cliente.
+</figcaption>
+
+El diseño se basa en **equilibrio visual** y **alineación de elementos**, permitiendo una interacción cómoda. Los campos están organizados por categorías, lo que refuerza la **arquitectura de información** y facilita el acceso inclusivo.
+
+---
+
+### **7. Contacto – Clientes**
+<img src="assets/chapter03/Contacto-Clientes.png"
+     alt="Wireframe de la vista Contacto del cliente."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 7:</strong> Sección de contacto con soporte técnico.
+</figcaption>
+
+El uso de **formularios claros y botones contrastantes** demuestra la aplicación de **principios de accesibilidad** y **retroalimentación visual**. La estructura de los campos responde a una **arquitectura secuencial**, guiando paso a paso al usuario.
+
+---
+
+### **8. Registro – Clientes**
+<img src="assets/chapter03/Registro Clientes.png"
+     alt="Wireframe de la pantalla de registro para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 8:</strong> Registro de nuevos clientes en la aplicación.
+</figcaption>
+
+Se aplica **simplicidad visual** para reducir la carga cognitiva. Los campos tienen buena separación y etiquetas descriptivas, lo que favorece la **inclusión digital** y la correcta **navegación jerárquica** dentro del flujo de alta de usuarios.
+
+---
+
+## Empresa
+
+### **9. Inicio – Empresa**
+<img src="assets/chapter03/Inicio-Empresa.png"
+     alt="Wireframe de la vista de inicio para empresas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 9:</strong> Pantalla inicial del panel empresarial.
+</figcaption>
+
+El diseño utiliza **distribución modular** para mostrar métricas clave. Se mantiene una paleta sobria y profesional, promoviendo **jerarquía y legibilidad**, junto con una **arquitectura informativa** centrada en el control de operaciones.
+
+---
+
+### **10. Inicio de Sesión – Empresa**
+<img src="assets/chapter03/Inicio de Sesión - Empresa.png"
+     alt="Wireframe de inicio de sesión para empresas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 10:</strong> Pantalla de autenticación empresarial.
+</figcaption>
+
+La vista aplica **contraste y equilibrio** para guiar la atención al formulario. Los campos y botones son accesibles, cumpliendo **criterios inclusivos** y reforzando una **arquitectura de acceso simple**.
+
+---
+
+### **11. Mis Clientes/Técnicos – Empresa**
+<img src="assets/chapter03/MisClientes,Técnicos-Empresa.png"
+     alt="Wireframe de la vista de gestión de clientes y técnicos para empresas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 11:</strong> Módulo de gestión de clientes y técnicos.
+</figcaption>
+
+Se aplican principios de **alineación y repetición**, unificando la estructura de tarjetas. Se promueve la **accesibilidad** mediante contraste y tipografía uniforme, y la **arquitectura de información** separa claramente los roles.
+
+---
+
+### **12. Órdenes de Trabajo – Empresa**
+<img src="assets/chapter03/ÓrdenesDeTrabajo-Empresa.png"
+     alt="Wireframe del módulo de órdenes de trabajo para empresas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 12:</strong> Sección de órdenes de trabajo activas y completadas.
+</figcaption>
+
+La disposición prioriza la **legibilidad jerárquica**, usando bloques diferenciados para cada estado. Se aplican principios de **contraste y proximidad**, junto con una **arquitectura de información** que favorece el seguimiento eficiente.
+
+---
+
+### **13. Solicitudes – Empresa**
+<img src="assets/chapter03/Solicitudes-Empresa.png"
+     alt="Wireframe del módulo de solicitudes empresariales."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 13:</strong> Solicitudes y requerimientos de clientes.
+</figcaption>
+
+La pantalla aplica **diseño centrado en tareas**, priorizando la acción principal. La interfaz mantiene **claridad visual** y estructura por secciones, sustentando la **arquitectura informativa** del módulo operativo.
+
+---
+
+### **14. Estado de Cuenta – Empresa**
+<img src="assets/chapter03/EstadoCuenta-Empresa.png"
+     alt="Wireframe de estado de cuenta empresarial."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 14:</strong> Estado de cuenta y facturación de la empresa.
+</figcaption>
+
+Se prioriza la **usabilidad y simplicidad**, usando columnas claras y buena separación de datos. La **tipografía contrastante** y la **disposición estructurada** evidencian principios de diseño limpio e inclusivo.
+
+---
+
+### **15. Mi Cuenta – Empresa**
+<img src="assets/chapter03/MiCuenta-Empresa.png"
+     alt="Wireframe de la vista Mi Cuenta empresarial."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 15:</strong> Configuración de perfil y plan empresarial.
+</figcaption>
+
+El diseño presenta **organización modular**, destacando la jerarquía entre información del plan y configuración. Se aplican **principios de accesibilidad** y **consistencia visual** para garantizar una experiencia inclusiva.
+
+---
+
+### **16. Notificaciones – Empresa**
+<img src="assets/chapter03/Notificaciones-Empresa.png"
+     alt="Wireframe del módulo de notificaciones empresariales."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 16:</strong> Panel de notificaciones empresariales.
+</figcaption>
+
+Se aplican **principios de contraste, repetición y proximidad**. Las alertas están jerarquizadas según prioridad, reforzando la **arquitectura de información** y garantizando una **lectura accesible**.
+
+---
+
+### **17. Contacto – Empresa**
+<img src="assets/chapter03/Contacto-Empresa.png"
+     alt="Wireframe de la vista de contacto para empresas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 17:</strong> Formulario de contacto empresarial.
+</figcaption>
+
+La vista evidencia **claridad y estructura secuencial**, guiando al usuario en cada paso. Se aplican **principios de accesibilidad y contraste**, y una **arquitectura jerárquica** que optimiza la interacción con el soporte técnico.
+
+---
+
     - 3.1.4.2. Mobile Applications Wireflow Diagrams
     - 3.1.4.3. Mobile Applications Mock-ups
     - 3.1.4.4. Mobile Applications User Flow Diagrams
