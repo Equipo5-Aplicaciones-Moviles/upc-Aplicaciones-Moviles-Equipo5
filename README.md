@@ -409,38 +409,39 @@ Sabremos que hemos tenido éxito cuando logremos reducir la cantidad de fallas i
 
 #### 1.2.2.2 Lean UX Hypothesis Statements
 
-**Hipótesis 1: Eficiencia operativa y reducción de fallas inesperadas**
+### Hipótesis 1: Eficiencia operativa y reducción de fallas inesperadas
 
-Creemos que al ofrecer una plataforma integral que unifique todas las funciones de monitoreo, mantenimiento y gestión técnica de equipos de refrigeración, aumentaremos la eficiencia operativa de los negocios y proveedores del sector, reduciendo la complejidad y el riesgo de fallas inesperadas.  
-Sabremos que estamos en lo correcto cuando veamos un aumento en la cantidad de negocios que reportan menos incidencias por fallas térmicas, así como una mejora en la planificación de sus mantenimientos preventivos.
-
----
-
-**Hipótesis 2: Control de pérdidas operativas y consumo energético**
-
-Creemos que el control de pérdidas operativas y el consumo energético es una prioridad para los usuarios, por lo tanto, cuando proporcionemos herramientas de análisis de rendimiento y alertas automatizadas, mejoraremos la capacidad de los negocios para actuar de manera preventiva y reducir costos innecesarios.  
-Sabremos que estamos en lo correcto cuando observemos una adopción creciente de nuestras funcionalidades de monitoreo en tiempo real y reportes técnicos, así como una disminución en las pérdidas económicas por interrupciones del sistema de refrigeración.
+Creemos que **al ofrecer una plataforma integral que unifique las funciones de monitoreo, mantenimiento y gestión técnica de equipos de refrigeración**, aumentaremos la eficiencia operativa de los negocios y proveedores del sector, reduciendo la complejidad y el riesgo de fallas inesperadas.  
+Sabremos que hemos tenido éxito **cuando observemos una reducción del 30% en las incidencias por fallas térmicas reportadas** y **un aumento del 25% en la planificación de mantenimientos preventivos dentro de la plataforma** durante los primeros seis meses.
 
 ---
 
-**Hipótesis 3: Mejora en el servicio técnico personalizado y predictivo**
+### Hipótesis 2: Control de pérdidas operativas y consumo energético
 
-Creemos que al proporcionar reportes técnicos automáticos, históricos de uso y rendimiento por equipo, permitiremos a los técnicos y empresas proveedoras ofrecer un servicio personalizado y predictivo, mejorando la calidad del soporte brindado a sus clientes.  
-Sabremos que estamos en lo correcto cuando recibamos retroalimentación positiva de técnicos sobre la utilidad de los reportes y el historial, y cuando sus clientes reporten mayor satisfacción con la rapidez y eficacia del servicio técnico.
-
----
-
-**Hipótesis 4: Trazabilidad y protección de la información técnica**
-
-Creemos que al garantizar la trazabilidad de todas las acciones realizadas sobre cada unidad de refrigeración, así como la protección de la información técnica en la plataforma, construiremos confianza entre negocios y proveedores de servicios.  
-Sabremos que estamos en lo correcto cuando observemos una mayor fidelización de usuarios técnicos y empresariales, y una reducción en las incidencias relacionadas con pérdida de datos o errores administrativos.
+Creemos que **al proporcionar herramientas de análisis de rendimiento y alertas automatizadas**, los negocios podrán actuar de forma preventiva y reducir costos innecesarios asociados al consumo energético y pérdidas operativas.  
+Sabremos que hemos tenido éxito **cuando observemos una disminución del 20% en los costos energéticos mensuales promedio** y **un incremento del 30% en el uso de los reportes de monitoreo en tiempo real** por parte de los usuarios activos.
 
 ---
 
-**Hipótesis 5: Transición a una gestión moderna de refrigeración**
+### Hipótesis 3: Mejora en el servicio técnico personalizado y predictivo
 
-Creemos que al ofrecer una solución digital intuitiva y especializada tanto para negocios como para técnicos, facilitaremos la transición hacia una gestión moderna de refrigeración, minimizando la curva de aprendizaje.  
-Sabremos que estamos en lo correcto cuando observemos una rápida adopción de nuestra plataforma, baja tasa de abandono y una mayor frecuencia de uso de las funcionalidades clave por parte de usuarios nuevos y recurrentes.
+Creemos que **al implementar reportes automáticos e históricos de rendimiento por equipo**, los técnicos y proveedores podrán ofrecer un servicio más personalizado y predictivo, aumentando la calidad del soporte brindado.  
+Sabremos que hemos tenido éxito **cuando más del 70% de los técnicos califiquen positivamente los reportes automáticos en encuestas internas** y **cuando los clientes reporten un aumento del 25% en su satisfacción con la rapidez del servicio técnico.**
+
+---
+
+### Hipótesis 4: Trazabilidad y protección de la información técnica
+
+Creemos que **al garantizar la trazabilidad completa y la protección de los datos técnicos en la plataforma**, construiremos confianza entre los negocios y los proveedores de servicios.  
+Sabremos que hemos tenido éxito **cuando logremos reducir en un 40% los errores administrativos o pérdidas de información** y **aumentar en un 30% la retención de usuarios técnicos y empresariales activos.**
+
+---
+
+### Hipótesis 5: Transición hacia una gestión moderna de refrigeración
+
+Creemos que **al ofrecer una solución digital intuitiva y especializada tanto para negocios como para técnicos**, facilitaremos la transición hacia una gestión moderna y eficiente de la refrigeración.  
+Sabremos que hemos tenido éxito **cuando alcancemos una tasa de adopción del 60% de usuarios nuevos dentro de los tres primeros meses** y **una tasa de retención del 80% tras seis meses de uso continuo de la plataforma.**
+
 
 
 #### 1.2.2.4 Lean UX Canvas
