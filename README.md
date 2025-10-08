@@ -2648,8 +2648,255 @@ La vista evidencia **claridad y estructura secuencial**, guiando al usuario en c
 
 ---
 
-    - 3.1.4.2. Mobile Applications Wireflow Diagrams
-    - 3.1.4.3. Mobile Applications Mock-ups
+  - 3.1.4.2. Mobile Applications Wireflow Diagrams
+  ### 3.1.4.3. Mobile Applications Mock-ups
+---
+
+##  Cliente
+
+### **Inicio – Clientes**
+<img src="assets/chapter03/mockupss/Inicio-Clientes-1.png"
+     alt="Mockup de la pantalla de inicio para clientes."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 18:</strong> Mockup 18 - Inicio del cliente.
+</figcaption>
+El diseño presenta una jerarquía visual clara mediante el uso de íconos y tipografía contrastante. Los elementos principales están centrados para priorizar la interacción rápida e intuitiva. La arquitectura de información organiza las funciones esenciales en bloques reconocibles y de fácil acceso.
+
+---
+
+### **Mis Equipos – Clientes (v1)**
+<img src="assets/chapter03/mockupss/MisEquipos-Clientes-2.png"
+     alt="Mockup Mis Equipos cliente versión 1."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 19:</strong> Mockup 19 - Mis Equipos (v1).
+</figcaption>
+El uso de tarjetas independientes y márgenes amplios mejora la legibilidad del contenido. Los colores y botones refuerzan la accesibilidad visual del usuario. La arquitectura de información estructura la lista de equipos de manera vertical para favorecer la exploración progresiva.
+
+---
+
+### **Mis Equipos – Clientes (v2)**
+<img src="assets/chapter03/mockupss/MisEquipos-Clientes-3.png"
+     alt="Mockup Mis Equipos cliente versión 2."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 20:</strong> Mockup 20 - Mis Equipos (v2).
+</figcaption>
+Los componentes mantienen una disposición equilibrada, generando consistencia visual. La tipografía uniforme y los botones amplios promueven la inclusión y accesibilidad. La arquitectura jerarquiza la información según relevancia: primero el equipo, luego las acciones asociadas.
+
+
+---
+
+### **Mis Equipos – Clientes (v5)**
+<img src="assets/chapter03/mockupss/MisEquipos-Clientes-6.png"
+     alt="Mockup Mis Equipos cliente versión 5 con indicador de acción rápida."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 23:</strong> Mockup 23 - Mis Equipos (v5).
+</figcaption>
+Los indicadores visuales permiten identificar rápidamente el estado de cada dispositivo. El diseño prioriza accesos táctiles grandes y colores de alto contraste. La arquitectura de información muestra los datos técnicos de manera ordenada y comprensible.
+
+---
+
+### **Control de Equipo – Cliente (v1)**
+<img src="assets/chapter03/mockupss/ControlEquipo-Cliente-1.png"
+     alt="Mockup Control de Equipo cliente versión 1 con botón Back y analíticas."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 24:</strong> Mockup 24 - Control de Equipo (v1).
+</figcaption>
+Los valores y gráficas se presentan con equilibrio visual y alineación precisa. Se prioriza la inclusión mediante tipografía grande y botones accesibles. La arquitectura divide la información en secciones analíticas e informativas para una lectura eficiente.
+
+---
+
+### **Analytics – Cliente (con datos)**
+<img src="assets/chapter03/mockupss/Analytics-Cliente-1.png"
+     alt="Mockup de panel Analytics con gráficos y KPIs."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 27:</strong> Mockup 27 - Analytics (con datos).
+</figcaption>
+Los gráficos utilizan colores distintivos para resaltar tendencias. La legibilidad se garantiza mediante etiquetas claras y coherentes. La estructura jerarquiza los indicadores de desempeño, permitiendo un análisis progresivo de la información.
+
+---
+
+### **Add Equipment – Cliente**
+<img src="assets/chapter03/mockupss/AddEquipment-Cliente.png"
+     alt="Mockup de formulario para agregar equipo del cliente."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 28:</strong> Mockup 28 - Add Equipment.
+</figcaption>
+El formulario aplica alineación vertical y márgenes amplios para reducir carga cognitiva. Los campos son claros y de fácil interacción, garantizando accesibilidad. La estructura divide la información en secciones lógicas: identificación, consumo y ubicación.
+
+---
+
+### **Manage Equipments – Cliente (lista)**
+<img src="assets/chapter03/mockupss/ManageEquipment-Cliente.png"
+     alt="Mockup de listado de equipos administrables del cliente."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 29:</strong> Mockup 29 - Manage Equipments (lista).
+</figcaption>
+El contraste de botones primarios y secundarios establece jerarquía visual. Los tamaños amplios y tipografía uniforme facilitan la interacción inclusiva. La arquitectura organiza la lista por estado operativo, optimizando la navegación entre registros.
+
+---
+
+### **Manage Equipments – Cliente (confirmación)**
+<img src="assets/chapter03/mockupss/ManageEquipment-Cliente-2.png"
+     alt="Mockup de confirmación de eliminación de equipo."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 30:</strong> Mockup 30 - Confirmación de eliminación.
+</figcaption>
+El diálogo resalta la acción principal mediante color y contraste. Se emplea lenguaje directo y tipografía clara para accesibilidad cognitiva. La arquitectura de información presenta la acción y su confirmación en un flujo coherente.
+
+---
+
+### **Manage Equipments – Cliente (feedback)**
+<img src="assets/chapter03/mockupss/ManageEquipment-Cliente-1.png"
+     alt="Mockup de feedback de eliminación exitosa en Manage Equipments."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 31:</strong> Mockup 31 - Feedback de acción completada.
+</figcaption>
+El mensaje de confirmación usa jerarquía tipográfica para indicar éxito. Los colores y el ícono generan una respuesta visual clara e inmediata. La información se presenta centrada y de manera secuencial, reduciendo el esfuerzo del usuario.
+
+---
+
+### **Estado de Cuenta – Clientes**
+<img src="assets/chapter03/mockupss/EstadoCuenta-Clientes-1.png"
+     alt="Mockup del estado de cuenta del cliente con items y estado."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 32:</strong> Mockup 32 - Estado de Cuenta (cliente).
+</figcaption>
+La tabla utiliza líneas y contraste para una lectura ordenada y fluida. Se prioriza la inclusión visual mediante fuentes grandes y colores claros. La arquitectura de información presenta primero el saldo general y luego los detalles específicos.
+
+---
+
+### **Mi Cuenta – Clientes (v1)**
+<img src="assets/chapter03/mockupss/Micuenta-Clientes-2.png"
+     alt="Mockup Mi Cuenta cliente versión simple."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 33:</strong> Mockup 33 - Mi Cuenta (simple).
+</figcaption>
+El diseño equilibra texto e iconografía para una lectura clara y directa. Los espacios amplios y la alineación centrada mejoran la usabilidad. La información del perfil se agrupa jerárquicamente, facilitando la gestión de datos personales.
+
+---
+
+### **Mi Cuenta – Clientes (v2)**
+<img src="assets/chapter03/mockupss/Micuenta-Clientes-3.png"
+     alt="Mockup Mi Cuenta cliente con ofertas de upgrade de plan."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 34:</strong> Mockup 34 - Mi Cuenta (con planes).
+</figcaption>
+Se aplican tarjetas de color con equilibrio y consistencia visual. Los textos informativos son legibles y contrastados, favoreciendo la accesibilidad. La arquitectura divide la vista entre información personal y opciones de mejora de plan.
+
+---
+
+### **Notificaciones – Clientes**
+<img src="assets/chapter03/mockupss/Notificaciones-Clientes-1.png"
+     alt="Mockup de notificaciones del cliente con acciones de lectura."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 35:</strong> Mockup 35 - Notificaciones (cliente).
+</figcaption>
+Las alertas se presentan con un formato uniforme y jerárquico. El alto contraste mejora la visibilidad en distintas condiciones de luz. La estructura prioriza las notificaciones más recientes y relevantes para una comprensión inmediata.
+
+---
+
+### **Contacto – Clientes (v1-v5)**
+<img src="assets/chapter03/mockupss/Contacto-Clientes-6.png"
+     alt="Mockups Contacto cliente versiones 2-6."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 36-40:</strong> Mockups 36–40 - Contacto (v1 a v5).
+</figcaption>
+Las diferentes versiones mantienen coherencia visual y orden lógico de la información. Se prioriza el contraste de íconos y texto para garantizar legibilidad. La arquitectura agrupa información de contacto, ubicación y redes de manera progresiva y accesible.
+
+---
+
+### **Registro – Clientes (v1-v2)**
+<img src="assets/chapter03/mockupss/Registro Clientes-3.png"
+     alt="Mockups registro clientes versiones 2 y 3."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 41-42:</strong> Mockups 41–42 - Registro (v1 y v2).
+</figcaption>
+El flujo de autenticación emplea formularios simplificados con botones de acción visibles. Las etiquetas descriptivas y la jerarquía visual mejoran la experiencia del usuario. La arquitectura guía la interacción desde el ingreso de datos hasta la validación final.
+
+---
+
+## Empresa
+
+### **Inicio – Empresa**
+<img src="assets/chapter03/mockupss/Inicio-Empresa-1.png"
+     alt="Mockup pantalla de inicio para empresa."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 43:</strong> Mockup 43 - Inicio (empresa).
+</figcaption>
+El diseño profesional usa tipografía clara y bloques informativos equilibrados. El contraste visual resalta métricas y accesos directos. La arquitectura estructura los módulos de gestión según su prioridad operativa.
+
+---
+
+### **Inicio de Sesión – Empresa**
+<img src="assets/chapter03/mockupss/Inicio de Sesión - Empresa-1.png"
+     alt="Mockup Sign In de empresa."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 44:</strong> Mockup 44 - Inicio de Sesión (empresa).
+</figcaption>
+El diseño presenta equilibrio entre formulario e identidad visual de marca. La inclusión se garantiza mediante campos amplios y botones de alto contraste. La arquitectura de información organiza el flujo de acceso de manera lineal y sencilla.
+
+---
+
+### **Mis Equipos – Empresa**
+<img src="assets/chapter03/mockupss/MisEquipos-Empresa-1.png"
+     alt="Mockup Mis Equipos para empresa."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 45:</strong> Mockup 45 - Mis Equipos (empresa).
+</figcaption>
+Los equipos se agrupan visualmente por estado y disponibilidad. Los botones grandes y etiquetas descriptivas aseguran una interacción inclusiva. La información se dispone en tarjetas jerárquicas que optimizan la revisión técnica.
+
+---
+
+### **Mis Clientes / Técnicos – Empresa**
+<img src="assets/chapter03/mockupss/MisClientes,Técnicos-Empresa-1.png"
+     alt="Mockup gestión de clientes y técnicos para empresa."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 46:</strong> Mockup 46 - Mis Clientes y Técnicos.
+</figcaption>
+Se aplica alineación vertical y uso repetitivo de componentes para reforzar la consistencia. El contraste y la tipografía uniforme garantizan accesibilidad visual. La arquitectura de información separa los apartados de clientes y técnicos de forma clara.
+
+---
+
+### **Órdenes de Trabajo – Empresa**
+<img src="assets/chapter03/mockupss/ÓrdenesDeTrabajo-Empresa-1.png"
+     alt="Mockup de listado de órdenes de trabajo para empresa."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 47:</strong> Mockup 47 - Órdenes de Trabajo (empresa).
+</figcaption>
+El diseño agrupa órdenes por estado con un código de color fácilmente identificable. La iconografía y el espaciado facilitan la lectura en pantallas pequeñas. La arquitectura prioriza la visualización rápida de tareas activas y completadas.
+
+---
+
+### **Solicitudes – Empresa**
+<img src="assets/chapter03/mockupss/Solicitudes-Empresa-1.png"
+     alt="Mockup de solicitudes para empresa con aceptar/denegar."
+     style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+<figcaption style="font-size: 0.9em; color: #555;">
+  <strong>Figura 48:</strong> Mockup 48 - Solicitudes (empresa).
+</figcaption>
+El contraste cromático resalta las acciones principales de aprobación o rechazo. El uso de íconos intuitivos promueve accesibilidad cognitiva
+
     - 3.1.4.4. Mobile Applications User Flow Diagrams
     - 3.1.4.5. Mobile Applications Prototyping
 
