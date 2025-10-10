@@ -3145,8 +3145,17 @@ US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar regis
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---------|----------|----------------|-----------|-------------|--------------|
-| link | Branch | commitid | message |message body | 09/10/25     |
-| link | Branch | commitid | message |message body | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | login | c416779 | Feature: Add:Login / Add:Register / Add:Contact | Feature: Add:Login / Add:Register / Add:Contact | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | login | cb74a69 | Initial import Android project | Initial import Android project | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | rental | c8ddbe4 | feature: add rent equipment and account | feature: add rent equipment and account | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipments | 44b786c | feature: add my machines | feature: add my machines | 10/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipments | ecd7da0 | feature: add drawer clients | feature: add drawer clients | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipment | c45e1fe | feature: add preview in management | feature: add preview in management | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipment | d2c0298 | feature: add equipment | feature: add equipment | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipment | 7f4266c | feature: add rental equipment | feature: add rental equipment | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipment | 45abbaa | feature: add equipment detail screen | feature: add equipment detail screen | 09/10/25     |
+| https://github.com/Equipo5-Aplicaciones-Moviles/OsitoPolar-App-Movil | equipment | 91f8d44 | feature: add equipment dto | feature: add equipment dto | 09/10/25     |
+
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
