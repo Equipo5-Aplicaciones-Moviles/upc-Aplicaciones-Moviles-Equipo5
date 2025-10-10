@@ -3175,6 +3175,8 @@ Framework Pattern Driven Refactoring Report
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+<img width="1202" height="607" alt="image" src="https://github.com/user-attachments/assets/8c830c06-9dc1-46a3-83e0-38a753051518" />
+
 ### Landing page deployment:
 Para desplegar la landing page, es necesario cumplir con ciertos requisitos previos, como contar con una cuenta personal, una organización y un repositorio donde se alojarán los archivos. Una vez cumplidos estos requisitos, se pueden seguir los pasos detallados a continuación para realizar el despliegue:
 
