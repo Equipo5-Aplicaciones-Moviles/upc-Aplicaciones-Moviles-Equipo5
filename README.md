@@ -3180,12 +3180,119 @@ La URL que nos entrega Github Pages para acceder a la landing page es la siguien
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 #### 4.3. Validation Interviews
-
-
 #### 4.3.1. Diseño de Entrevistas
-#### 4.3.2. Registro de Entrevistas
+
+En esta sección se presentan los detalles de las entrevistas de validación realizadas.
+
 ### 5.3.1. Diseño de Entrevistas.
 
+<h4>Objetivo de la Entrevista</h4>
+<p>Validar la usabilidad, efectividad y propuesta de valor de la <strong>aplicación móvil OsitoPolar</strong> para los segmentos clave. Se evaluará si las funcionalidades cubren las necesidades operativas reales y si los flujos táctiles (tap, swipe, notificaciones push) son intuitivos para usuarios con distintos perfiles técnicos.</p>
+
+<h4>Elementos de Validación</h4>
+<ul>
+  <li><strong>Onboarding / Pantalla de inicio (App):</strong> Claridad de la propuesta de valor, permisos (cámara/galería para fotos y QR, ubicación, notificaciones), acceso a funcionalidades clave y llamados a la acción.</li>
+  <li><strong>Aplicación Móvil:</strong> Flujos críticos como registro de equipos (con escaneo QR/foto), solicitud de servicios, visualización de reportes, asignación de técnicos y recepción de alertas <em>push</em>.</li>
+</ul>
+
+<h4>User Flows a Validar</h4>
+
+<h5>Para el Segmento: Negocios con Equipos de Refrigeración</h5>
+<ol>
+  <li>Registro y configuración inicial en el móvil</li>
+  <li>Monitoreo y alertas <em>push</em></li>
+  <li>Solicitud de servicios desde la app</li>
+  <li>Visualización de reportes en el dispositivo</li>
+  <li>Evaluación del servicio</li>
+</ol>
+
+<h5>Para el Segmento: Empresas Proveedoras de Servicios</h5>
+<ol>
+  <li>Recepción de solicitudes (inbox/push)</li>
+  <li>Gestión y asignación de técnicos</li>
+  <li>Historial técnico desde la app</li>
+  <li>Generación y envío de reportes</li>
+  <li>Gestión de cartera de clientes</li>
+</ol>
+
+<h4>Formato de Registro de Entrevista</h4>
+<ul>
+  <li>Nombre completo</li>
+  <li>Edad</li>
+  <li>Distrito de residencia</li>
+  <li>Rol en su empresa</li>
+  <li>Dispositivo utilizado para la prueba (Android/iOS)</li>
+</ul>
+
+<h3>Preguntas para el Segmento 1: Negocios que utilizan Equipos de Refrigeración</h3>
+<ul>
+  <li>¿De qué manera te resultó útil la información del <strong>onboarding</strong> de la app?</li>
+</ul>
+
+<h4>Registro y Gestión de Equipos</h4>
+<ul>
+  <li>¿Qué tan fácil fue registrar tus equipos de refrigeración desde el celular (foto/QR)?</li>
+  <li>¿La información solicitada fue clara y necesaria?</li>
+  <li>¿Hubo algún paso que te generó dudas?</li>
+</ul>
+
+<h4>Monitoreo y Alertas</h4>
+<ul>
+  <li>¿Cómo sentiste el proceso para acceder al estado de tus equipos en el móvil?</li>
+  <li>¿De qué manera te sirvió la sección de alertas <em>push</em> de los equipos?</li>
+  <li>¿Cómo afectarían estas alertas tu toma de decisiones?</li>
+</ul>
+
+<h4>Solicitudes de Servicio</h4>
+<ul>
+  <li>¿Cómo fue tu experiencia solicitando un servicio desde la app?</li>
+  <li>¿La opción para programar mantenimiento estaba visible y disponible? ¿Qué te pareció su implementación?</li>
+  <li>¿Cómo fue tu proceso al solicitar un tipo de servicio?</li>
+</ul>
+
+<h4>Visualización de Reportes</h4>
+<ul>
+  <li>¿De qué manera te ayudaron los reportes de los equipos a conocer su estado?</li>
+  <li>¿Cómo te sirvieron los reportes de consumo energético para detectar posibles problemas?</li>
+  <li>¿Qué agregarías o mejorarías en estos reportes (comparativas, recomendaciones, exportación)?</li>
+</ul>
+
+<h4>Evaluación del Servicio</h4>
+<ul>
+  <li>¿Fue sencillo dejar una evaluación después del servicio desde el móvil? ¿Cómo fue tu experiencia al usar esta funcionalidad?</li>
+  <li>¿De qué manera consideras útil poder modificar tu evaluación si hubo cambios posteriores?</li>
+</ul>
+
+<h3>Preguntas para el Segmento 2: Empresas Proveedoras de Servicios</h3>
+
+<h4>Recepción y Gestión de Solicitudes</h4>
+<ul>
+  <li>¿Puedes describir cómo es el proceso de recibir una nueva solicitud de servicio en la app y qué aspectos destacarías, tanto positivos como áreas de mejora?</li>
+  <li>¿Cómo describirías tu experiencia al asignar un técnico a una solicitud de servicio desde el móvil, y qué elementos del procedimiento te resultaron más útiles o desafiantes?</li>
+  <li>¿Cómo ha sido tu experiencia al realizar el seguimiento del estado de los servicios en tiempo real desde la app, y qué características consideras más valiosas o cuáles mejorarías?</li>
+</ul>
+
+<h4>Gestión de Técnicos</h4>
+<ul>
+  <li>¿Cómo describirías el procedimiento para asignar técnicos a las solicitudes de servicio en la app, y qué sugerencias tendrías para optimizar esta funcionalidad?</li>
+  <li>¿Qué información sobre el desempeño de los técnicos encuentras en la app y cómo te ayuda? ¿Qué aspectos adicionales te gustaría ver (KPIs, rankings, rutas)?</li>
+  <li>¿De qué manera el sistema de métricas de desempeño ha impactado en la gestión de tus técnicos, y qué mejoras sugerirías para hacerlo más útil?</li>
+</ul>
+
+<h4>Historial y Reportes Técnicos</h4>
+<ul>
+  <li>¿Cómo ha sido tu experiencia al acceder al historial técnico de los equipos atendidos desde el móvil, y qué aspectos te parecen efectivos o cuáles cambiarías?</li>
+  <li>¿Cómo describirías la utilidad y claridad de los reportes generados por la app para tus clientes, y qué elementos crees que podrían mejorarse?</li>
+  <li>¿Puedes contarme cómo es el proceso de generación automática de reportes en la app y qué aspectos consideras que funcionan bien o podrían optimizarse?</li>
+</ul>
+
+<h4>Gestión de Cartera de Clientes</h4>
+<ul>
+  <li>¿Cómo describirías tu experiencia al visualizar y gestionar la lista de clientes y sus servicios en la app, y qué funcionalidades destacarías o mejorarías?</li>
+  <li>¿Qué tan sencillo o complejo ha sido filtrar información por estado del servicio o tipo de equipo en el móvil, y qué sugerencias tendrías para mejorar esta funcionalidad?</li>
+</ul>
+
+#### 4.3.2. Registro de Entrevistas
 <h4>Objetivo de la Entrevista</h4>
 <p>Validar la usabilidad, efectividad y propuesta de valor de la <strong>aplicación móvil OsitoPolar</strong> para los segmentos clave. Se evaluará si las funcionalidades cubren las necesidades operativas reales y si los flujos táctiles (tap, swipe, notificaciones push) son intuitivos para usuarios con distintos perfiles técnicos.</p>
 
