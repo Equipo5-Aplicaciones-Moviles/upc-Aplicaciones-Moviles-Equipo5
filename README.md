@@ -3107,6 +3107,22 @@ El contraste cromático resalta las acciones principales de aprobación o rechaz
 #### 4.2.1.1. Sprint Planning 1
 A continuación, se presenta la planificación del sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
 #### 4.2.1.2. Sprint Backlog 1
+
+| **Sprint #**                    | **Sprint 1** |
+|-------------------------------|-------------|
+| **Sprint Planning Background**| En el sprint decidimos reunirnos para verificar el progreso de cada uno de los participantes y el progreso desde el punto de vista grupal, luego de ello buscamos formas y acciones de mejora. |
+| **Date**                      | 6/10/25    |
+| **Time**                      | 21:00 horas |
+| **Location**                  | Via Discord |
+| **Prepared By**               | Luis Angel Montañez Moreno |
+| **Attendees**                 | Joseph Rodriguez, Sergio Aguirre, Victor Rojas, Maria Muñoz, Luis Montañez |
+| **Sprint 1 Review Summary**     | Esta sección se dedicó a mejorar el código de Landing Page, desarrollar la aplicación móvil en Android Studio y la conexión con el Backend. |
+| **Sprint 1 Retrospective Summary** | Todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades.  |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal**               | Nuestro enfoque está en implementar la landing page de Osito Polar y además de la aplicación móvil para Android siguiendo la estrategia nativa. Esta ofrecerá a los nuevos usuarios una interfaz clara, informativa y fácil de navegar que comunique los beneficios, servicios y características de la solución. Creemos que esto permitirá a los usuarios comprender de manera sencilla el valor que aporta, generando una primera experiencia positiva y sentando las bases para futuras funcionalidades. |
+| **Sprint 1 Velocity**              | 15 |
+| **Sum of Story Points**        | 21 |
+
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
