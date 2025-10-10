@@ -2131,6 +2131,18 @@ La base de datos del contexto “Ver Equipos” está compuesta por las siguient
 <img width="1712" height="520" alt="image" src="https://github.com/user-attachments/assets/6b81b3d0-cb3a-48f6-ad5d-0b024c6382c7" />
 
 
+# Capítulo IV: Product Implementation & Validation
+
+### 4.2.1. Sprint 1
+#### 4.2.1.1. Sprint Planning 1
+A continuación, se presenta la planificación del sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
+#### 4.2.1.2. Sprint Backlog 1
+#### 4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.2.1.8. Team Collaboration Insights during Sprint
 
 
 ## Conclusiones
