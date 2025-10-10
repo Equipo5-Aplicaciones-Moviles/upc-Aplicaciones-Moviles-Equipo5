@@ -3127,8 +3127,7 @@ Sprint # | Sprint 1 | | | | | | |
 ---------|----------|---------|-------|-----|----|----|---|
 User Story | Work-Item / Task
 ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
-US23 | Visualizar propuesta de valor principal | UT-01 | Crear la sección
- 'Hero' | Añadir la sección donde se muestra nuestra propuesta de valor principal y las entidades que confían en nosotros | 4 | Joseph Rodriguez | Done
+US23 | Visualizar propuesta de valor principal | UT-01 | Crear la sección 'Hero' | Añadir la sección donde se muestra nuestra propuesta de valor principal y las entidades que confían en nosotros | 4 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado | 3 | Maria Muñoz | Done
 US23 | Visualizar propuesta de valor principal | UT03 | Agregar efectos y validaciones según el diseño | Agregar efectos y validaciones según el diseño | 3 | Sergio Aguirre | Done
 US24 | Explorar soluciones específicas para mi rubro | UT04 | Crear la sección "Beneficios" | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficio) | 2 | Victor Rojas | Done
