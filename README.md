@@ -27,6 +27,8 @@
 |---------|------------|----------------------|-----------------------------------------------------------------|
 | 0.1     | 08/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 1 y Capítulo 2                         |
 | 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 2 (entrevistas, competidores, segmentación) |
+| 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 3 y 5 (Movil,Back y Landing) |
+
 
 ## Project Report Collaboration Insights
 **TB1** Desarrollo del reporte hasta el capítulo 2 para el sprint 1
