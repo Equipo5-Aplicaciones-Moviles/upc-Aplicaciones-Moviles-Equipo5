@@ -3161,9 +3161,199 @@ US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar regis
 #### 4.2.1.5. Execution Evidence for Sprint Review
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+### Landing page deployment:
+Para desplegar la landing page, es necesario cumplir con ciertos requisitos previos, como contar con una cuenta personal, una organización y un repositorio donde se alojarán los archivos. Una vez cumplidos estos requisitos, se pueden seguir los pasos detallados a continuación para realizar el despliegue:
+
+1. Verificar que los archivos principales se encuentren en la raíz (root) del repositorio.
+2. Asegurarse de que los archivos sigan las siguientes convenciones de nombres: "index.html" para la página principal, "styles.css" para los estilos, "script.js" para los scripts principales, "languages.js" para gestionar los textos en diferentes idiomas (español e inglés), y una carpeta llamada "assets/images" para las imágenes.
+3. Subir los archivos al repositorio mediante un commit.
+4. Acceder a la sección Settings > Pages y seleccionar el branch correspondiente, en este caso, "main".
+5. Configurar la carpeta raíz (root) como la fuente de la página.
+6. Esperar a que GitHub realice las verificaciones necesarias. Una vez finalizado el proceso, se generará un enlace que permitirá acceder a la landing page desplegada.
+
+Adicionalmente, se implementó un archivo "languages.js" que contiene los textos en español e inglés. Este archivo es consumido por el script "main.js", el cual permite realizar el cambio de idioma dinámicamente en la landing page.ations Implementation
+
+La URL que nos entrega Github Pages para acceder a la landing page es la siguiente:
+
+### Github Pages:
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+#### 4.3. Validation Interviews
 
+
+#### 4.3.1. Diseño de Entrevistas
+#### 4.3.2. Registro de Entrevistas
+### 5.3.1. Diseño de Entrevistas.
+
+<h4>Objetivo de la Entrevista</h4>
+<p>Validar la usabilidad, efectividad y propuesta de valor de la <strong>aplicación móvil OsitoPolar</strong> para los segmentos clave. Se evaluará si las funcionalidades cubren las necesidades operativas reales y si los flujos táctiles (tap, swipe, notificaciones push) son intuitivos para usuarios con distintos perfiles técnicos.</p>
+
+<h4>Elementos de Validación</h4>
+<ul>
+  <li><strong>Onboarding / Pantalla de Inicio (App):</strong> Claridad en la propuesta de valor, permisos (cámara/galería para fotos y QR, notificaciones), accesos a funcionalidades clave, llamados a la acción.</li>
+  <li><strong>Aplicación Móvil:</strong> Flujos críticos como registro de equipos (con escaneo de código/QR y fotos), solicitud de servicios, visualización de reportes, asignación de técnicos y recepción de alertas <em>push</em>.</li>
+</ul>
+
+<h4>User Flows a Validar</h4>
+
+<h5>Para el Segmento: Negocios con Equipos de Refrigeración</h5>
+<ol>
+  <li>Registro y configuración inicial</li>
+  <li>Monitoreo y alertas (push)</li>
+  <li>Solicitud de servicios</li>
+  <li>Visualización de reportes</li>
+  <li>Evaluación del servicio</li>
+</ol>
+
+<h5>Para el Segmento: Empresas Proveedoras de Servicios</h5>
+<ol>
+  <li>Recepción de solicitudes (push/inbox)</li>
+  <li>Gestión de técnicos</li>
+  <li>Historial técnico</li>
+  <li>Generación de reportes</li>
+  <li>Gestión de cartera de clientes</li>
+</ol>
+
+<h4>Formato de Registro de Entrevista</h4>
+<ul>
+  <li>Nombre completo</li>
+  <li>Edad</li>
+  <li>Distrito de residencia</li>
+  <li>Rol en su empresa</li>
+  <li>Dispositivo utilizado para la prueba (Android/iOS)</li>
+</ul>
+
+<h3>Preguntas para el Segmento 1: Negocios que utilizan Equipos de Refrigeración</h3>
+<ul>
+  <li>¿De qué manera te pareció útil la información del onboarding en la app?</li>
+</ul>
+<h4>Registro y Gestión de Equipos</h4>
+<ul>
+  <li>¿Qué tan fácil fue registrar tus equipos de refrigeración desde el celular (foto/QR)?</li>
+  <li>¿La información solicitada fue clara y necesaria?</li>
+  <li>¿Hubo algún paso que te generó dudas?</li>
+</ul>
+
+<h4>Monitoreo y Alertas</h4>
+<ul>
+  <li>¿Cómo sentiste el proceso para acceder al estado de tus equipos en el móvil?</li>
+  <li>¿De qué manera te sirvió la sección de alertas <em>push</em> de los equipos?</li>
+  <li>¿Cómo afectarían estas alertas tu toma de decisiones?</li>
+</ul>
+
+<h4>Solicitudes de Servicio</h4>
+<ul>
+  <li>¿Cómo fue tu experiencia solicitando un servicio desde la app?</li>
+  <li>¿La opción para programar mantenimiento estaba visible y disponible? ¿Qué te pareció su implementación?</li>
+  <li>¿Cómo fue tu proceso al solicitar un tipo de servicio?</li>
+</ul>
+
+<h4>Visualización de Reportes</h4>
+<ul>
+  <li>¿De qué manera te ayudaron los reportes de los equipos a conocer su estado?</li>
+  <li>¿Cómo es que los reportes de consumo energético te sirvieron para detectar posibles problemas?</li>
+  <li>¿Qué agregarías o mejorarías en estos reportes?</li>
+</ul>
+
+<h4>Evaluación del Servicio</h4>
+<ul>
+  <li>¿Fue sencillo dejar una evaluación después del servicio desde el móvil? ¿Cómo fue tu experiencia al usar esta funcionalidad?</li>
+  <li>¿De qué manera consideras útil poder modificar tu evaluación si hubo cambios posteriores?</li>
+</ul>
+
+<h3>Preguntas para el Segmento 2: Empresas Proveedoras de Servicios</h3>
+
+<h4>Recepción y Gestión de Solicitudes</h4>
+<ul>
+  <li>¿Puedes describir cómo es el proceso de recibir una nueva solicitud de servicio en la app y qué aspectos destacarías, tanto positivos como áreas de mejora?</li>
+  <li>¿Cómo describirías tu experiencia al asignar un técnico a una solicitud de servicio, y qué elementos del procedimiento te resultaron más útiles o desafiantes?</li>
+  <li>¿Cómo ha sido tu experiencia al realizar el seguimiento del estado de los servicios en tiempo real, y qué características consideras más valiosas o cuáles mejorarías?</li>
+</ul>
+
+<h4>Gestión de Técnicos</h4>
+<ul>
+  <li>¿Cómo describirías el procedimiento para asignar técnicos a las solicitudes de servicio, y qué sugerencias tendrías para optimizar esta funcionalidad?</li>
+  <li>¿Qué información sobre el desempeño de los técnicos encuentras en la app, y cómo te ayuda o qué aspectos adicionales te gustaría ver?</li>
+  <li>¿De qué manera el sistema de métricas de desempeño ha impactado en la gestión de tus técnicos, y qué mejoras sugerirías para hacerlo más útil?</li>
+</ul>
+
+<h4>Historial y Reportes Técnicos</h4>
+<ul>
+  <li>¿Cómo ha sido tu experiencia al acceder al historial técnico de los equipos atendidos, y qué aspectos te parecen efectivos o cuáles cambiarías?</li>
+  <li>¿Cómo describirías la utilidad y claridad de los reportes generados para tus clientes, y qué elementos crees que podrían mejorarse?</li>
+  <li>¿Puedes contarme cómo es el proceso de generación automática de reportes en la app y qué aspectos consideras que funcionan bien o podrían optimizarse?</li>
+</ul>
+
+<h4>Gestión de Cartera de Clientes</h4>
+<ul>
+  <li>¿Cómo describirías tu experiencia al visualizar y gestionar la lista de clientes y sus servicios, y qué funcionalidades destacarías o mejorarías?</li>
+  <li>¿Qué tan sencillo o complejo ha sido filtrar información por estado del servicio o tipo de equipo, y qué sugerencias tendrías para mejorar esta funcionalidad?</li>
+</ul>
+
+
+---
+
+### 5.3.2. Registro de Entrevistas.
+En esta sección tenemos el análisis de las entrevistas por segmentos objetivos.
+
+<br>
+
+
+<br><br>
+
+| Entrevista 1: Negocio que utiliza máquinas de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Luis Salazar Cotrina** |
+| **Edad** | 28 |
+| **Profesión** | Restaurante familiar – Comida criolla |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (iOS)** |
+| <img width=620 src="assets/chapter-05/E1.jpng"/> | [Entrevista 1](#) |
+| **Duración de la Entrevista** | 0:00 - 6:05 |
+| **Análisis de la Entrevista** |  |
+| **Registro y Gestión de Equipos** | Organizó varias congeladoras por **zona** con **tags**; sugiere **duplicar** equipo como plantilla. |
+| **Monitoreo y Alertas** | Sección “**clave**”; detectó **escarcha** por aumento de consumo. Pide **resumen diario** (además del push). |
+| **Solicitudes de Servicio** | Programó mantenimiento con CTA visible desde el **home**; sugiere **reprogramar** con un tap. |
+| **Visualización de Reportes** | Halló anomalías en **horas valle**; útil **panel semanal** para ahorro energético. |
+| **Evaluación del Servicio** | Transparente; pudo **modificar rating** tras segunda visita. |
+
+<br>
+
+| Entrevista 2: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Piero Medina Rojas** |
+| **Edad** | 30 |
+| **Profesión** | Coordinador de servicios |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (Android)** |
+| <img width=620 src="assets/chapter-05/E2.jpg"/> | [Entrevista 2](#) |
+| **Duración de la Entrevista** | 0:00 - 7:10 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Inbox móvil **claro** (cliente, equipo, **ETA sugerido**). Falta **detalle técnico obligatorio** (fotos, lectura de temperatura) para evitar llamadas. |
+| **Gestión de Técnicos** | Asignación **intuitiva** por **especialidad** y **ubicación**. Pide **rutas por zona** y **ranking** interno con KPIs. |
+| **Historial y Reportes Técnicos** | Acceso ágil por equipo/cliente; solicita **exportación PDF/Excel** y **campos personalizables**. |
+| **Gestión de Cartera de Clientes** | Vista ordenada (estado, facturación, servicios). Pide **alertas automáticas** para mantenimientos y **etiquetas** por cliente. |
+
+<br>
+
+| Entrevista 3: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Sandra Ramos Delgado** |
+| **Edad** | 23 |
+| **Profesión** | Supervisora operativo |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (iOS)** |
+| <img width=1000 src="assets/chapter-05/E3.jpg"/> | [Entrevista 3](#) |
+| **Duración de la Entrevista** | 0:00 - 6:05 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
+
+
+#### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
 
