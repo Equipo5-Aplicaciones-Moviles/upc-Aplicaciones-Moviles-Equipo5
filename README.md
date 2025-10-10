@@ -3461,6 +3461,131 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 
 
 #### 4.3.3. Evaluaciones según heurísticas
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+**Información del Proyecto**
+- **Carrera:** Ingeniería de Software
+- **Curso:** Aplicaciones Web
+- **Auditor:** Inteligencia Artesanal
+- **Cliente:** Inteligencia Artesanal
+- **Site o App a Evaluar:** OsitoPolar (aplicación móvil iOS/Android)
+
+---
+
+### Tareas a Evaluar
+
+**Para el Segmento Negocios que utilizan equipos de refrigeración (App móvil):**
+1. Registro y gestión de equipos (foto/QR, tags, plantillas)
+2. Monitoreo y alertas (push, silenciamiento por horario)
+3. Solicitudes de servicio técnico (programar/reprogramar, chat breve)
+4. Visualización de reportes (consumo/estado, recomendaciones)
+
+**Para el Segmento Empresas proveedoras de servicios y equipos de refrigeración (App móvil):**
+1. Recepción y gestión de solicitudes (inbox/push con datos técnicos)
+2. Asignación y gestión de técnicos (especialidad/zona, capacidad diaria)
+3. Visualización de historial y reportes técnicos (exportación, campos personalizables)
+4. Gestión de cartera de clientes (alertas de mantenimiento, carpetas/etiquetas)
+
+---
+
+### Escala de Severidad
+
+| Nivel | Descripción |
+|------:|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
+| 4 | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+---
+
+### Tabla Resumen
+
+| # | Problema                                                                                          | Escala de severidad | Heurística/Principio violado                           | Tarea evaluada                                  |
+|---|---------------------------------------------------------------------------------------------------|:-------------------:|--------------------------------------------------------|-------------------------------------------------|
+| 1 | Formulario de solicitud no exige **datos técnicos mínimos** (foto, lectura de temperatura, síntoma) | 3 | Prevención de errores / Ayuda y documentación          | Recepción y gestión de solicitudes              |
+| 2 | Sin **exportación** de reportes (PDF/Excel)                                                        | 2 | Control del usuario / Flexibilidad                     | Historial y reportes técnicos                   |
+| 3 | No se pueden **modificar rutas**/reagrupar visitas por zona con facilidad                          | 2 | Flexibilidad y eficiencia de uso                       | Gestión de técnicos                             |
+| 4 | Falta **ranking/KPIs** y **gráficos comparativos** por técnico                                     | 2 | Visibilidad del estado del sistema                     | Gestión de técnicos                             |
+| 5 | Reportes sin **sugerencias automáticas** (ahorro/diagnóstico)                                      | 3 | Ayuda y documentación / Reconocimiento antes que recuerdo | Visualización de reportes                    |
+| 6 | No existen **alertas automáticas** para **mantenimientos programados**                             | 3 | Prevención de errores / Eficiencia                      | Cartera de clientes                             |
+| 7 | Sin **carpetas/etiquetas** personalizadas para clientes con alta carga                             | 2 | Flexibilidad y eficiencia de uso                       | Cartera de clientes                             |
+| 8 | Falta **silenciamiento programado** de **notificaciones push** por horarios                        | 2 | Control y libertad del usuario                         | Monitoreo y alertas (push)                      |
+| 9 | **Reprogramación** de citas no está disponible en **un toque**                                     | 2 | Minimizar la carga / Eficiencia                         | Solicitudes de servicio                          |
+|10 | **Registro de equipos** podría ser más veloz (duplicar como **plantilla** / **autocompletar** por marca) | 1 | Eficiencia de uso / Consistencia y estándares          | Registro y gestión de equipos                   |
+|11 | Falta **resumen diario** de alertas por **WhatsApp/Email** además del push                         | 1 | Flexibilidad / Acceso a la información                  | Monitoreo y alertas                              |
+|12 | Ausencia de **chat breve** para coordinar con técnico desde la solicitud                           | 2 | Visibilidad/Feedback / Correspondencia con el mundo real | Solicitudes de servicio                       |
+
+---
+
+### Descripción de Problemas
+
+**Problema #1**
+- **Tarea Evaluada:** Recepción y gestión de solicitudes  
+- **Recomendación:** Hacer obligatorios **foto**, **lectura de temperatura** y **descripción breve** del síntoma; plantillas por tipo de falla.
+
+**Problema #2**
+- **Tarea Evaluada:** Historial y reportes técnicos  
+- **Recomendación:** Añadir **exportación PDF/Excel** y **compartir** desde móvil; permitir filtros por rango de fechas y cliente.
+
+**Problema #3**
+- **Tarea Evaluada:** Gestión de técnicos  
+- **Recomendación:** Habilitar **arrastrar/soltar** para reordenar rutas, **agrupación por zona**, y vista de **mapa** con turnos.
+
+**Problema #4**
+- **Tarea Evaluada:** Gestión de técnicos  
+- **Recomendación:** Dashboard con **KPI** (SLA, 1ª visita resuelta, NPS/CSAT), **ranking** mensual y **gráficos** por tipo de equipo.
+
+**Problema #5**
+- **Tarea Evaluada:** Visualización de reportes  
+- **Recomendación:** Motor de **recomendaciones** (p. ej., “alto consumo nocturno → sugerir horario eco, revisión de sellos”).
+
+**Problema #6**
+- **Tarea Evaluada:** Gestión de cartera de clientes  
+- **Recomendación:** **Alertas** automáticas por **mantenimiento programado** (push/email/WhatsApp) con confirmación de cita.
+
+**Problema #7**
+- **Tarea Evaluada:** Gestión de cartera de clientes  
+- **Recomendación:** **Carpetas/Tags** por cliente enterprise, estado y tipo de equipo; búsquedas guardadas.
+
+**Problema #8**
+- **Tarea Evaluada:** Monitoreo y alertas (push)  
+- **Recomendación:** **Modo silencioso** por horario/zonas (ej. madrugada) y excepciones por alertas críticas.
+
+**Problema #9**
+- **Tarea Evaluada:** Solicitudes de servicio  
+- **Recomendación:** **Reprogramar en 1 toque**, manteniendo historial; notificar automáticamente a cliente y técnico.
+
+**Problema #10**
+- **Tarea Evaluada:** Registro y gestión de equipos  
+- **Recomendación:** **Duplicar como plantilla**, **autocompletar** modelo al seleccionar marca, y robustecer **escaneo QR** en baja luz.
+
+**Problema #11**
+- **Tarea Evaluada:** Monitoreo y alertas  
+- **Recomendación:** **Resumen diario** de eventos vía **WhatsApp/Email** configurable por usuario.
+
+**Problema #12**
+- **Tarea Evaluada:** Solicitudes de servicio  
+- **Recomendación:** **Chat breve** in-app entre cliente y técnico/coordinador con mensajes predefinidos (llegada, reprogramación, foto).
+
+---
+
+### User Flows a Validar
+
+**Para el Segmento Negocios que utilizan equipos de refrigeración (App móvil):**
+1. **Registro de vitrinas/congeladoras** con **foto/QR**, uso de **tags** y **duplicado como plantilla**.  
+2. **Gestión y visualización de alertas** por temperatura/puerta abierta con **silenciamiento programado** y **resumen diario**.  
+3. **Solicitud y evaluación de técnicos** desde la misma interfaz, con **reprogramación en 1 toque** y **chat breve**.  
+4. **Consulta de reportes** de consumo/estado con **recomendaciones automáticas**.
+
+**Para el Segmento Empresas proveedoras de servicios y equipos de refrigeración (App móvil):**
+1. **Recepción detallada** de solicitudes (con **foto + temperatura + descripción** obligatorias).  
+2. **Asignación eficiente** de técnicos por **especialidad/zona** y **capacidad diaria**, con **reordenamiento de rutas**.  
+3. **Revisión de historial técnico** y **descarga/exportación** de reportes (PDF/Excel) con **campos personalizables**.  
+4. **Gestión avanzada por cliente** con **alertas de mantenimiento programado** y **carpetas/etiquetas** personalizadas.
+
+---
 
 ## Conclusiones
 
