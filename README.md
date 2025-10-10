@@ -3106,7 +3106,6 @@ El contraste cromático resalta las acciones principales de aprobación o rechaz
 ### 4.2.1. Sprint 1
 #### 4.2.1.1. Sprint Planning 1
 A continuación, se presenta la planificación del sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
-#### 4.2.1.2. Sprint Backlog 1
 
 | **Sprint #**                    | **Sprint 1** |
 |-------------------------------|-------------|
@@ -3122,6 +3121,10 @@ A continuación, se presenta la planificación del sprint. En esta sección se e
 | **Sprint 1 Goal**               | Nuestro enfoque está en implementar la landing page de Osito Polar y además de la aplicación móvil para Android siguiendo la estrategia nativa. Esta ofrecerá a los nuevos usuarios una interfaz clara, informativa y fácil de navegar que comunique los beneficios, servicios y características de la solución. Creemos que esto permitirá a los usuarios comprender de manera sencilla el valor que aporta, generando una primera experiencia positiva y sentando las bases para futuras funcionalidades. |
 | **Sprint 1 Velocity**              | 15 |
 | **Sum of Story Points**        | 21 |
+
+#### 4.2.1.2. Sprint Backlog 1
+
+
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
