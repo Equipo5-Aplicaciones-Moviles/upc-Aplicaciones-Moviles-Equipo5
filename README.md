@@ -2,11 +2,11 @@
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
   <h2>Carrera: Ingeniería de Software</h2>
-  <h2>Ciclo: 2025-20</h2>
-  <h2>Curso: 1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
-  <h2>Sección: 12614</h2>
-  <h2>Profesor: David Gerardo Quevedo Velasco</h2>
-  <h1>Informe TB1</h1>
+  <h2>Periodo: 202520</h2>
+  <h2>1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
+  <h2>NRC: 12614</h2>
+  <h2>Docente: David Gerardo Quevedo Velasco</h2>
+  <h1>Informe del Trabajo Final</h1>
   <h2>Startup: IA: Inteligencia Artesanal</h2>
   <h2>Producto: OsitoPolar</h2>
   <h2>Integrantes</h2>
@@ -17,7 +17,7 @@
     <li>U202223286 Rodriguez Parco Joseph Pablo</li>
     <li>U202123655 Rojas Reategui Victor Manuel</li>
   </ul>
-  <h3>Septiembre 2025</h3>
+  <h3>Noviembre 2025</h3>
 </div>
 
 ## Registro de Versiones del Informe
