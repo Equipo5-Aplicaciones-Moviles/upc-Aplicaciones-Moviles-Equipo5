@@ -7,7 +7,7 @@
   <h2>NRC: 12614</h2>
   <h2>Docente: David Gerardo Quevedo Velasco</h2>
   <h1>Informe del Trabajo Final</h1>
-  <h2>Startup: IA: Inteligencia Artesanal</h2>
+  <h2>Startup: CoolingWorks</h2>
   <h2>Producto: OsitoPolar</h2>
   <h2>Integrantes</h2>
   <ul style="list-style: none;">
