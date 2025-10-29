@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
+  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <h2>Ingeniería de Software</h2>
   <h2>Periodo: 202520</h2>
   <h2>1ACC0238 | Aplicaciones para Dispositivos Móviles</h2>
