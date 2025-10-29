@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
-  <h2>Carrera: Ingeniería de Software</h2>
+  <h2>Ingeniería de Software</h2>
   <h2>Periodo: 202520</h2>
-  <h2>1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
+  <h2>1ACC0238 | Aplicaciones para Dispositivos Móviles</h2>
   <h2>NRC: 12614</h2>
   <h2>Docente: David Gerardo Quevedo Velasco</h2>
   <h1>Informe del Trabajo Final</h1>
