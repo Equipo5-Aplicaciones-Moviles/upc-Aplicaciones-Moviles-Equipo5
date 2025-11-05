@@ -1,13 +1,13 @@
 <div align="center">
-  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
-  <h2>Carrera: Ingeniería de Software</h2>
-  <h2>Ciclo: 2025-20</h2>
-  <h2>Curso: 1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
-  <h2>Sección: 12614</h2>
-  <h2>Profesor: David Gerardo Quevedo Velasco</h2>
-  <h1>Informe TP1</h1>
-  <h2>Startup: IA: Inteligencia Artesanal</h2>
+  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
+  <h2>Ingeniería de Software</h2>
+  <h2>Periodo: 202520</h2>
+  <h2>1ACC0238 | Aplicaciones para Dispositivos Móviles</h2>
+  <h2>NRC: 12614</h2>
+  <h2>Docente: David Gerardo Quevedo Velasco</h2>
+  <h1>Informe del Trabajo Final</h1>
+  <h2>Startup: CoolingWorks</h2>
   <h2>Producto: OsitoPolar</h2>
   <h2>Integrantes</h2>
   <ul style="list-style: none;">
@@ -17,7 +17,7 @@
     <li>U202223286 Rodriguez Parco Joseph Pablo</li>
     <li>U202123655 Rojas Reategui Victor Manuel</li>
   </ul>
-  <h3>Septiembre 2025</h3>
+  <h3>Noviembre 2025</h3>
 </div>
 
 ## Registro de Versiones del Informe
@@ -27,8 +27,6 @@
 |---------|------------|----------------------|-----------------------------------------------------------------|
 | 0.1     | 08/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 1 y Capítulo 2                         |
 | 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 2 (entrevistas, competidores, segmentación) |
-| 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 3 y 5 (Movil,Back y Landing) |
-
 
 ## Project Report Collaboration Insights
 **TB1** Desarrollo del reporte hasta el capítulo 2 para el sprint 1
@@ -37,10 +35,10 @@
 <br>
 
 - **URL de la organización del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)
+  [https://github.com/Equipo5-Aplicaciones-Moviles](https://github.com/Equipo5-Aplicaciones-Moviles)
 
 - **URL del repositorio del informe del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/upc-AppWeb-Inteligencia-Artesanal-Report_v2](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)]
+  [https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5)
 
 
 # Objetivos SMART
