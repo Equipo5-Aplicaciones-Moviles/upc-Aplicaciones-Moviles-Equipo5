@@ -11,11 +11,11 @@
   <h2>Producto: OsitoPolar</h2>
   <h2>Integrantes</h2>
   <ul style="list-style: none;">
-    U202310425 Aguirre Castillo Sergio Cesar
-    U202223811 Montañez Moreno, Luis Angel
-    U202317442 Muñoz Machuca, Maria Elena
-    U202223286 Rodriguez Parco Joseph Pablo
-    U202123655 Rojas Reategui Victor Manuel
+  <br>U202310425 Aguirre Castillo Sergio Cesar<br>
+  <br>U202223811 Montañez Moreno, Luis Angel<br>
+  <br>U202317442 Muñoz Machuca, Maria Elena<br>
+  <br>U202223286 Rodriguez Parco Joseph Pablo<br>
+  <br>U202123655 Rojas Reategui Victor Manuel<br>
   </ul>
   <h3>Noviembre 2025</h3>
 </div>
