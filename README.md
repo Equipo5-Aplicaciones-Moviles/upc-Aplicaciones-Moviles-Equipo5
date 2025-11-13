@@ -3195,6 +3195,33 @@ La URL que nos entrega Github Pages para acceder a la landing page es la siguien
 ### Github Pages:
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+### 4.2.2. Sprint 2
+#### 4.2.2.1. Sprint Planning 2
+A continuación, se presenta la planificación del segundo sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
+
+| **Sprint #**                    | **Sprint 2** |
+|-------------------------------|-------------|
+| **Sprint Planning Background**| En el sprint decidimos reunirnos para verificar el progreso de cada uno de los participantes y el progreso desde el punto de vista grupal, luego de ello buscamos formas y acciones de mejora. |
+| **Date**                      | 8/11/25    |
+| **Time**                      | 20:00 horas |
+| **Location**                  | Via Discord |
+| **Prepared By**               | Sergio Aguirre |
+| **Attendees**                 | Joseph Rodriguez, Sergio Aguirre, Victor Rojas, Maria Muñoz, Luis Montañez |
+| **Sprint 2 Review Summary**     | Esta sección se dedicó a avanzar el código en flutter de la aplicación móvil y que el backend esté completamente desplegado. |
+| **Sprint 2 Retrospective Summary** | Todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades.  |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal**               | En este sprint, nos enfocamos en avanzar en el desarrollo de la aplicación móvil de Osito Polar para Android e iOS utilizando Flutter. Además, se ha completado el despliegue del backend al 100%, lo que asegura que ambos sistemas estén totalmente integrados y funcionales. Este avance nos permitirá ofrecer una experiencia de usuario más completa, asegurando la estabilidad y escalabilidad de la aplicación para las siguientes etapas del proyecto. |
+| **Sprint 2 Velocity**              | 15 |
+| **Sum of Story Points**        | 21 |
+
+#### 4.2.2.2. Sprint Backlog 2
+#### 4.2.2.3. Development Evidence for Sprint Review
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+#### 4.2.2.5. Execution Evidence for Sprint Review
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
 #### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
 
