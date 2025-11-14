@@ -3264,16 +3264,16 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 **Pantalla de inicio de sesión**  
 <img src="assets/TF/pantalla2login.jpg" height="400"><br>
 
-**Pantalla de registro de usuario 3**  
+**Pantalla de registro de usuario**  
 <img src="assets/TF/pantalla3register.jpg" height="400"><br>
 
-**Pantalla de Inicio 4**  
+**Pantalla de Inicio**  
 <img src="assets/TF/pantall4inicio.jpg" height="400"><br>
 
-**Pantalla de Inventario 5**  
+**Pantalla de Inventario**  
 <img src="assets/TF/pantalla5inventario.jpg" height="400"><br>
 
-**Pantalla de nuevo equipo 6**  
+**Pantalla de nuevo equipo**  
 <img src="assets/TF/pantalla6nuevoequipo.jpg" height="400"><br>
 
 **Pantalla de técnicos y clientes**  
@@ -3284,6 +3284,9 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+**OsitoPolarPlatform.api**
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
