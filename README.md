@@ -3257,6 +3257,9 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 | https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
+
+<img src="assets/TF/pantalla1.jpg"  width="400" height="400">
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 #### 4.2.2.8. Team Collaboration Insights during Sprint
