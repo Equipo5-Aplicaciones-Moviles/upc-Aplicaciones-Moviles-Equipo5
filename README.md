@@ -1,23 +1,23 @@
 <div align="center">
-  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
   <img src="assets/chapter01/upc-logov.png" alt="UPC Logo" height="200">
-  <h2>Carrera: Ingeniería de Software</h2>
-  <h2>Ciclo: 2025-20</h2>
-  <h2>Curso: 1ACC0238 Aplicaciones para Dispositivos Móviles</h2>
-  <h2>Sección: 12614</h2>
-  <h2>Profesor: David Gerardo Quevedo Velasco</h2>
-  <h1>Informe TP1</h1>
-  <h2>Startup: IA: Inteligencia Artesanal</h2>
+  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
+  <h2>Ingeniería de Software</h2>
+  <h2>Periodo: 202520</h2>
+  <h2>1ACC0238 | Aplicaciones para Dispositivos Móviles</h2>
+  <h2>NRC: 12614</h2>
+  <h2>Docente: David Gerardo Quevedo Velasco</h2>
+  <h1>Informe del Trabajo Final</h1>
+  <h2>Startup: CoolingWorks</h2>
   <h2>Producto: OsitoPolar</h2>
   <h2>Integrantes</h2>
   <ul style="list-style: none;">
-    <li>U202310425 Aguirre Castillo Sergio Cesar</li>
-    <li>U202223811 Montañez Moreno, Luis Angel</li>
-    <li>U202317442 Muñoz Machuca, Maria Elena</li>
-    <li>U202223286 Rodriguez Parco Joseph Pablo</li>
-    <li>U202123655 Rojas Reategui Victor Manuel</li>
+  <br>U202310425 Aguirre Castillo Sergio Cesar<br>
+  <br>U202223811 Montañez Moreno, Luis Angel<br>
+  <br>U202317442 Muñoz Machuca, Maria Elena<br>
+  <br>U202223286 Rodriguez Parco Joseph Pablo<br>
+  <br>U202123655 Rojas Reategui Victor Manuel<br>
   </ul>
-  <h3>Septiembre 2025</h3>
+  <h3>Noviembre 2025</h3>
 </div>
 
 ## Registro de Versiones del Informe
@@ -27,8 +27,6 @@
 |---------|------------|----------------------|-----------------------------------------------------------------|
 | 0.1     | 08/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 1 y Capítulo 2                         |
 | 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 2 (entrevistas, competidores, segmentación) |
-| 0.2     | 17/09/2025 | Joseph Rodriguez     | Desarrollo del Capítulo 3 y 5 (Movil,Back y Landing) |
-
 
 ## Project Report Collaboration Insights
 **TB1** Desarrollo del reporte hasta el capítulo 2 para el sprint 1
@@ -37,10 +35,10 @@
 <br>
 
 - **URL de la organización del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)
+  [https://github.com/Equipo5-Aplicaciones-Moviles](https://github.com/Equipo5-Aplicaciones-Moviles)
 
 - **URL del repositorio del informe del proyecto:**  
-  [https://github.com/Inteligencia-Artesanal-Aplicaciones-Web/upc-AppWeb-Inteligencia-Artesanal-Report_v2](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5.git)]
+  [https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5](https://github.com/Equipo5-Aplicaciones-Moviles/upc-Aplicaciones-Moviles-Equipo5)
 
 
 # Objetivos SMART
@@ -166,9 +164,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 7.
 | Criterio específico | Acciones realizadas | Conclusiones |
-|--------------------|--------------------|-------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Joseph Rodríguez**<br>**TB1:** Aporté ideas al prototipo, redacté partes del informe y asistí a reuniones de coordinación.<br>**TP1:** Apoyé la construcción del prototipo, cerré gaps de contenido y controlé el avance cruzado de tareas.<br>**Luis Montañez**<br>**TB1:** Coordiné la elaboración de entregables y la retroalimentación continua entre miembros.<br>**TP1:** Estandaricé formatos del informe, verifiqué criterios de aceptación y consistencia visual/técnica.<br>**María Elena Muñoz Machuca**<br>**TB1:** Realicé el context mapping, bounded context canvases y software architecture del bounded context de pagos y suscripciones.<br>**TP1:** Profundicé la arquitectura de pagos/suscripciones, normalicé plantillas de documentación y aseguré alineamiento con objetivos de producto.<br>**Sergio Aguirre**<br>**TB1:** Tomé el rol de líder del equipo, asigné tareas y apoyé al equipo; elaboré secciones del segmento objetivo 2 y User Stories.<br>**TP1:** Consolidé el plan de la entrega, prioricé backlog y coordiné dependencias; revisé coherencia entre artefactos y narrativa del documento.<br>**Víctor Manuel Rojas Reátegui**<br>**TB1:** Participé en reuniones y apoyé la definición de la estructura del proyecto.<br>**TP1:** Formalicé la estructura de paquetes y convenciones, asistí en integración técnica y control de calidad del repositorio. | **TB1:** Se actualizaron conocimientos técnicos y metodológicos mediante la elaboración de artefactos (context mapping, BCC, arquitectura), reforzando el desarrollo profesional y la base del proyecto.<br>**TP1:** La profundización en arquitectura/estructura de código y la consolidación de entregables fortalecieron competencias de diseño, documentación y organización, elevando la calidad técnica del producto. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Joseph Rodríguez**<br>**TB1:** Cumplí tareas, definí objetivos realistas y mantuve comunicación constante.<br>**TP1:** Aseguré continuidad de entregas, documenté aprendizajes y promoví retroalimentación continua.<br>**Luis Montañez**<br>**TB1:** Planificación conjunta con plazos claros y distribución de tareas.<br>**TP1:** Gestión de riesgos, seguimiento de hitos y soporte a integración entre frentes.<br>**María Elena Muñoz Machuca**<br>**TB1:** Elaboré context mapping/BCC y arquitectura de pagos/suscripciones.<br>**TP1:** Apliqué buenas prácticas de documentación, incorporé feedback iterativo y mantuve trazabilidad de decisiones.<br>**Sergio Aguirre**<br>**TB1:** Coordiné trabajo en Trello, Miro y Figma.<br>**TP1:** Gestioné tablero (priorización/seguimiento), sesiones de Miro (As-Is/To-Be) y validación de wireframes en Figma.<br>**Víctor Manuel Rojas Reátegui**<br>**TB1:** Elaboré wireframes de Landing Page y organicé ramas/estructura del repo.<br>**TP1:** Definí naming/flujo Git (ramas, PRs, revisiones) y automatizé chequeos básicos. Además de configurar y desplegar la primera versión del backend que se utilizará a lo largo del proyecto. | **TB1:** El uso de herramientas colaborativas y metodologías ágiles fortaleció hábitos de aprendizaje continuo y coordinación efectiva.<br>**TP1:** La adopción disciplinada de Trello/Miro/Figma y flujo Git mejoró competencias individuales y colectivas, trazabilidad y eficiencia del equipo. |
+|---------------------|--------------------|--------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | <ul><li><b>Sergio Aguirre</b><br><b>TB1:</b> Tomé el rol de líder del equipo, asigné tareas y apoyé al equipo; elaboré secciones del segmento objetivo 2 y User Stories.<br><b>TP1:</b> Consolidé el plan de la entrega, prioricé backlog y coordiné dependencias; revisé coherencia entre artefactos y narrativa del documento.<br><b>TB2:</b> Definí la estructura final del proyecto y los módulos de desarrollo; lideré sesiones de revisión de código y aseguré alineación con los estándares de arquitectura móvil. </li><li><b>María Elena Muñoz Machuca</b><br><b>TB1:</b> Realicé el context mapping, bounded context canvases y software architecture del bounded context de pagos y suscripciones.<br><b>TP1:</b> Profundicé la arquitectura de pagos/suscripciones, normalicé plantillas de documentación y aseguré alineamiento con objetivos de producto.<br><b>TB2:</b> Implementé mejoras en la arquitectura de la aplicación móvil, optimizando el uso de APIs y el flujo de datos entre componentes. Colaboré con el equipo de frontend en la integración del backend.</li><li><b>Víctor Manuel Rojas Reátegui</b><br><b>TB1:</b> Participé en reuniones y apoyé la definición de la estructura del proyecto.<br><b>TP1:</b> Formalicé la estructura de paquetes y convenciones, asistí en integración técnica y control de calidad del repositorio.<br><b>TB2:</b> Desarrollé la integración de las funcionalidades de la aplicación con bases de datos móviles, mejoré el control de versiones en el repositorio y optimicé la automatización de pruebas de integración.</li><li><b>Luis Montañez</b><br><b>TB1:</b> Coordiné la elaboración de entregables y la retroalimentación continua entre miembros.<br><b>TP1:</b> Estandaricé formatos del informe, verifiqué criterios de aceptación y consistencia visual/técnica.<br><b>TB2:</b> Supervisé la coherencia entre los requerimientos funcionales y el diseño final, asegurando que el código estuviera alineado con las expectativas del cliente y los requerimientos del proyecto.</li><li><b>Joseph Rodríguez</b><br><b>TB1:</b> Aporté ideas al prototipo, redacté partes del informe y asistí a reuniones de coordinación.<br><b>TP1:</b> Apoyé la construcción del prototipo, cerré gaps de contenido y controlé el avance cruzado de tareas.<b>TB2:</b> Fomenté la colaboración entre el equipo y promoví la adopción de mejores prácticas en el desarrollo del frontend; actualicé el prototipo móvil y realicé pruebas de usabilidad.</li></ul> | <ul><li><b>TB1:</b> Se actualizaron conocimientos técnicos y metodológicos mediante la elaboración de artefactos (context mapping, BCC, arquitectura), reforzando el desarrollo profesional y la base del proyecto.</li><li><b>TP1:</b> La profundización en arquitectura/estructura de código y la consolidación de entregables fortalecieron competencias de diseño, documentación y organización, elevando la calidad técnica del producto.</li><li><b>TB2:</b> La implementación de mejoras en la arquitectura, integración y pruebas fortalece los conocimientos técnicos y las capacidades de desarrollo en soluciones de software, alineando el proyecto con los estándares de calidad y el mercado móvil.</li></ul> |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | <ul><li><b>Sergio Aguirre</b><br><b>TB1:</b> Coordiné trabajo en Trello, Miro y Figma.<br><b>TP1:</b> Gestioné tablero (priorización/seguimiento), sesiones de Miro (As-Is/To-Be) y validación de wireframes en Figma.</li><li><b>María Elena Muñoz Machuca</b><br><b>TB1:</b> Elaboré context mapping/BCC y arquitectura de pagos/suscripciones.<br><b>TP1:</b> Apliqué buenas prácticas de documentación, incorporé feedback iterativo y mantuve trazabilidad de decisiones.</li><li><b>Víctor Manuel Rojas Reátegui</b><br><b>TB1:</b> Elaboré wireframes de Landing Page y organicé ramas/estructura del repo.<br><b>TP1:</b> Definí naming/flujo Git (ramas, PRs, revisiones) y automatizé chequeos básicos.</li><li><b>Luis Montañez</b><br><b>TB1:</b> Planificación conjunta con plazos claros y distribución de tareas.<br><b>TP1:</b> Gestión de riesgos, seguimiento de hitos y soporte a integración entre frentes.</li><li><b>Joseph Rodríguez</b><br><b>TB1:</b> Cumplí tareas, definí objetivos realistas y mantuve comunicación constante.<br><b>TP1:</b> Aseguré continuidad de entregas, documenté aprendizajes y promoví retroalimentación continua.</li></ul> | <ul><li><b>TB1:</b> El uso de herramientas colaborativas y metodologías ágiles fortaleció hábitos de aprendizaje continuo y coordinación efectiva.</li><li><b>TP1:</b> La adopción disciplinada de Trello/Miro/Figma y flujo Git mejoró competencias individuales y colectivas, trazabilidad y eficiencia del equipo.</li></ul> |
 
 
 
@@ -292,13 +290,12 @@ Visión: Queremos ser la empresa lider en gestión y mantenimiento de equipos de
 
 El estado actual de la industria de la refrigeración comercial y técnica enfrenta importantes desafíos relacionados con la gestión, el mantenimiento y la trazabilidad de los equipos de congelación. Negocios que dependen críticamente del frío —como supermercados, minimarkets, laboratorios, restaurantes y empresas del sector alimentario o farmacéutico— aún lidian con la falta de monitoreo en tiempo real y con procesos de mantenimiento reactivos. Esto genera pérdidas económicas, ineficiencia energética y riesgos para el inventario.
 
+Cambiar el problema
 Hemos identificado una brecha significativa: las soluciones actuales no abordan de manera integral la necesidad de una plataforma confiable y automatizada que permita la gestión centralizada, predictiva y transparente de los sistemas de refrigeración. La ausencia de un historial técnico accesible, reportes detallados y alertas preventivas limita la capacidad de respuesta ante fallas y reduce la eficiencia del servicio técnico.
 
 **¿Cómo podríamos reducir las fallas imprevistas y optimizar el mantenimiento de los sistemas de refrigeración comercial mediante una plataforma digital que conecte negocios y técnicos especializados?**
 
-OsitoPolar busca cerrar esta brecha ofreciendo una solución tecnológica integral que conecte negocios con técnicos certificados, brindando funcionalidades como monitoreo en tiempo real de temperatura y consumo, programación inteligente de mantenimientos, alertas tempranas y trazabilidad completa de cada equipo. Con un enfoque inicial en los negocios de Lima, la plataforma permitirá profesionalizar el servicio técnico y optimizar la operación de los sistemas de frío, incrementando la satisfacción de los usuarios y la continuidad del servicio.
 
-Sabremos que hemos tenido éxito cuando logremos reducir la cantidad de fallas imprevistas, mejorar la eficiencia energética, aumentar la productividad de los técnicos y evidenciar una mayor fidelización de los usuarios de la plataforma.
 
 
 #### 1.2.2.2 Lean UX Assumption
@@ -1146,64 +1143,68 @@ Esta sección refleja la situación actual sin intervención de soluciones tecno
   #### 2.4.1. User Stories
 Las historias de usuario desarrolladas en este proyecto fueron elaboradas en conjunto por el equipo de desarrollo de OsitoPolar, considerando las necesidades y funcionalidades clave tanto para los clientes (dueños de equipos de refrigeración) como para los empresarios (proveedores de equipos y servicios de mantenimiento y refrigeración). Las historias fueron organizadas bajo épicas que agrupan funcionalidades similares. Los criterios de aceptación de todas las historias siguen la sintaxis Gherkin.
 El trabajo fue realizado de manera colaborativa, priorizando la comprensión del problema desde la perspectiva del usuario final. Para facilitar la organización, priorización y trazabilidad de las tareas, se utilizó la plataforma Trello
+
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|--------|-------------|-------------------------|---------------------------|
-| US-01 | Registro de usuario | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración | **Escenario 1: Crear cuenta exitosamente** <br/> Dado que el nuevo usuario tiene todos los datos correctos, cuando completa el registro, entonces su cuenta es creada correctamente.<br/> **Escenario 2: Intento de crear cuenta con email ya registrado**<br/> Dado que el nuevo usuario intenta registrarse con un correo ya registrado, cuando envía el formulario, entonces el sistema muestra un mensaje indicando que el correo ya existe. | EP-01 |
-| US-02 | Inicio de sesión | Como usuario, quiero acceder a mi cuenta en la plataforma de manera rápida y segura para utilizar sus funcionalidades. | **Escenario 1: Iniciar sesión correctamente** <br/> Dado que el usuario tiene una cuenta activa, cuando ingresa sus datos correctamente, entonces accede a su panel de control.<br/> **Escenario 2: Intento de iniciar sesión con datos incorrectos** <br/> Dado que el usuario ingresa datos incorrectos, cuando intenta iniciar sesión, entonces el sistema muestra un mensaje de error.<br/> **Escenario 3: Acceso fácil al formulario de login** <br/> Dado que el usuario está en el Landing Page, cuando selecciona la opción de inicio de sesión, entonces es redirigido al formulario de autenticación. | EP-01 |
-| US-03 | Solicitar servicio de reparación | Como cliente, quiero solicitar un servicio de reparación para mis equipos de refrigeración cuando detecto fallas. | **Escenario 1: Solicitar servicio de reparación** <br/> Dado que el cliente ha identificado una falla, cuando solicita el servicio desde la plataforma, entonces se genera la solicitud de servicio.<br/> **Escenario 2: Confirmación de solicitud de servicio** <br/> Dado que el cliente ha solicitado el servicio, cuando el sistema recibe la solicitud, entonces muestra un mensaje confirmando la recepción. | EP-03 |
-| US-04 | Ver estado del servicio solicitado | Como cliente, quiero ver el estado actual de mi solicitud de servicio para estar informado sobre el avance del proceso. | **Escenario 1: Verificación del estado de la solicitud** <br/> Dado que el cliente ha solicitado el servicio, cuando ingresa a la plataforma, entonces puede ver el estado actualizado de su solicitud.<br/> **Escenario 2: Actualización de estado en tiempo real** <br/> Dado que el cliente está visualizando su solicitud, cuando el técnico inicia el trabajo, entonces el estado se actualiza. | EP-03 |
-| US-05 | Ver reporte de servicio realizado | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo. | **Escenario 1: Generación del reporte de servicio** <br/> Dado que el servicio ha sido completado, cuando el técnico termina, entonces el sistema genera un reporte detallado.<br/> **Escenario 2: Enviar reporte al cliente por correo** <br/> Dado que el reporte ha sido generado, cuando se ha finalizado el servicio, entonces el sistema envía el reporte al cliente por correo electrónico. | EP-04 |
-| US-06 | Agregar equipos | Como cliente, quiero agregar mis equipos de refrigeración en la plataforma para llevar un control. | **Escenario 1: Agregar equipo de refrigeración** <br/> Dado que el cliente quiere agregar un equipo, cuando ingresa los detalles del equipo, entonces el sistema lo registra correctamente.<br/> **Escenario 2: Editar información del equipo** <br/> Dado que el cliente desea editar la información del equipo, cuando realiza los cambios, entonces el sistema actualiza la información del equipo. | EP-02 |
-| US-07 | Recibir alerta de falla en equipo | Como cliente, quiero recibir una alerta automática cuando mi equipo de refrigeración presente una falla para tomar acción rápidamente. | **Escenario 1: Alerta de falla detectada** <br/> Dado que el equipo de refrigeración está funcionando mal, cuando se detecta una falla, entonces el sistema envía una alerta al cliente.<br/> **Escenario 2: Alerta de mantenimiento preventivo** <br/> Dado que el equipo está funcionando correctamente, cuando el sistema detecta una necesidad de mantenimiento preventivo, entonces envía una alerta preventiva al cliente. | EP-05 |
-| US-08 | Solicitar mantenimiento preventivo | Como cliente, quiero solicitar mantenimiento preventivo para evitar fallas futuras en mis equipos de refrigeración. | **Escenario 1: Solicitar mantenimiento preventivo** <br/> Dado que el cliente quiere programar mantenimiento preventivo, cuando selecciona la opción, entonces puede elegir la fecha y hora.<br/> **Escenario 2: Confirmación de solicitud de mantenimiento** <br/> Dado que el cliente ha solicitado el mantenimiento, cuando el sistema lo registra, entonces le envía una confirmación con los detalles. | EP-03 |
-| US-09 | Ver consumo energético de equipos | Como cliente, quiero ver un informe del consumo energético de mis equipos para analizar su eficiencia. | **Escenario 1: Visualización de consumo energético** <br/> Dado que el cliente tiene equipos registrados, cuando ingresa a la plataforma, entonces puede ver el informe de consumo energético de cada equipo.<br/> **Escenario 2: Comparación del consumo energético** <br/> Dado que el cliente quiere comparar, cuando selecciona dos equipos, entonces el sistema genera una comparación de su consumo energético. | EP-04 |
-| US-10 | Recepción de alertas automáticas para servicio | Como empresario, quiero recibir alertas automáticas cuando un cliente solicite un servicio de reparación o mantenimiento para brindar el servicio inmediatamente. | **Escenario 1: Recepción de solicitud de servicio** <br/> Dado que el cliente ha solicitado un servicio, cuando se recibe la solicitud, entonces el sistema envía una alerta al empresario.<br/> **Escenario 2: Alerta de mantenimiento preventivo solicitado** <br/> Dado que un cliente ha solicitado mantenimiento preventivo, cuando se registra la solicitud, entonces el sistema envía una alerta automática al empresario. | EP-05 |
-| US-11 | Asignar técnico a solicitud de servicio | Como empresario, quiero asignar un técnico a una solicitud de servicio para garantizar que se realice el trabajo adecuado. | **Escenario 1: Asignar técnico a servicio** <br/> Dado que el empresario recibe una solicitud de servicio, cuando elige un técnico, entonces el sistema asigna al técnico seleccionado a la solicitud.<br/> **Escenario 2: Confirmación de asignación de técnico** <br/> Dado que el técnico ha sido asignado, cuando el empresario lo confirma, entonces el sistema envía una notificación al técnico con los detalles. | EP-03 |
-| US-12 | Ver historial de servicios realizados | Como empresario, quiero ver el historial de servicios realizados para cada cliente y equipo, para llevar un control adecuado. | **Escenario 1: Visualizar historial de servicios** <br/> Dado que el empresario tiene acceso al historial de servicios, cuando accede a la plataforma, entonces puede ver el historial completo de servicios realizados.<br/> **Escenario 2: Filtrar historial por cliente o equipo** <br/> Dado que el empresario quiere filtrar los servicios, cuando selecciona un cliente o equipo, entonces el sistema filtra los servicios realizados según el filtro seleccionado. | EP-04 |
-| US-13 | Realizar seguimiento a solicitudes de servicio | Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van. | **Escenario 1: Ver estado de la solicitud de servicio** <br/> Dado que el empresario tiene acceso a solicitudes, cuando ingresa al sistema, entonces puede ver el estado actualizado de cada solicitud de servicio.<br/> **Escenario 2: Actualización del estado de la solicitud** <br/> Dado que el empresario quiere seguir el progreso, cuando un técnico actualiza el estado de la solicitud, entonces el sistema muestra el estado en tiempo real. | EP-03 |
-| US-14 | Generar reporte de desempeño de técnicos | Como empresario, quiero generar reportes sobre el desempeño de mis técnicos para evaluar su eficiencia y productividad. | **Escenario 1: Generar reporte de desempeño** <br/> Dado que el empresario quiere evaluar el desempeño de sus técnicos, cuando selecciona la opción de generar reporte, entonces el sistema crea un informe con los datos.<br/> **Escenario 2: Descargar reporte de desempeño** <br/> Dado que el reporte ha sido generado, cuando el empresario quiere descargarlo, entonces el sistema permite descargar el archivo en formato PDF. | EP-04 |
-| US-15 | Configurar alertas de mantenimiento | Como empresario, quiero configurar alertas automáticas para el mantenimiento preventivo de los equipos. | **Escenario 1: Configuración de alerta de mantenimiento** <br/> Dado que el empresario quiere configurar alertas, cuando ingresa los parámetros, entonces el sistema configura la alerta correctamente.<br/> **Escenario 2: Modificación de alerta configurada** <br/> Dado que el empresario ha configurado una alerta, cuando decide cambiar la frecuencia, entonces el sistema actualiza la alerta. | EP-05 |
-| US-16 | Visualizar clientes y servicios asociados | Como empresario, quiero ver todos los clientes que han solicitado servicio para organizar el trabajo de los técnicos. | **Escenario 1: Ver clientes y servicios asociados** <br/> Dado que el empresario quiere visualizar la información, cuando accede a la funcionalidad correspondiente, entonces puede consultar los clientes con sus servicios relacionados.<br/> **Escenario 2: Filtrar por estado de servicio** <br/> Dado que el empresario necesita filtrar resultados, cuando aplica el filtro por estado, entonces el sistema muestra los datos correspondientes. | EP-04 |
-| US-17 | Visualizar equipos entregados a clientes | Como empresario, quiero ver todos los equipos que fueron entregados a clientes para realizar su seguimiento. | **Escenario 1: Ver equipos asociados** <br/> Dado que el empresario quiere visualizar la información de equipos, cuando accede al listado de equipos, entonces puede consultar los que están asociados a clientes.<br/> **Escenario 2: Filtrar por estado y tipo de equipo** <br/> Dado que el empresario necesita filtrar los resultados, cuando aplica los criterios, entonces el sistema muestra los equipos correspondientes. | EP-02 |
-| US-18 | Recibir notificaciones de eventos importantes | Como cliente, quiero recibir notificaciones sobre eventos importantes como el progreso del servicio para mantenerme informado. | **Escenario 1: Problema reportado durante el servicio** <br/> Dado que el técnico detecta una complicación o requiere aprobación, cuando se genera un evento interno, entonces el sistema envía una notificación que requiere acción del cliente.<br/> **Escenario 2: Notificación sobre progreso del servicio** <br/> Dado que el servicio está en ejecución, cuando el estado cambia, entonces se envía una notificación al cliente. | EP-05 |
-| US-19 | Realizar evaluación de servicio | Como cliente, quiero evaluar el servicio para mostrar mi conformidad. | **Escenario 1: Evaluar el servicio una vez finalizado** <br/> Dado que el cliente ha recibido el servicio, cuando accede a la opción de evaluación, entonces puede registrar una calificación del 1 al 5.<br/> **Escenario 2: Corrección de evaluación del servicio** <br/> Dado que el cliente ya evaluó el servicio, cuando realiza una modificación dentro del plazo permitido, entonces el sistema actualiza la calificación registrada. | EP-06 |
-| US-20 | Registrar técnicos | Como empresario, quiero registrar técnicos en la plataforma para integrarlos a mi red de soporte técnico. | **Escenario 1: Registro exitoso de un técnico** <br/> Dado que el empresario desea registrar un técnico, cuando completa los datos requeridos y confirma, entonces el sistema lo registra correctamente.<br/> **Escenario 2: Intento de registro con datos incompletos** <br/> Dado que faltan datos obligatorios, cuando intenta registrar al técnico, entonces el sistema impide la operación hasta que se completen los campos necesarios. | EP-01 |
-| US-21 | Visualizar perfil del técnico | Como empresario, quiero visualizar el perfil de cada técnico, incluyendo sus datos personales y métricas de desempeño, para evaluar su rendimiento. | **Escenario 1: Acceso a información completa del técnico** <br/> Dado que el empresario selecciona un técnico, cuando accede a su información, entonces puede consultar datos personales, historial de servicios y calificaciones.<br/> **Escenario 2: Técnico sin evaluaciones registradas** <br/> Dado que el técnico aún no ha sido evaluado, cuando se consulta su perfil, entonces no se muestran métricas de desempeño. | EP-01 |
-| US-22 | Recibir alertas de fallas en equipos | Como empresario, quiero recibir alertas cuando alguno de los equipos de mis clientes presenta fallas, para notificar al cliente y organizar atención. | **Escenario 1: Recepción de alerta automática por sensor** <br/> Dado que un equipo monitoreado presenta una falla, cuando el sistema la detecta, entonces genera una alerta inmediata para el empresario.<br/> **Escenario 2: Comunicación con el cliente** <br/> Dado que el empresario ha recibido una alerta, cuando revisa el equipo afectado, entonces puede iniciar una notificación directa al cliente desde la plataforma. | EP-05 |
-| US-23 | Visualizar propuesta de valor principal | Como visitante, quiero conocer la propuesta de valor de OsitoPolar, para entender si la plataforma se ajusta a mis necesidades. | **Escenario 1: Propuesta visible al ingresar** <br/> Dado que estoy en la página oficial de OsitoPolar, cuando la página carga, entonces debo acceder inmediatamente a una frase que explique claramente la propuesta de valor.<br/> **Escenario 2: Propuesta orientada a gestión de refrigeración** <br/> Dado que soy un visitante del segmento 1, cuando reviso la propuesta de valor, entonces esta debe mencionar conceptos relacionados con gestión inteligente y monitoreo de equipos. | EP-07 |
-| US-24 | Explorar soluciones específicas para mi rubro | Como visitante, quiero conocer las soluciones específicas que ofrece OsitoPolar para mi tipo de negocio, para saber si se ajusta a mis necesidades. | **Escenario 1: Acceso a información para negocios** <br/> Dado que accedo a las soluciones ofrecidas, cuando reviso el contenido disponible, entonces debo encontrar descripciones específicas dirigidas a negocios que utilizan o gestionan equipos de refrigeración.<br/> **Escenario 2: Acceso a información para empresas proveedoras** <br/> Dado que accedo a las soluciones ofrecidas, cuando reviso el contenido disponible, entonces debo encontrar información específica para empresas proveedoras de equipos o servicios de mantenimiento. | EP-07 |
-| US-25 | Comprender funcionalidades destacadas | Como visitante, quiero comprender las funcionalidades clave de la plataforma, para evaluar si se adapta a mi operación. | **Escenario 1: Acceso a funcionalidades principales** <br/> Dado que consulto las características de la plataforma, cuando reviso la lista de funcionalidades, entonces debo identificar opciones clave como monitoreo en tiempo real, automatización de alertas y gestión remota.<br/> **Escenario 2: Descripciones orientadas a valor** <br/> Dado que leo las descripciones de las funcionalidades, cuando evalúo cada una, entonces debo entender el beneficio que aporta para operaciones de refrigeración o mantenimiento. | EP-07 |
-| US-26 | Solicitar una demo fácilmente | Como visitante, quiero solicitar una demo de la plataforma, para iniciar contacto con OsitoPolar. | **Escenario 1: Disponibilidad de opción para solicitar demo** <br/> Dado que estoy explorando la plataforma, cuando busco cómo solicitar una demostración, entonces debo encontrar una opción clara y accesible para iniciar el proceso.<br/> **Escenario 2: Acceso a canal de contacto** <br/> Dado que selecciono la opción de solicitar una demo, cuando soy redirigido, entonces debo acceder a un canal funcional de contacto como un formulario, correo electrónico o enlace directo. | EP-07 |
-| US-27 | Conocer misión y visión de la startup | Como visitante, quiero conocer la misión y visión de OsitoPolar, para entender su enfoque y propuesta de valor. | **Escenario 1: Acceso a la misión de la empresa** <br/> Dado que accedo a la información institucional de OsitoPolar, cuando reviso su contenido corporativo, entonces debo encontrar una descripción clara de su misión.<br/> **Escenario 2: Acceso a la visión de la empresa** <br/> Dado que accedo a la información institucional, cuando reviso su contenido estratégico, entonces debo encontrar una descripción clara de su visión a futuro. | EP-07 |
-| US-28 | Contactar fácilmente con ventas | Como visitante empresario, quiero contactar fácilmente con el equipo de ventas, para iniciar una posible relación comercial. | **Escenario 1: Disponibilidad de medio de contacto comercial** <br/> Dado que estoy interesado en contactar al equipo de ventas, cuando busco información de contacto, entonces debo encontrar una opción clara para iniciar la comunicación.<br/> **Escenario 2: Redirección al canal adecuado** <br/> Dado que selecciono la opción de contacto, cuando soy redirigido, entonces debo llegar a un canal funcional como un formulario, dirección de correo o número de contacto. | EP-07 |
-| US-29 | Acceder fácilmente a la plataforma | Como visitante, quiero acceder fácilmente al inicio de sesión, para ingresar rápidamente a mi cuenta. | **Escenario 1: Acceso al inicio de sesión** <br/> Dado que soy un usuario registrado, cuando busco cómo ingresar a mi cuenta, entonces debo encontrar una opción claramente identificable para iniciar sesión.<br/> **Escenario 2: Redirección al formulario de autenticación** <br/> Dado que selecciono la opción de inicio de sesión, cuando soy redirigido, entonces debo llegar al formulario correspondiente para ingresar mis credenciales. | EP-07 |
-| US-30 | Descargar la app móvil desde la web | Como visitante interesado en usar OsitoPolar desde el celular, quiero descargar fácilmente la app móvil, para instalarla y comenzar a usarla. | **Escenario 1: Acceso a opciones de descarga móvil** <br/> Dado que estoy interesado en utilizar la aplicación en mi celular, cuando exploro la plataforma, entonces debo encontrar un enlace o referencia a la descarga de la app móvil.<br/> **Escenario 2: Redirección a la tienda correspondiente** <br/> Dado que selecciono el enlace de descarga, cuando soy redirigido, entonces debo acceder a la tienda de aplicaciones correspondiente según mi sistema operativo. | EP-07 |
-| US-31 | Controlar encendido y apagado del equipo | Como cliente, quiero poder encender y apagar remotamente mis equipos de refrigeración desde la plataforma, para tener un mayor control operativo. | **Escenario 1: Encendido remoto del equipo** <br/> Dado que el cliente tiene un equipo registrado, cuando ejecuta una acción de encendido sobre el equipo, entonces el sistema transmite la instrucción y cambia el estado del equipo a encendido.<br/> **Escenario 2: Apagado remoto del equipo** <br/> Dado que el cliente tiene un equipo activo, cuando ejecuta una acción de apagado, entonces el sistema transmite la instrucción y cambia el estado del equipo a apagado. | EP-02 |
-| US-32 | Ajustar temperatura del equipo | Como cliente, quiero ajustar la temperatura de mis equipos de refrigeración desde la plataforma, para mantener condiciones óptimas según mi operación. | **Escenario 1: Aumentar temperatura** <br/> Dado que el cliente tiene acceso a un equipo, cuando incrementa el valor de temperatura deseada, entonces el sistema actualiza la configuración del equipo con el nuevo valor.<br/> **Escenario 2: Disminuir temperatura** <br/> Dado que el cliente tiene acceso a un equipo, cuando reduce el valor de temperatura deseada, entonces el sistema actualiza la configuración del equipo con el nuevo valor. | EP-02 |
-| US-33 | Ver video explicativo sobre el producto en el Landing Page | Como visitante, quiero ver un video explicativo sobre el producto para entender sus funcionalidades y beneficios rápidamente. | **Escenario 1: Acceso al video del producto** <br/> Dado que estoy en el Landing Page de OsitoPolar, cuando la página carga, entonces puedo ver un video explicativo sobre el producto.<br/> **Escenario 2: Reproducción correcta del video** <br/> Dado que selecciono el video del producto, cuando lo reproduzco, entonces se ejecuta sin interrupciones en mi dispositivo. | EP-07 |
-| US-34 | Ver video sobre el equipo en el Landing Page | Como visitante, quiero ver un video sobre el equipo detrás del producto para conocer a las personas responsables y confiar en la empresa. | **Escenario 1: Acceso al video del equipo** <br/> Dado que estoy en el Landing Page de OsitoPolar, cuando la página carga, entonces puedo ver un video sobre el equipo detrás del producto.<br/> **Escenario 2: Reproducción correcta del video** <br/> Dado que selecciono el video del equipo, cuando lo reproduzco, entonces se ejecuta sin interrupciones en mi dispositivo. | EP-07 |
-| US-35 | Barra de navegación actualizada tras inicio de sesión | Como usuario autenticado, quiero que la barra de navegación refleje mi estado de sesión para acceder a las funcionalidades de la aplicación sin interrupciones. | **Escenario 1: Visualización de opciones autenticadas** <br/> Dado que he iniciado sesión correctamente, cuando accedo a la barra de navegación, entonces veo opciones específicas para usuarios autenticados.<br/> **Escenario 2: Actualización automática de la barra** <br/> Dado que inicio sesión, cuando la página se carga, entonces la barra de navegación se actualiza automáticamente con las opciones correspondientes. | EP-01 |
-| TS-36 | Integrar sistema IAM en el backend | Como equipo de desarrollo, queremos integrar un sistema de Identity Access Management (IAM) en el backend para gestionar de forma segura el acceso de los usuarios a los endpoints del frontend. | **Escenario 1: Protección de endpoints con IAM** <br/> Dado que el sistema IAM está configurado, cuando un usuario autenticado accede a un endpoint protegido, entonces recibe una respuesta exitosa.<br/> **Escenario 2: Acceso denegado sin autenticación** <br/> Dado que un usuario no autenticado intenta acceder a un endpoint protegido, cuando realiza la solicitud, entonces recibe un error de acceso denegado. | EP-01 |
-| TS-37 | Implementar autenticación en el backend | Como equipo de desarrollo, queremos implementar autenticación en el backend para permitir a los usuarios iniciar sesión de manera segura. | **Escenario 1: Validación exitosa de credenciales** <br/> Dado que un usuario envía credenciales válidas, cuando el backend procesa la solicitud, entonces genera un token de autenticación.<br/> **Escenario 2: Error en credenciales inválidas** <br/> Dado que un usuario envía credenciales incorrectas, cuando el backend procesa la solicitud, entonces devuelve un mensaje de error. | EP-01 |
-| TS-39 | Usar llave secreta para crear usuarios | Como administrador, quiero usar una llave secreta para crear usuarios en el backend para garantizar que solo personal autorizado pueda registrar nuevos usuarios. | **Escenario 1: Creación de usuario con llave válida** <br/> Dado que el administrador usa una llave secreta válida, cuando envía la solicitud de creación de usuario, entonces el usuario se crea correctamente.<br/> **Escenario 2: Intento con llave inválida** <br/> Dado que el administrador usa una llave secreta inválida, cuando envía la solicitud, entonces el sistema devuelve un error de acceso denegado. | EP-01 |
-| TS-40 | Registrar nuevo usuario a través de API RESTful | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso seguro de nuevos usuarios. | **Escenario 1: Registro exitoso** <br/> Dado que el endpoint `/api/v1/users` está disponible, cuando se envía una solicitud POST con datos válidos (nombre, email único, contraseña válida), entonces el sistema responde con 201 y devuelve el usuario registrado.<br/> **Escenario 2: Registro con email existente** <br/> Dado un correo ya registrado, cuando se intenta registrar nuevamente, entonces se devuelve un 400 con mensaje "Email already registered". | EP-01 |
-| TS-41 | Consultar estado de solicitud de servicio por API | Como desarrollador, quiero exponer un endpoint para consultar el estado de una solicitud de servicio, permitiendo a clientes y empresarios hacer seguimiento en tiempo real desde la plataforma. | **Escenario 1: Consulta exitosa del estado** <br/> Dado que el endpoint `/api/v1/requests/{id}` está disponible, cuando se envía una solicitud GET con un ID válido, entonces el sistema responde con 200 y devuelve el estado actual de la solicitud.<br/> **Escenario 2: Consulta con ID inexistente** <br/> Dado que el ID no existe, entonces se devuelve 404 con mensaje "Request not found". | EP-03 |
-| TS-42 | Solicitar mantenimiento preventivo vía API | Como desarrollador, quiero implementar un endpoint para registrar solicitudes de mantenimiento preventivo, diferenciadas de las solicitudes por reparación. | **Escenario 1: Solicitud exitosa de mantenimiento preventivo** <br/> Dado que el endpoint `/api/v1/preventive-maintenance` está disponible, cuando se envía una solicitud POST con datos válidos (equipo, fecha deseada), entonces el sistema responde con 201 y guarda la solicitud.<br/> **Escenario 2: Solicitud con datos incompletos** <br/> Dado que falta un campo obligatorio, entonces se responde con 400 y mensaje de error. | EP-03 |
-| TS-43 | Asignar técnico a solicitud de servicio por API | Como desarrollador, quiero crear un endpoint que permita asignar un técnico a una solicitud de servicio, para gestionar la ejecución técnica desde la plataforma. | **Escenario 1: Asignación exitosa** <br/> Dado que el endpoint `/api/v1/requests/{id}/assign-technician` está disponible, cuando se envía una solicitud PUT con un técnico válido, entonces se devuelve 200 y se actualiza la solicitud.<br/> **Escenario 2: Técnico no existente** <br/> Dado un ID de técnico inválido, entonces se responde con 404 y mensaje "Technician not found". | EP-03 |
-| TS-44 | Consultar historial de servicios por API | Como desarrollador, quiero exponer un endpoint para consultar el historial de servicios por cliente o equipo, permitiendo búsquedas y filtrado desde el panel de control. | **Escenario 1: Historial completo por cliente** <br/> Dado que el endpoint `/api/v1/service-history?client_id={id}` está disponible, cuando se hace la consulta, entonces se responde con 200 y la lista de servicios asociados.<br/> **Escenario 2: Historial filtrado por equipo** <br/> Dado que se agrega un parámetro de equipo, entonces el sistema devuelve solo los servicios asociados a ese equipo. | EP-04 |
-| TS-45 | Generar y exportar reporte de desempeño técnico | Como desarrollador, quiero implementar la generación de reportes de desempeño técnico, incluyendo número de servicios, evaluaciones y tiempos promedio, y permitir su descarga en PDF. | **Escenario 1: Generar reporte exitosamente** <br/> Dado que el endpoint `/api/v1/reports/performance` está disponible, cuando se hace una solicitud GET, entonces se devuelve un resumen con métricas.<br/> **Escenario 2: Descargar reporte PDF** <br/> Dado que el reporte ya fue generado, cuando se solicita la descarga, entonces el sistema entrega un archivo PDF con los datos generados. | EP-04 |
-| TS-46 | Consultar clientes con sus servicios asociados por API | Como desarrollador, quiero implementar un endpoint que permita listar clientes junto con los servicios que tienen registrados, para facilitar la planificación desde el panel empresarial. | **Escenario 1: Consulta de clientes con servicios** <br/> Dado que el endpoint `/api/v1/clients/services` está disponible, cuando se realiza una solicitud GET, entonces se devuelve la lista de clientes y sus servicios.<br/> **Escenario 2: Filtro por estado de servicio** <br/> Dado un parámetro de estado (ej. "in progress"), entonces el sistema devuelve solo los clientes con servicios en ese estado. | EP-04 |
-| TS-47 | Consultar equipos entregados y su estado por API | Como desarrollador, quiero exponer un endpoint para visualizar los equipos entregados a clientes, junto con su estado y tipo, para mantener un registro accesible desde el sistema empresarial. | **Escenario 1: Listado de equipos entregados** <br/> Dado que el endpoint `/api/v1/delivered-devices` está disponible, cuando se hace una solicitud GET, entonces se devuelve una lista con los equipos y sus estados.<br/> **Escenario 2: Filtro por tipo y estado** <br/> Dado que se agregan parámetros de tipo o estado, entonces se devuelve la lista filtrada según los criterios. | EP-02 |
-| TS-48 | Sistema de envío de notificaciones por eventos relevantes | Como desarrollador, quiero que el sistema pueda enviar notificaciones automáticas o manuales ante eventos clave (problemas detectados, cambios de estado), para mantener informados a clientes y técnicos. | **Escenario 1: Envío automático de notificación por cambio de estado** <br/> Dado que una solicitud cambia a "in progress", entonces el sistema envía una notificación al cliente.<br/> **Escenario 2: Envío manual por parte del técnico** <br/> Dado que un técnico detecta una situación crítica, cuando registra un evento, entonces se notifica al cliente automáticamente. | EP-05 |
-| TS-49 | Consultar perfil del técnico con métricas por API | Como desarrollador, quiero crear un endpoint que muestre el perfil completo de un técnico incluyendo datos personales, historial y métricas de desempeño, para su visualización por el empresario. | **Escenario 1: Visualización del perfil completo** <br/> Dado que el endpoint `/api/v1/technicians/{id}` está disponible, cuando se realiza una consulta GET, entonces se devuelve la información personal, servicios realizados y evaluación promedio.<br/> **Escenario 2: Técnico sin historial** <br/> Dado que el técnico aún no ha realizado servicios, el sistema informa que no hay datos de desempeño aún. | EP-01 |
-| TS-50 | Arreglar conexión entre endpoints y frontend | Como equipo de desarrollo, queremos arreglar la conexión entre los endpoints del backend y el frontend para garantizar un flujo de datos estable y sin errores. | **Escenario 1: Conexión exitosa entre frontend y backend** <br/> Dado que los endpoints están configurados, cuando el frontend realiza una solicitud, entonces recibe una respuesta exitosa sin errores.<br/> **Escenario 2: Manejo de errores de conexión** <br/> Dado que hay un fallo en la conexión, cuando el frontend realiza una solicitud, entonces el sistema devuelve un mensaje de error claro. | EP-01 |
-| EP-01 | Gestión de Usuarios | Esta epic se enfoca en la creación, autenticación y gestión de las cuentas de usuario en la plataforma. Incluye el registro de nuevos usuarios, inicio de sesión, y la administración de los perfiles. | | |
-| EP-02 | Gestión de Equipos | Esta epic cubre las funcionalidades relacionadas con la gestión de los equipos de refrigeración. Permite a los clientes agregar, editar, y visualizar sus equipos registrados en la plataforma. | | |
-| EP-03 | Solicitudes de Servicio | Esta epic abarca todo lo relacionado con la solicitud de servicios de reparación y mantenimiento por parte de los clientes, así como el seguimiento de esas solicitudes hasta su resolución. | | |
-| EP-04 | Informes y Reportes | Esta epic se refiere a la generación, visualización y envío de informes detallados sobre los servicios realizados, el consumo energético de los equipos y el desempeño de los técnicos. | | |
-| EP-05 | Alertas y Notificaciones | Esta epic se encarga de la creación de alertas automáticas y notificaciones para clientes y empresarios, relacionadas con fallas de equipos, mantenimiento preventivo y el progreso de los servicios. | | |
-| EP-06 | Evaluación de Servicios | Esta epic está orientada a permitir que los clientes puedan evaluar los servicios recibidos, para proporcionar retroalimentación y permitir que se realicen correcciones si es necesario. | | |
-| EP-07 | Sitio Web y Experiencia Web (Landing Page) | Esta epic se enfoca en las funcionalidades de la página de aterrizaje, incluyendo la visualización de la propuesta de valor, la facilidad para solicitar demos, y el acceso a canales de contacto directo con el equipo de ventas. | | |
+| US-01 | Registrar usuario | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración. | **Escenario 1: Registro exitoso** <br/> Dado que el usuario accede al sistema por primera vez, cuando proporciona la información requerida para su registro, entonces el sistema valida los datos ingresados, los guarda de forma segura y permite el acceso al usuario. <br/><br/> **Escenario 2: Correo ya registrado** <br/> Dado que el usuario intenta registrarse con un correo ya existente, cuando envía la solicitud de registro, entonces el sistema verifica la existencia del correo en la base de datos y responde con un mensaje de error indicando que el correo ya está en uso. | EP-01 |
+| US-02 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión para acceder a mis funciones personalizadas. | **Escenario 1: Inicio de sesión válido** <br/> Dado que el usuario ya está registrado, cuando ingresa sus credenciales correctas, entonces el sistema autentica su identidad y permite el acceso a su cuenta. <br/><br/> **Escenario 2: Credenciales inválidas** <br/> Dado que el usuario ingresa credenciales incorrectas, cuando intenta acceder, entonces el sistema muestra un mensaje indicando error en usuario o contraseña. | EP-01 |
+| US-35 | Ver barra de navegación dinámica | Como usuario, quiero que la barra de navegación muestre opciones según mi perfil, para acceder fácilmente a las funciones relevantes. | **Escenario 1: Personalización por rol** <br/> Dado que el usuario inicia sesión, cuando el sistema identifica su rol, entonces la barra de navegación muestra únicamente las opciones correspondientes a dicho perfil. | EP-01 |
+
+---
+
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-06 | Agregar equipos | Como técnico, quiero registrar nuevos equipos en el sistema para mantener actualizado el inventario. | **Escenario 1: Registro exitoso** <br/> Dado que el técnico accede al módulo de equipos, cuando ingresa la información requerida del nuevo dispositivo, entonces el sistema valida y guarda los datos en la base de registros. | EP-02 |
+| US-31 | Controlar encendido y apagado del equipo | Como usuario, quiero encender o apagar mis equipos desde la aplicación para gestionar su funcionamiento remotamente. | **Escenario 1: Encendido o apagado remoto** <br/> Dado que el usuario selecciona un equipo, cuando solicita encenderlo o apagarlo, entonces el sistema envía la orden y actualiza su estado. | EP-02 |
+| US-32 | Ajustar temperatura del equipo | Como usuario, quiero ajustar la temperatura de mis equipos para mantener condiciones óptimas. | **Escenario 1: Ajuste de temperatura** <br/> Dado que el usuario accede a la configuración del equipo, cuando define un nuevo valor de temperatura, entonces el sistema actualiza el parámetro y lo guarda correctamente. | EP-02 |
+| US-17 | Visualizar equipos entregados | Como usuario, quiero visualizar los equipos entregados para monitorear su uso y mantenimiento. | **Escenario 1: Consulta de equipos entregados** <br/> Dado que el usuario accede al módulo de equipos, cuando solicita ver el listado de equipos entregados, entonces el sistema muestra la información registrada con su estado actual. | EP-02 |
+
+---
+
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-03 | Solicitar servicio de reparación | Como cliente, quiero solicitar un servicio de reparación para resolver fallas en mis equipos. | **Escenario 1: Solicitud registrada** <br/> Dado que el cliente detecta una falla en su equipo, cuando envía una solicitud de reparación, entonces el sistema registra la información y la asigna a un técnico disponible. | EP-03 |
+| US-08 | Solicitar mantenimiento preventivo | Como cliente, quiero solicitar mantenimiento preventivo para evitar fallas futuras. | **Escenario 1: Programación de mantenimiento** <br/> Dado que el cliente desea realizar mantenimiento, cuando envía la solicitud, entonces el sistema la registra y agenda según disponibilidad. | EP-03 |
+| US-04 | Ver estado del servicio | Como cliente, quiero ver el estado de mis solicitudes para hacer seguimiento a su progreso. | **Escenario 1: Consulta de estado** <br/> Dado que el cliente tiene solicitudes activas, cuando revisa el detalle de una solicitud, entonces el sistema muestra su estado actual y fecha estimada de finalización. | EP-03 |
+| US-11 | Asignar técnico | Como administrador, quiero asignar técnicos a las solicitudes para asegurar atención oportuna. | **Escenario 1: Asignación de técnico** <br/> Dado que existe una solicitud pendiente, cuando el administrador asigna un técnico disponible, entonces el sistema actualiza el registro y notifica a ambos. | EP-03 |
+| US-13 | Hacer seguimiento de solicitudes | Como técnico, quiero actualizar el estado de las solicitudes asignadas para mantener la trazabilidad del servicio. | **Escenario 1: Actualización de estado** <br/> Dado que el técnico atiende una solicitud, cuando cambia su estado (en proceso, finalizado, cancelado), entonces el sistema actualiza la información y notifica al cliente. | EP-03 |
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-05 | Ver reporte de servicio realizado | Como cliente, quiero visualizar el reporte de los servicios realizados para tener evidencia del trabajo. | **Escenario 1: Consulta de reporte** <br/> Dado que el cliente tiene servicios finalizados, cuando solicita el reporte, entonces el sistema muestra los detalles del trabajo realizado. | EP-04 |
+| US-09 | Ver consumo energético | Como usuario, quiero visualizar el consumo energético de mis equipos para optimizar su uso. | **Escenario 1: Visualización de consumo** <br/> Dado que el usuario accede al módulo de consumo, cuando selecciona un equipo, entonces el sistema muestra el consumo histórico y actual del dispositivo. | EP-04 |
+| US-12 | Ver historial de servicios | Como usuario, quiero ver el historial de servicios realizados a mis equipos para controlar su mantenimiento. | **Escenario 1: Historial de servicios** <br/> Dado que el usuario tiene servicios anteriores, cuando consulta el historial de servicios, entonces el sistema presenta la lista de servicios previos, con la fecha, el técnico y el tipo de servicio realizado. | EP-04 |
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-07 | Recibir alerta de falla | Como usuario, quiero recibir alertas cuando ocurra una falla en mis equipos. | **Escenario 1: Alerta generada** <br/> Dado que el sistema detecta una falla en uno de los equipos, cuando se cumple una condición anómala, entonces el sistema genera una alerta, la registra y la envía al usuario correspondiente. | EP-05 |
+| US-10 | Ver alertas automáticas para empresarios | Como empresario, quiero recibir alertas automáticas de mis equipos para actuar rápidamente ante fallas. | **Escenario 1: Generación automática de alerta** <br/> Dado que el sistema monitorea los equipos de los empresarios, cuando detecta una condición crítica, entonces el sistema genera automáticamente una alerta y la envía al empresario. | EP-05 |
+| US-18 | Recibir notificaciones de eventos importantes | Como usuario, quiero recibir notificaciones sobre eventos importantes del sistema. | **Escenario 1: Envío de notificación** <br/> Dado que ocurre un evento relevante, cuando se cumple una condición definida, entonces el sistema genera y envía la notificación correspondiente. | EP-05 |
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-19 | Evaluar servicio recibido | Como cliente, quiero evaluar la calidad del servicio recibido para expresar mi nivel de satisfacción. | **Escenario 1: Evaluación exitosa** <br/> Dado que el cliente ha recibido un servicio, cuando envía una evaluación de satisfacción, entonces el sistema registra la calificación, la asocia con el servicio y actualiza los indicadores de satisfacción. | EP-06 |
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| US-23 | Ver información de la empresa | Como visitante, quiero visualizar información sobre la empresa para conocer sus servicios y valores. | **Escenario 1: Consulta de información institucional** <br/> Dado que el visitante accede al sistema, cuando solicita información sobre la empresa, entonces el sistema recupera los datos almacenados de la empresa y los presenta como resultado de la consulta. | EP-07 |
+| US-24 | Consultar servicios ofrecidos | Como visitante, quiero ver los servicios que ofrece la empresa para evaluar si cubren mis necesidades. | **Escenario 1: Visualización de servicios** <br/> Dado que el visitante desea conocer los servicios ofrecidos, cuando realiza la consulta de los servicios disponibles, entonces el sistema consulta la base de datos y devuelve el catálogo actualizado con las descripciones de cada servicio. | EP-07 |
+| US-25 | Contactar a la empresa | Como visitante, quiero enviar un mensaje a la empresa para solicitar más información. | **Escenario 1: Envío de mensaje de contacto** <br/> Dado que el visitante desea comunicarse con la empresa, cuando envía una solicitud de contacto, entonces el sistema almacena la información de la solicitud y notifica al área correspondiente. | EP-07 |
+| US-26 | Visualizar testimonios de clientes | Como visitante, quiero ver testimonios de otros clientes para confiar en el servicio. | **Escenario 1: Consulta de testimonios** <br/> Dado que el visitante accede a la sección de testimonios, cuando se carga la página, entonces el sistema muestra comentarios validados de clientes reales. | EP-07 |
+| US-27 | Solicitar demostración del producto | Como visitante, quiero solicitar una demostración del producto para evaluar su funcionamiento antes de adquirirlo. | **Escenario 1: Solicitud de demo** <br/> Dado que el visitante desea una demostración del producto, cuando envía una solicitud de demostración, entonces el sistema registra la información en la base de datos y genera una confirmación automática enviada al correo registrado. | EP-07 |
+<img width="468" height="647" alt="image" src="https://github.com/user-attachments/assets/1577a280-81c1-4f5d-bdcd-a111f93cc249" />
+
 
 ### 2.4.1.1. Spike Story
 **Spike Story ID:** SS-01
@@ -3130,17 +3131,17 @@ Sprint # | Sprint 1 | | | | | | |
 ---------|----------|---------|-------|-----|----|----|---|
 User Story | Work-Item / Task
 ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US06| Agregar equipos | UT07 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
+US06| Agregar equipos | UT08 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US06| Agregar equipos | UT09 | Agregar detalle | Implementar detalle de cada equipo | 3 | Victor Rojas | Done
+US02| Iniciar sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
+US01| Registrar usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT-01 | Crear la sección 'Hero' | Añadir la sección donde se muestra nuestra propuesta de valor principal y las entidades que confían en nosotros | 4 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado | 3 | Maria Muñoz | Done
 US23 | Visualizar propuesta de valor principal | UT03 | Agregar efectos y validaciones según el diseño | Agregar efectos y validaciones según el diseño | 3 | Sergio Aguirre | Done
 US24 | Explorar soluciones específicas para mi rubro | UT04 | Crear la sección "Beneficios" | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficio) | 2 | Victor Rojas | Done
 US24 | Explorar soluciones específicas para mi rubro | UT05 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de "Beneficios" | 2 | Luis Montañez | Done
 US24 | Explorar soluciones específicas para mi rubro | UT06 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de Beneficios | 3 | Joseph Rodriguez | Done
-US06| Agregar equipos | UT07 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
-US06| Agregar equipos | UT08 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
-US06| Agregar equipos | UT09 | Agregar detalle | Implementar detalle de cada equipo | 3 | Victor Rojas | Done
-US02| Inicio de sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
-US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 
 
 
@@ -3215,6 +3216,121 @@ La URL que nos entrega Github Pages para acceder a la landing page es la siguien
 
 ### Github Pages:
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+### 4.2.2. Sprint 2
+#### 4.2.2.1. Sprint Planning 2
+A continuación, se presenta la planificación del segundo sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
+
+| **Sprint #**                    | **Sprint 2** |
+|-------------------------------|-------------|
+| **Sprint Planning Background**| En el sprint decidimos reunirnos para verificar el progreso de cada uno de los participantes y el progreso desde el punto de vista grupal, luego de ello buscamos formas y acciones de mejora. |
+| **Date**                      | 8/11/25    |
+| **Time**                      | 20:00 horas |
+| **Location**                  | Via Discord |
+| **Prepared By**               | Sergio Aguirre |
+| **Attendees**                 | Joseph Rodriguez, Sergio Aguirre, Victor Rojas, Maria Muñoz, Luis Montañez |
+| **Sprint 2 Review Summary**     | Esta sección se dedicó a avanzar el código en flutter de la aplicación móvil y que el backend esté completamente desplegado. |
+| **Sprint 2 Retrospective Summary** | Todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades.  |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal**               | En este sprint, nos enfocamos en avanzar en el desarrollo de la aplicación móvil de Osito Polar para Android e iOS utilizando Flutter. Además, se ha completado el despliegue del backend al 100%, lo que asegura que ambos sistemas estén totalmente integrados y funcionales. Este avance nos permitirá ofrecer una experiencia de usuario más completa, asegurando la estabilidad y escalabilidad de la aplicación para las siguientes etapas del proyecto. |
+| **Sprint 2 Velocity**              | 15 |
+| **Sum of Story Points**        | 21 |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+Sprint # | Sprint 2 | | | | | | |
+---------|----------|---------|-------|-----|----|----|---|
+User Story | Work-Item / Task
+ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US06| Agregar equipos | UT01 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
+US06| Agregar equipos | UT02 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US06| Agregar equipos | UT03 | Agregar detalle | Implementar detalle de cada equipo | 3 | Luis Montañez | Done
+US02| Iniciar sesión | UT04 | Funcionalidad de login | Implementar inicio de sesión | 3 | Victor Rojas | Done
+US01| Registrar usuario | UT05 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
+US11| Asignar técnico | UT06 | Agregar técnico | Crear los componentes, entidades y servicios de los técnicos | 4 | Maria Muñoz | Done
+US11| Asignar técnico | UT07 | Agregar técnico | Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los técnicos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de equipos | Implementar la vista de los equipos que ya han sido entregados | 3 | Joseph Rodriguez | Done
+
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---------|----------|----------------|-----------|-------------|--------------|
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 22ea4bf | Feature: implement adding technician | Feature: adding technician | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 7bc2b0f | feature/service-requests into develop | feature/service-requests into develop | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c288201 | implement publish and unpublish equipment | implement publish and unpublish equipment | 11/12/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 1da2d84 | feat: implement signin and register flow | feat: implement signin and register flow | 11/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 968ad92 | implement get all service requests | feature: implement get all service requests | 10/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 1efe93f | implement update equipment functionality with provider integration | implement update equipment functionality with provider integration | 10/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c4ae565 | implement add equipment form and provider integration | feature: implement add equipment form and provider integration | 09/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---------|----------|----------------|-----------|-------------|--------------|
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 22ea4bf | Feature: implement adding technician | Feature: adding technician | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 7bc2b0f | feature/service-requests into develop | feature/service-requests into develop | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c288201 | implement publish and unpublish equipment | implement publish and unpublish equipment | 11/12/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 1da2d84 | feat: implement signin and register flow | feat: implement signin and register flow | 11/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 968ad92 | implement get all service requests | feature: implement get all service requests | 10/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 1efe93f | implement update equipment functionality with provider integration | implement update equipment functionality with provider integration | 10/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c4ae565 | implement add equipment form and provider integration | feature: implement add equipment form and provider integration | 09/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+**Pantalla inicial**  
+<img src="assets/TF/pantalla1.jpg" height="400"><br>
+
+**Pantalla de inicio de sesión**  
+<img src="assets/TF/pantalla2login.jpg" height="400"><br>
+
+**Pantalla de registro de usuario**  
+<img src="assets/TF/pantalla3register.jpg" height="400"><br>
+
+**Pantalla de Inicio**  
+<img src="assets/TF/pantall4inicio.jpg" height="400"><br>
+
+**Pantalla de Inventario**  
+<img src="assets/TF/pantalla5inventario.jpg" height="400"><br>
+
+**Pantalla de nuevo equipo**  
+<img src="assets/TF/pantalla6nuevoequipo.jpg" height="400"><br>
+
+**Pantalla de técnicos y clientes**  
+<img src="assets/TF/pantalla7tecnicos.jpg" height="400"><br>
+
+**Nuevo técnico**  
+<img src="assets/TF/pantalla8nuevotecnico.jpg" height="400"><br>
+
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+**OsitoPolarPlatform.api**
+
+<img src="assets/TF/ositopolarswagger.jpg" height="400"><br>
+<img src="assets/TF/workorders.jpg" height="400"><br>
+<img src="assets/TF/profiles.jpg" height="400"><br>
+<img src="assets/TF/equipments.jpg" height="400"><br>
+<img src="assets/TF/technicians.jpg" height="400"><br>
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+### 4.2.3 Sprint 3
+
+Sprint # | Sprint 3 | | | | | | |
+---------|----------|---------|-------|-----|----|----|---|
+User Story | Work-Item / Task
+ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US05| Ver reporte de servicio realizado | UT01 | Implementar estructura | Crear los componentes, entidades y servicios de los reportes | 4 | Sergio Aguirre | In process
+US05| Ver reporte de servicio realizado | UT02 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los servicios realizados y cada uno de sus atributos | 3 | Maria Muñoz | In process
+US09| Ver consumo energético | UT03 | Visualizar detalle de consumo | Implementar detalle del consumo energético para cada equipo e refrigeración | 3 | Luis Montañez | In process
+US12| Ver historial de servicios | UT04 | Visualizar detalle de historial | Implementar visualizar el historial completo de los servicios realizados | 3 | Victor Rojas | In process
+US31| Controlar encendido y apagado del equipo | UT05 | Funcionalidad de actualización de estado de equipo | Implementar encendido y apagado para equipos | 3 | Joseph Rodriguez | In process
+US32| Ajustar temperatura del equipo | UT06 | Establecer temperatura óptima | Cambiar valores de temperatura de los equipos | 4 | Maria Muñoz | In process
+
 
 #### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
@@ -3496,6 +3612,20 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
 | **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
+| Entrevista 4: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Giancarlo Rodriguez Pastor** |
+| **Edad** | 26 |
+| **Profesión** | Supervisor operativo |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (Android)** |
+| <img width=1000 src="assets/chapter-05/E3.jpg"/> | [Entrevista 3](#) |
+| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
 #### 4.3.3. Evaluaciones según heurísticas
 **UX Heuristics & Principles Evaluation**  
