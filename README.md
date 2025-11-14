@@ -3602,10 +3602,10 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | <img width=1000 src="assets/chapter-05/fotoentrevista1.jpg"/> | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQBQ8RnA8EfyRY3gUcS-2zDHATy9aSJ6EMdTlVbBVSZbDU8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7hh1k6) |
 | **Duración de la Entrevista** | 0:00 - 11:12 |
 | **Análisis de la Entrevista** |  |
-| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** como foto en la creación de un nuevo equipo. |
 | **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
 | **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
-| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise, **fotos** y **push** por vencimiento de mantenimiento programado. |
 
 <br>
 
@@ -3617,12 +3617,12 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Departamento** | Lima |
 | **Dispositivo utilizado** | **Móvil (IOS)** |
 | <img width=1000 src="assets/chapter-05/fotoentrevista2.jpg"/> | [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQDKzhqwoyDnR7vH-daZppEgAbuTKxdHXvEELZmnxxAWkNQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KPA7rg) |
-| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Duración de la Entrevista** | 0:00 - 10:58 |
 | **Análisis de la Entrevista** |  |
 | **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
-| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
-| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
-| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **ordenar por nombre o por especialidad** . |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **Historial por equipo** (consumo/temperatura) en un período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **edición** para clientes en sus datos y **push** por vencimiento de mantenimiento programado. |
 
 <br>
 
@@ -3634,11 +3634,11 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Departamento** | Lima |
 | **Dispositivo utilizado** | **Móvil (IOS)** |
 | <img width=1000 src="assets/chapter-05/fotoentrevista3.jpg"/> | [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQACSe8PTr90QLxKymrskpiaATLKxd_lC1O_rwzh8mQficE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5icPCQ) |
-| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Duración de la Entrevista** | 0:00 - 10:25 |
 | **Análisis de la Entrevista** |  |
-| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
-| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
-| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere menos campos técnicos **obligatorios** y más facilidad para crear una solicitud |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **cambiar temperatura** para cada equipo. |
 | **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
 #### 4.3.3. Evaluaciones según heurísticas
