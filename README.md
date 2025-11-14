@@ -3231,7 +3231,33 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 
 
 #### 4.2.2.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---------|----------|----------------|-----------|-------------|--------------|
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 22ea4bf | Feature: implement adding technician | Feature: adding technician | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 7bc2b0f | feature/service-requests into develop | feature/service-requests into develop | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c288201 | implement publish and unpublish equipment | implement publish and unpublish equipment | 11/12/25     |
+| https://github.com/ | technician_management | 1da2d84 | feat: implement signin and register flow | feat: implement signin and register flow | 11/11/25     |
+| https://github.com | technician_management | 968ad92 | implement get all service requests | feature: implement get all service requests | 10/11/25     |
+| https://github.com | technician_management | 1efe93f | implement update equipment functionality with provider integration | implement update equipment functionality with provider integration | 10/11/25     |
+| https://github.com | technician_management | c4ae565 | implement add equipment form and provider integration | feature: implement add equipment form and provider integration | 09/11/25     |
+
+| https://github.com/ | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
+
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---------|----------|----------------|-----------|-------------|--------------|
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 22ea4bf | Feature: implement adding technician | Feature: adding technician | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | 7bc2b0f | feature/service-requests into develop | feature/service-requests into develop | 12/11/25     |
+| https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | technician_management | c288201 | implement publish and unpublish equipment | implement publish and unpublish equipment | 11/12/25     |
+| https://github.com/ | technician_management | 1da2d84 | feat: implement signin and register flow | feat: implement signin and register flow | 11/11/25     |
+| https://github.com | technician_management | 968ad92 | implement get all service requests | feature: implement get all service requests | 10/11/25     |
+| https://github.com | technician_management | 1efe93f | implement update equipment functionality with provider integration | implement update equipment functionality with provider integration | 10/11/25     |
+| https://github.com | technician_management | c4ae565 | implement add equipment form and provider integration | feature: implement add equipment form and provider integration | 09/11/25     |
+
+| https://github.com/ | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
+
 #### 4.2.2.5. Execution Evidence for Sprint Review
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
