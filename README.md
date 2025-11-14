@@ -3135,8 +3135,8 @@ ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Statu
 US06| Agregar equipos | UT07 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
 US06| Agregar equipos | UT08 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
 US06| Agregar equipos | UT09 | Agregar detalle | Implementar detalle de cada equipo | 3 | Victor Rojas | Done
-US02| Inicio de sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
-US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
+US02| Iniciar sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
+US01| Registrar usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT-01 | Crear la sección 'Hero' | Añadir la sección donde se muestra nuestra propuesta de valor principal y las entidades que confían en nosotros | 4 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado | 3 | Maria Muñoz | Done
 US23 | Visualizar propuesta de valor principal | UT03 | Agregar efectos y validaciones según el diseño | Agregar efectos y validaciones según el diseño | 3 | Sergio Aguirre | Done
@@ -3223,8 +3223,8 @@ ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Statu
 US06| Agregar equipos | UT01 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
 US06| Agregar equipos | UT02 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
 US06| Agregar equipos | UT03 | Agregar detalle | Implementar detalle de cada equipo | 3 | Luis Montañez | Done
-US02| Inicio de sesión | UT04 | Funcionalidad de login | Implementar inicio de sesión | 3 | Victor Rojas | Done
-US01| Registro de usuario | UT05 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
+US02| Iniciar sesión | UT04 | Funcionalidad de login | Implementar inicio de sesión | 3 | Victor Rojas | Done
+US01| Registrar usuario | UT05 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 US11| Asignar técnico | UT06 | Agregar técnico | Crear los componentes, entidades y servicios de los técnicos | 4 | Maria Muñoz | Done
 US11| Asignar técnico | UT07 | Agregar técnico | Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los técnicos y cada uno de sus atributos | 3 | Maria Muñoz | Done
 US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de equipos | Implementar la vista de los equipos que ya han sido entregados | 3 | Joseph Rodriguez | Done
@@ -3286,6 +3286,20 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 #### 4.2.2.8. Team Collaboration Insights during Sprint
+
+### 4.2.3 Sprint 3
+
+Sprint # | Sprint 3 | | | | | | |
+---------|----------|---------|-------|-----|----|----|---|
+User Story | Work-Item / Task
+ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US05| Ver reporte de servicio realizado | UT01 | Implementar estructura | Crear los componentes, entidades y servicios de los reportes | 4 | Sergio Aguirre | In process
+US05| Ver reporte de servicio realizado | UT02 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los servicios realizados y cada uno de sus atributos | 3 | Maria Muñoz | In process
+US09| Ver consumo energético | UT03 | Visualizar detalle de consumo | Implementar detalle del consumo energético para cada equipo e refrigeración | 3 | Luis Montañez | In process
+US12| Ver historial de servicios | UT04 | Visualizar detalle de historial | Implementar visualizar el historial completo de los servicios realizados | 3 | Victor Rojas | In process
+US31| Controlar encendido y apagado del equipo | UT05 | Funcionalidad de actualización de estado de equipo | Implementar encendido y apagado para equipos | 3 | Joseph Rodriguez | In process
+US32| Ajustar temperatura del equipo | UT06 | Establecer temperatura óptima | Cambiar valores de temperatura de los equipos | 4 | Maria Muñoz | In process
+
 
 #### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
