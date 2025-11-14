@@ -3257,22 +3257,23 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 | https://github.com/Equipo4-Aplicaciones-Moviles/OsitoPolar-Provider | development | 70998c9 | feature: complete provider login Flow with dependency injection and shared prefs | feature: complete provider login Flow with dependency injection and shared prefs | 09/11/25     |
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
+
 Pantalla inicial
-<img src="assets/TF/pantalla1.jpg"  height="400">
+<img src="assets/TF/pantalla1.jpg"  height="400"><br>
 Pantalla de inicio de sesión
-<img src="assets/TF/pantalla2login.jpg"  height="400">
+<img src="assets/TF/pantalla2login.jpg"  height="400"><br>
 Pantalla de registro de usuario 3
-<img src="assets/TF/pantalla3register.jpg"  height="400">
+<img src="assets/TF/pantalla3register.jpg"  height="400"><br>
 Pantalla de Inicio 4
-<img src="assets/TF/pantall4inicio.jpg"  height="400">
+<img src="assets/TF/pantall4inicio.jpg"  height="400"><br>
 Pantalla de Inventario 5
-<img src="assets/TF/pantalla5inventario.jpg"  height="400">
+<img src="assets/TF/pantalla5inventario.jpg"  height="400"><br>
 Pantalla de nuevo equipo 6
-<img src="assets/TF/pantalla6nuevoequipo.jpg"  height="400">
+<img src="assets/TF/pantalla6nuevoequipo.jpg"  height="400"><br>
 Pantalla de técnicos y clientes
-<img src="assets/TF/pantalla7tecnicos.jpg"  height="400">
+<img src="assets/TF/pantalla7tecnicos.jpg"  height="400"><br>
 Nuevo técnico
-<img src="assets/TF/pantalla8nuevotecnico.jpg"  height="400">
+<img src="assets/TF/pantalla8nuevotecnico.jpg"  height="400"><br>
 
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
