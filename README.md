@@ -3215,6 +3215,21 @@ A continuación, se presenta la planificación del segundo sprint. En esta secci
 | **Sum of Story Points**        | 21 |
 
 #### 4.2.2.2. Sprint Backlog 2
+
+Sprint # | Sprint 2 | | | | | | |
+---------|----------|---------|-------|-----|----|----|---|
+User Story | Work-Item / Task
+ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US06| Agregar equipos | UT01 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
+US06| Agregar equipos | UT02 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US06| Agregar equipos | UT03 | Agregar detalle | Implementar detalle de cada equipo | 3 | Luis Montañez | Done
+US02| Inicio de sesión | UT04 | Funcionalidad de login | Implementar inicio de sesión | 3 | Victor Rojas | Done
+US01| Registro de usuario | UT05 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
+US11| Asignar técnico | UT06 | Agregar técnico | Crear los componentes, entidades y servicios de los técnicos | 4 | Maria Muñoz | Done
+US11| Asignar técnico | UT07 | Agregar técnico | Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los técnicos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de equipos | Implementar la vista de los equipos que ya han sido entregados | 3 | Joseph Rodriguez | Done
+
+
 #### 4.2.2.3. Development Evidence for Sprint Review
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 #### 4.2.2.5. Execution Evidence for Sprint Review
