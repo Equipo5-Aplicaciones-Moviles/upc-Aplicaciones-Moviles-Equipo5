@@ -3287,6 +3287,12 @@ US17| Visualizar equipos entregados | UT08 | Funcionalidad de visualización de 
 
 **OsitoPolarPlatform.api**
 
+<img src="assets/TF/ositopolarswagger.jpg" height="400"><br>
+<img src="assets/TF/workorders.jpg" height="400"><br>
+<img src="assets/TF/profiles.jpg" height="400"><br>
+<img src="assets/TF/equipments.jpg" height="400"><br>
+<img src="assets/TF/technicians.jpg" height="400"><br>
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
