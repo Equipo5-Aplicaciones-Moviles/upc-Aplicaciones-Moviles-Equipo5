@@ -165,11 +165,10 @@ necesario, utilizando estrategias de aprendizaje apropiadas.*
 En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 7.
-
 | Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|--------------------|--------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | <ul><li><b>Sergio Aguirre</b><br><b>TB1:</b> Tomé el rol de líder del equipo, asigné tareas y apoyé al equipo; elaboré secciones del segmento objetivo 2 y User Stories.<br><b>TP1:</b> Consolidé el plan de la entrega, prioricé backlog y coordiné dependencias; revisé coherencia entre artefactos y narrativa del documento.</li><li><b>María Elena Muñoz Machuca</b><br><b>TB1:</b> Realicé el context mapping, bounded context canvases y software architecture del bounded context de pagos y suscripciones.<br><b>TP1:</b> Profundicé la arquitectura de pagos/suscripciones, normalicé plantillas de documentación y aseguré alineamiento con objetivos de producto.</li><li><b>Víctor Manuel Rojas Reátegui</b><br><b>TB1:</b> Participé en reuniones y apoyé la definición de la estructura del proyecto.<br><b>TP1:</b> Formalicé la estructura de paquetes y convenciones, asistí en integración técnica y control de calidad del repositorio.</li><li><b>Luis Montañez</b><br><b>TB1:</b> Coordiné la elaboración de entregables y la retroalimentación continua entre miembros.<br><b>TP1:</b> Estandaricé formatos del informe, verifiqué criterios de aceptación y consistencia visual/técnica.</li><li><b>Joseph Rodríguez</b><br><b>TB1:</b> Aporté ideas al prototipo, redacté partes del informe y asistí a reuniones de coordinación.<br><b>TP1:</b> Apoyé la construcción del prototipo, cerré gaps de contenido y controlé el avance cruzado de tareas.</li></ul> | <ul><li><b>TB1:</b> Se actualizaron conocimientos técnicos y metodológicos mediante la elaboración de artefactos (context mapping, BCC, arquitectura), reforzando el desarrollo profesional y la base del proyecto.</li><li><b>TP1:</b> La profundización en arquitectura/estructura de código y la consolidación de entregables fortalecieron competencias de diseño, documentación y organización, elevando la calidad técnica del producto.</li></ul> |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | <ul><li><b>Sergio Aguirre</b><br><b>TB1:</b> Coordiné trabajo en Trello, Miro y Figma.<br><b>TP1:</b> Gestioné tablero (priorización/seguimiento), sesiones de Miro (As-Is/To-Be) y validación de wireframes en Figma.</li><li><b>María Elena Muñoz Machuca</b><br><b>TB1:</b> Elaboré context mapping/BCC y arquitectura de pagos/suscripciones.<br><b>TP1:</b> Apliqué buenas prácticas de documentación, incorporé feedback iterativo y mantuve trazabilidad de decisiones.</li><li><b>Víctor Manuel Rojas Reátegui</b><br><b>TB1:</b> Elaboré wireframes de Landing Page y organicé ramas/estructura del repo.<br><b>TP1:</b> Definí naming/flujo Git (ramas, PRs, revisiones) y automatizé chequeos básicos.</li><li><b>Luis Montañez</b><br><b>TB1:</b> Planificación conjunta con plazos claros y distribución de tareas.<br><b>TP1:</b> Gestión de riesgos, seguimiento de hitos y soporte a integración entre frentes.</li><li><b>Joseph Rodríguez</b><br><b>TB1:</b> Cumplí tareas, definí objetivos realistas y mantuve comunicación constante.<br><b>TP1:</b> Aseguré continuidad de entregas, documenté aprendizajes y promoví retroalimentación continua.</li></ul> | <ul><li><b>TB1:</b> El uso de herramientas colaborativas y metodologías ágiles fortaleció hábitos de aprendizaje continuo y coordinación efectiva.</li><li><b>TP1:</b> La adopción disciplinada de Trello/Miro/Figma y flujo Git mejoró competencias individuales y colectivas, trazabilidad y eficiencia del equipo.</li></ul> |
+|--------------------|--------------------|-------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Joseph Rodríguez**<br>**TB1:** Aporté ideas al prototipo, redacté partes del informe y asistí a reuniones de coordinación.<br>**TP1:** Apoyé la construcción del prototipo, cerré gaps de contenido y controlé el avance cruzado de tareas.<br>**Luis Montañez**<br>**TB1:** Coordiné la elaboración de entregables y la retroalimentación continua entre miembros.<br>**TP1:** Estandaricé formatos del informe, verifiqué criterios de aceptación y consistencia visual/técnica.<br>**María Elena Muñoz Machuca**<br>**TB1:** Realicé el context mapping, bounded context canvases y software architecture del bounded context de pagos y suscripciones.<br>**TP1:** Profundicé la arquitectura de pagos/suscripciones, normalicé plantillas de documentación y aseguré alineamiento con objetivos de producto.<br>**Sergio Aguirre**<br>**TB1:** Tomé el rol de líder del equipo, asigné tareas y apoyé al equipo; elaboré secciones del segmento objetivo 2 y User Stories.<br>**TP1:** Consolidé el plan de la entrega, prioricé backlog y coordiné dependencias; revisé coherencia entre artefactos y narrativa del documento.<br>**Víctor Manuel Rojas Reátegui**<br>**TB1:** Participé en reuniones y apoyé la definición de la estructura del proyecto.<br>**TP1:** Formalicé la estructura de paquetes y convenciones, asistí en integración técnica y control de calidad del repositorio. | **TB1:** Se actualizaron conocimientos técnicos y metodológicos mediante la elaboración de artefactos (context mapping, BCC, arquitectura), reforzando el desarrollo profesional y la base del proyecto.<br>**TP1:** La profundización en arquitectura/estructura de código y la consolidación de entregables fortalecieron competencias de diseño, documentación y organización, elevando la calidad técnica del producto. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Joseph Rodríguez**<br>**TB1:** Cumplí tareas, definí objetivos realistas y mantuve comunicación constante.<br>**TP1:** Aseguré continuidad de entregas, documenté aprendizajes y promoví retroalimentación continua.<br>**Luis Montañez**<br>**TB1:** Planificación conjunta con plazos claros y distribución de tareas.<br>**TP1:** Gestión de riesgos, seguimiento de hitos y soporte a integración entre frentes.<br>**María Elena Muñoz Machuca**<br>**TB1:** Elaboré context mapping/BCC y arquitectura de pagos/suscripciones.<br>**TP1:** Apliqué buenas prácticas de documentación, incorporé feedback iterativo y mantuve trazabilidad de decisiones.<br>**Sergio Aguirre**<br>**TB1:** Coordiné trabajo en Trello, Miro y Figma.<br>**TP1:** Gestioné tablero (priorización/seguimiento), sesiones de Miro (As-Is/To-Be) y validación de wireframes en Figma.<br>**Víctor Manuel Rojas Reátegui**<br>**TB1:** Elaboré wireframes de Landing Page y organicé ramas/estructura del repo.<br>**TP1:** Definí naming/flujo Git (ramas, PRs, revisiones) y automatizé chequeos básicos. Además de configurar y desplegar la primera versión del backend que se utilizará a lo largo del proyecto. | **TB1:** El uso de herramientas colaborativas y metodologías ágiles fortaleció hábitos de aprendizaje continuo y coordinación efectiva.<br>**TP1:** La adopción disciplinada de Trello/Miro/Figma y flujo Git mejoró competencias individuales y colectivas, trazabilidad y eficiencia del equipo. |
 
 
 
@@ -3172,7 +3171,30 @@ Suite de pruebas con xUnit, FluentAssertions y Moq. 21 pruebas unitarias (100% e
 Framework Pattern Driven Refactoring Report
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
+Se siguieron los siguientes pasos para desplegar la plataforma backend.
+<br>
+Primero nos creamos una cuenta con github en Render para poder usar nuestros repositorios como origen para el despliegue.
+![alt text](assets/deploy1.png)
+<br>
+<br>
+Luego configuramos el repositorio y la rama de la que se hará el despliegue.
+![alt text](assets/deploy2.png) 
+<br>
+<br>
+Por ultimo configuramos las variables de entorno y desplegamos la aplicación.
+![alt text](assets/deploy3.png)
+<br>
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+En este apartado implementamos el despliegue de la plataforma web backend que nos permitirá obtener datos para mostrar en la aplicación móvil (API):
+Se utilizó el servicio en linea Render para gestionar el despliegue y alojamiento del backend.
+<br>
+![alt text](assets/Render.png)
+<br>
+Se integró de un data set a la base de datos a cada tabla de información relevante que nos servirá para mostrar en nuestra aplicación móvil.
+<br>
+![alt text](assets/dataset.png)
+<br>
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
 <img width="1202" height="607" alt="image" src="https://github.com/user-attachments/assets/8c830c06-9dc1-46a3-83e0-38a753051518" />
