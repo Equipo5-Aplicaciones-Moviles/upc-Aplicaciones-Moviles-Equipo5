@@ -3590,6 +3590,8 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
 | **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
+<br>
+
 | Entrevista 4: Proveedores de equipos de refrigeración (App móvil) |  |
 |---|---|
 | **Nombre Entrevistado** | **Giancarlo Rodriguez Pastor** |
@@ -3597,7 +3599,41 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Profesión** | Supervisor operativo |
 | **Departamento** | Lima |
 | **Dispositivo utilizado** | **Móvil (Android)** |
-| <img width=1000 src="assets/chapter-05/E3.jpg"/> | [Entrevista 3](#) |
+| <img width=1000 src="assets/chapter-05/fotoentrevista1.jpg"/> | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQBQ8RnA8EfyRY3gUcS-2zDHATy9aSJ6EMdTlVbBVSZbDU8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7hh1k6) |
+| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
+
+<br>
+
+| Entrevista 5: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Ingrid Pacheco Uribe** |
+| **Edad** | 25 |
+| **Profesión** | Supervisor operativo |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (IOS)** |
+| <img width=1000 src="assets/chapter-05/fotoentrevista2.jpg"/> | [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQDKzhqwoyDnR7vH-daZppEgAbuTKxdHXvEELZmnxxAWkNQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KPA7rg) |
+| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
+
+<br>
+
+| Entrevista 6: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Giusephi Carlos Lavado** |
+| **Edad** | 25 |
+| **Profesión** | Supervisor de planta |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (IOS)** |
+| <img width=1000 src="assets/chapter-05/fotoentrevista3.jpg"/> | [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223811_upc_edu_pe/IQACSe8PTr90QLxKymrskpiaATLKxd_lC1O_rwzh8mQficE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5icPCQ) |
 | **Duración de la Entrevista** | 0:00 - 11:12 |
 | **Análisis de la Entrevista** |  |
 | **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
