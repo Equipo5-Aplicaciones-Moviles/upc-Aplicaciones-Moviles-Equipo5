@@ -3132,17 +3132,17 @@ Sprint # | Sprint 1 | | | | | | |
 ---------|----------|---------|-------|-----|----|----|---|
 User Story | Work-Item / Task
 ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status
+US06| Agregar equipos | UT07 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
+US06| Agregar equipos | UT08 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
+US06| Agregar equipos | UT09 | Agregar detalle | Implementar detalle de cada equipo | 3 | Victor Rojas | Done
+US02| Inicio de sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
+US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT-01 | Crear la sección 'Hero' | Añadir la sección donde se muestra nuestra propuesta de valor principal y las entidades que confían en nosotros | 4 | Joseph Rodriguez | Done
 US23 | Visualizar propuesta de valor principal | UT02 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado | 3 | Maria Muñoz | Done
 US23 | Visualizar propuesta de valor principal | UT03 | Agregar efectos y validaciones según el diseño | Agregar efectos y validaciones según el diseño | 3 | Sergio Aguirre | Done
 US24 | Explorar soluciones específicas para mi rubro | UT04 | Crear la sección "Beneficios" | Añadir la sección donde se visualizan las soluciones específicas a cada segmento (beneficio) | 2 | Victor Rojas | Done
 US24 | Explorar soluciones específicas para mi rubro | UT05 | Añadir estilos CSS | Aplicar estilos según el diseño aprobado de "Beneficios" | 2 | Luis Montañez | Done
 US24 | Explorar soluciones específicas para mi rubro | UT06 | Añadir interacciones con JS | Agregar efectos y validaciones según el diseño de Beneficios | 3 | Joseph Rodriguez | Done
-US06| Agregar equipos | UT07 | Implementar estructura | Crear los componentes, entidades y servicios de los equipos | 4 | Sergio Aguirre | Done
-US06| Agregar equipos | UT08 | Implementar operaciones CRUD |  Implementar las operaciones CREATE, READ, UPDATE AND DELETE de los equipos y cada uno de sus atributos | 3 | Maria Muñoz | Done
-US06| Agregar equipos | UT09 | Agregar detalle | Implementar detalle de cada equipo | 3 | Victor Rojas | Done
-US02| Inicio de sesión | UT10 | Funcionalidad de login | Implementar inicio de sesión | 3 | Luis Montañez | Done
-US01| Registro de usuario | UT11 | Funcionalidad de registro | Implementar registro de un nuevo usuario | 3 | Joseph Rodriguez | Done
 
 
 
