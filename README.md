@@ -3590,6 +3590,20 @@ En esta sección tenemos el análisis de las entrevistas por segmentos objetivos
 | **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
 | **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
+| Entrevista 4: Proveedores de equipos de refrigeración (App móvil) |  |
+|---|---|
+| **Nombre Entrevistado** | **Giancarlo Rodriguez Pastor** |
+| **Edad** | 26 |
+| **Profesión** | Supervisor operativo |
+| **Departamento** | Lima |
+| **Dispositivo utilizado** | **Móvil (Android)** |
+| <img width=1000 src="assets/chapter-05/E3.jpg"/> | [Entrevista 3](#) |
+| **Duración de la Entrevista** | 0:00 - 11:12 |
+| **Análisis de la Entrevista** |  |
+| **Recepción y Gestión de Solicitudes** | Panel **visual y rápido**; sugiere campos técnicos **obligatorios** (foto etiqueta, temperatura medida) en la solicitud. |
+| **Gestión de Técnicos** | Útil ver **especialidades**; pide **multi-asignación por zona** y **capacidad diaria** por técnico. |
+| **Historial y Reportes Técnicos** | Usa el historial para evitar errores repetidos; solicita **gráficos comparativos** (consumo/temperatura) por período. |
+| **Gestión de Cartera de Clientes** | Ordenada; propone **carpetas** para clientes enterprise y **push** por vencimiento de mantenimiento programado. |
 
 #### 4.3.3. Evaluaciones según heurísticas
 **UX Heuristics & Principles Evaluation**  
